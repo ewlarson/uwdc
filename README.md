@@ -1,4 +1,9 @@
 uwdc
 ====
 
-Rubygem for getting UWDC objects from Fedora
+Rubygem for getting University of Wisconsin Digital Collection objects from Fedora.
+
+* METS
+* MODS
+* ORIGIN (Premis)
+* RELS-EXT
