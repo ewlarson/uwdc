@@ -1,9 +1,3 @@
-require 'httpclient/include_client'
-require 'httpclient'
-require 'nokogiri'
-require 'json'
-require 'active_support/core_ext/hash'
-
 module UWDC
   class Mets
     extend HTTPClient::IncludeClient
@@ -15,12 +9,16 @@ module UWDC
     
     def get
       begin
-        response = http_client.get("http://depot.library.wisc.edu:9090/fedora/objects/1711.dl:#{@id}/methods/1711.dl%3ASDefineFirstClassObject/viewMets")
+        response = http_client.get("http://depot.library.wisc.edu/uwdcutils/METS/1711.dl:#{@id}")
         response_xml = Nokogiri::XML.parse(response.body)
         response_xml.remove_namespaces!
       rescue TimeoutError, HTTPClient::ConfigurationError, HTTPClient::BadResponseError, Nokogiri::SyntaxError => e
         exception = e
       end
+    end
+    
+    def xml
+      get
     end
     
     def to_json
