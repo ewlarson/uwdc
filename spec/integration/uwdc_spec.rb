@@ -7,6 +7,8 @@ describe UWDC::Mets do
     @mods = UWDC::Mods.new(@id)
     @origin = UWDC::Origin.new(@id)
     @rels_ext = UWDC::RelsExt.new(@id)
+    @struct_map = UWDC::StructMap.new(@id)
+    @file_sec = UWDC::FileSec.new(@id)
   end
 
   context 'METS' do
@@ -82,6 +84,44 @@ describe UWDC::Mets do
     it 'should export to JSON' do
       expect(JSON.parse(@rels_ext.to_json)).to be_an_instance_of(Hash)
       expect(JSON.parse(@rels_ext.to_json).keys).to include('RDF')
+    end
+  end
+  
+  context 'StructMap' do
+    it "should return a Nokogiri node set" do
+      expect(@struct_map.nodes).to be_an_instance_of(Nokogiri::XML::NodeSet)
+    end
+    
+    it 'should have RDF' do
+      expect(@struct_map.nodes.xpath('//div')).to be_true
+    end
+    
+    it 'should export to XML' do
+      expect(Nokogiri::XML(@struct_map.to_xml)).to be_an_instance_of(Nokogiri::XML::Document)
+    end
+    
+    it 'should export to JSON' do
+      expect(JSON.parse(@struct_map.to_json)).to be_an_instance_of(Hash)
+      expect(JSON.parse(@struct_map.to_json).keys).to include('structMap')
+    end
+  end
+  
+  context 'FileSec' do
+    it "should return a Nokogiri node set" do
+      expect(@file_sec.nodes).to be_an_instance_of(Nokogiri::XML::NodeSet)
+    end
+    
+    it 'should have RDF' do
+      expect(@file_sec.nodes.xpath('//div')).to be_true
+    end
+    
+    it 'should export to XML' do
+      expect(Nokogiri::XML(@file_sec.to_xml)).to be_an_instance_of(Nokogiri::XML::Document)
+    end
+    
+    it 'should export to JSON' do
+      expect(JSON.parse(@file_sec.to_json)).to be_an_instance_of(Hash)
+      expect(JSON.parse(@file_sec.to_json).keys).to include('fileSec')
     end
   end
 end

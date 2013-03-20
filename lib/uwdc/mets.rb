@@ -57,4 +57,16 @@ module UWDC
       @get.xpath("//amdSec[contains(@ID,'#{@id}')]//RDF[1]")
     end
   end
+  
+  class FileSec < Mets
+    def nodes
+      @get.xpath("//fileSec")
+    end    
+  end
+  
+  class StructMap < Mets
+    def nodes
+      @get.xpath("//structMap[contains(@ID,'#{@id}')]")
+    end
+  end
 end
