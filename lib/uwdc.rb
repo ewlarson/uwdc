@@ -5,6 +5,5 @@ require 'nokogiri'
 require 'json'
 require 'active_support/core_ext/hash'
 
-
 # UWDC
 require 'uwdc/mets'

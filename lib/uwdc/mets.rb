@@ -5,6 +5,7 @@ module UWDC
     
     def initialize(id)
       @id = id
+      @get ||= get
     end
     
     def get
@@ -34,19 +35,19 @@ module UWDC
   
   class Mods < Mets
     def nodes
-      get.xpath("//dmdSec[contains(@ID,'#{@id}')]//mods[1]")
+      @get.xpath("//dmdSec[contains(@ID,'#{@id}')]//mods[1]")
     end
   end
   
   class Origin < Mets
     def nodes
-      get.xpath("//amdSec[contains(@ID,'#{@id}')]//origin[1]")
+      @get.xpath("//amdSec[contains(@ID,'#{@id}')]//origin[1]")
     end
   end
   
   class RelsExt < Mets
     def nodes
-      get.xpath("//amdSec[contains(@ID,'#{@id}')]//RDF[1]")
+      @get.xpath("//amdSec[contains(@ID,'#{@id}')]//RDF[1]")
     end
   end
 end
