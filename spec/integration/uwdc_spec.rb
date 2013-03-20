@@ -33,6 +33,10 @@ describe UWDC::Mets do
       expect(Nokogiri::XML(@mods.to_xml)).to be_an_instance_of(Nokogiri::XML::Document)
     end
     
+    it 'should be valid MODS XML' do
+      expect(@mods.valid?).to be_true
+    end
+    
     it 'should export to JSON' do
       expect(JSON.parse(@mods.to_json)).to be_an_instance_of(Hash)
       expect(JSON.parse(@mods.to_json).keys).to include('mods')

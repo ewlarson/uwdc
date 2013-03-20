@@ -37,6 +37,13 @@ module UWDC
     def nodes
       @get.xpath("//dmdSec[contains(@ID,'#{@id}')]//mods[1]")
     end
+    
+    def valid?
+      response = http_client.get("http://www.loc.gov/standards/mods/mods.xsd")
+      xsd = Nokogiri::XML::Schema.new(response.body)
+      xml = Nokogiri::XML(nodes.to_xml)
+      xsd.valid?(xml)
+    end
   end
   
   class Origin < Mets
