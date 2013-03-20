@@ -17,9 +17,7 @@ module UWDC
       end
     end
     
-    def xml
-      get
-    end
+    alias :xml :get
     
     def to_json
       Hash.from_xml(xml.to_xml).to_json
