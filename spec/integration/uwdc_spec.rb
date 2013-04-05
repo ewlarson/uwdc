@@ -52,6 +52,14 @@ describe UWDC::Mets do
       expect(@mods.nodes.xpath('//mods')).to be_true
     end
     
+    it 'should have a title' do
+      expect(@mods.title).to eq('A life idyl')
+    end
+    
+    it 'should have a subjects' do
+      expect(@mods.subjects).to include('Endpapers--Coated', 'Decoration/Ornament--Lines')
+    end
+    
     it 'should export to XML' do
       expect(Nokogiri::XML(@mods.to_xml)).to be_an_instance_of(Nokogiri::XML::Document)
     end

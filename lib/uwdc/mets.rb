@@ -46,6 +46,14 @@ module UWDC
       @get.xpath("//dmdSec[contains(@ID,'#{@id}')]//mods[1]")
     end
     
+    def title
+      nodes.xpath("//mods/titleInfo/title[1]").text
+    end
+    
+    def subjects
+      nodes.xpath("//mods/subject//topic").text
+    end
+    
     def valid?
       response = http_client.get("http://www.loc.gov/standards/mods/mods.xsd")
       xsd = Nokogiri::XML::Schema.new(response.body)
