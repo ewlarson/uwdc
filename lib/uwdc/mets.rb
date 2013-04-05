@@ -51,7 +51,7 @@ module UWDC
     end
     
     def subjects
-      nodes.xpath("//mods/subject//topic").text
+      nodes.xpath("//mods/subject//topic").map{|n| n.text}
     end
     
     def valid?

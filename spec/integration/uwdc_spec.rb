@@ -57,6 +57,7 @@ describe UWDC::Mets do
     end
     
     it 'should have a subjects' do
+      expect(@mods.subjects).to be_an_instance_of(Array)
       expect(@mods.subjects).to include('Endpapers--Coated', 'Decoration/Ornament--Lines')
     end
     
