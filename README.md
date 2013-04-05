@@ -13,10 +13,11 @@ Rubygem for getting University of Wisconsin Digital Collection objects from Fedo
 ```ruby
 require 'uwdc'
 
-# Request METS via an id
+# METS - Request via an id
 mets = UWDC::Mets.new('33QOBSVPJLWEM8S')
+mets.mods
 
-# Request MODS via an id
+# MODS - Request via an id
 mods = UWDC::Mods.new('33QOBSVPJLWEM8S')
 
 # Transform via to_* calls
