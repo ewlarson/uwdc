@@ -31,6 +31,14 @@ module UWDC
     def to_xml
       nodes.to_xml
     end
+    
+    def mods
+      @mods = Mods.new(@id).nodes
+    end
+    
+    def struct_map
+      @struct_map = StructMap.new(@id).nodes
+    end
   end
   
   class Mods < Mets

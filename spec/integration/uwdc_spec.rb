@@ -4,6 +4,7 @@ require 'uwdc'
 describe UWDC::Mets do
   before(:each) do
     @id = '33QOBSVPJLWEM8S'
+    @mets = UWDC::Mets.new(@id)
     @mods = UWDC::Mods.new(@id)
     @origin = UWDC::Origin.new(@id)
     @rels_ext = UWDC::RelsExt.new(@id)
@@ -21,6 +22,26 @@ describe UWDC::Mets do
       expect(mets.nodes.xpath('//mets')).to be_true
     end
   end
+  
+  context 'METS > MODS' do
+    it "should return a Nokogiri node set" do
+      expect(@mets.mods).to be_an_instance_of(Nokogiri::XML::NodeSet)
+    end
+    
+    it 'should have mods' do
+      expect(@mets.mods.xpath('//mods')).to be_true
+    end    
+  end
+  
+  context 'METS > StructMap' do
+    it "should return a Nokogiri node set" do
+      expect(@mets.struct_map).to be_an_instance_of(Nokogiri::XML::NodeSet)
+    end
+    
+    it 'should have RDF' do
+      expect(@mets.struct_map.xpath('//div')).to be_true
+    end
+  end 
   
   context 'MODS' do
     it "should return a Nokogiri node set" do
