@@ -16,6 +16,7 @@ require 'uwdc'
 # METS - Request via an id
 mets = UWDC::Mets.new('33QOBSVPJLWEM8S')
 mets.mods
+mets.mods.titles
 
 # MODS - Request via an id
 mods = UWDC::Mods.new('33QOBSVPJLWEM8S')
