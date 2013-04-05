@@ -25,12 +25,18 @@ describe UWDC::Mets do
   
   context 'METS > MODS' do
     it "should return a Nokogiri node set" do
-      expect(@mets.mods).to be_an_instance_of(Nokogiri::XML::NodeSet)
+      expect(@mets.mods.nodes).to be_an_instance_of(Nokogiri::XML::NodeSet)
     end
     
     it 'should have mods' do
-      expect(@mets.mods.xpath('//mods')).to be_true
-    end    
+      expect(@mets.mods.nodes.xpath('//mods')).to be_true
+    end
+    
+    [:titles, :dates, :forms, :subjects, :abstracts].each do |attribute|
+      it "should respond_to mods attributes - #{attribute}" do
+        expect(@mets.mods.send(attribute)).to be_true
+      end
+    end
   end
   
   context 'METS > StructMap' do
@@ -52,11 +58,23 @@ describe UWDC::Mets do
       expect(@mods.nodes.xpath('//mods')).to be_true
     end
     
-    it 'should have a title' do
-      expect(@mods.title).to eq('A life idyl')
+    it 'should have titles' do
+      expect(@mods.titles).to include('A life idyl')
     end
     
-    it 'should have a subjects' do
+    it 'should have dates' do
+      expect(@mods.dates).to include('1869')
+    end
+    
+    it 'should have forms' do
+      expect(@mods.forms).to include('text')
+    end
+    
+    it 'should have abstracts' do
+      expect(@mods.abstracts).to include(' Green leather with gold stampig on spine and sides. Yellow coated endpapers. All gilt. Simulated raised bands. Gold stamping on board edges and turn-ins.')
+    end
+    
+    it 'should have subjects' do
       expect(@mods.subjects).to be_an_instance_of(Array)
       expect(@mods.subjects).to include('Endpapers--Coated', 'Decoration/Ornament--Lines')
     end

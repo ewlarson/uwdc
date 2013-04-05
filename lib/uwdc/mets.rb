@@ -33,7 +33,7 @@ module UWDC
     end
     
     def mods
-      @mods = Mods.new(@id).nodes
+      @mods = Mods.new(@id)
     end
     
     def struct_map
@@ -46,8 +46,20 @@ module UWDC
       @get.xpath("//dmdSec[contains(@ID,'#{@id}')]//mods[1]")
     end
     
-    def title
-      nodes.xpath("//mods/titleInfo/title[1]").text
+    def titles
+      nodes.xpath("//mods/titleInfo//title").map{|n| n.text}
+    end
+    
+    def dates
+      nodes.xpath("//mods/originInfo//dateIssued").map{|n| n.text}
+    end
+    
+    def forms
+      nodes.xpath("//mods/physicalDescription//form").map{|n| n.text}
+    end
+    
+    def abstracts
+      nodes.xpath("//mods//abstract").map{|n| n.text}
     end
     
     def subjects
