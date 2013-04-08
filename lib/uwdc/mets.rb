@@ -123,8 +123,7 @@ module UWDC
   end
   
   class Div
-    
-    attr_accessor :node, :id, :admid, :order
+    attr_accessor :id, :admid, :order
     
     def initialize(node)
       @node     = node
