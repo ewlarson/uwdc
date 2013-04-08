@@ -3,6 +3,8 @@ module UWDC
     extend HTTPClient::IncludeClient
     include_http_client
     
+    attr_accessor :id
+    
     def initialize(id)
       @id = id
       @get ||= get
@@ -36,8 +38,22 @@ module UWDC
       @mods = Mods.new(@id)
     end
     
-    def struct_map
-      @struct_map = StructMap.new(@id).nodes
+    def struct_map(id=@id)
+      @struct_map = StructMap.new(id)
+    end
+    
+    def rels_ext(id=@id)
+      @rels_ext = RelsExt.new(id).nodes
+    end
+    
+    def file_sec
+      @file_sec = FileSec.new
+    end
+    
+    private
+    
+    def identifier(id)
+      id[0,id.rindex(/[\.-]/)]
     end
   end
   
@@ -89,12 +105,51 @@ module UWDC
   class FileSec < Mets
     def nodes
       @get.xpath("//fileSec")
-    end    
+    end
+    
+    def files
+      nodes.xpath("//fileGrp/file").inject([]){|result, file| result << FileAsset.new(file)}
+    end
   end
   
   class StructMap < Mets
     def nodes
       @get.xpath("//structMap[contains(@ID,'#{@id}')]")
+    end
+    
+    def structure
+      nodes.xpath('div').inject([]){|result, div| result << Div.new(div)}
+    end
+  end
+  
+  class Div
+    
+    attr_accessor :node, :id, :admid, :order
+    
+    def initialize(node)
+      @node     = node
+      @id       = node["ID"]
+      @admid    = node["ADMID"]
+      @order    = node["ORDER"] ? node["ORDER"] : ""
+    end
+    
+    def file_pointers
+      @node.children.map{|node| node["FILEID"] if node.name == "fptr"}.compact
+    end
+    
+    def kids
+      @node.children.map{|div| Div.new(div) if div.name == "div"}.compact
+    end
+  end
+
+  class FileAsset
+    attr_accessor :id, :mimetype, :use, :href
+    
+    def initialize(node)
+      @id   = node["ID"]
+      @mimetype = node["MIMETYPE"]
+      @use      = node["USE"]
+      @href     = node.children.detect{|child| child.name == "FLocat"}.attr('href')
     end
   end
 end

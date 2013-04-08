@@ -41,13 +41,24 @@ describe UWDC::Mets do
   
   context 'METS > StructMap' do
     it "should return a Nokogiri node set" do
-      expect(@mets.struct_map).to be_an_instance_of(Nokogiri::XML::NodeSet)
+      expect(@mets.struct_map.nodes).to be_an_instance_of(Nokogiri::XML::NodeSet)
     end
     
     it 'should have RDF' do
-      expect(@mets.struct_map.xpath('//div')).to be_true
+      expect(@mets.struct_map.nodes.xpath('//div')).to be_true
     end
-  end 
+  end
+
+  context 'METS > RELS-EXT' do
+    it "should return a Nokogiri node set" do
+      expect(@mets.rels_ext).to be_an_instance_of(Nokogiri::XML::NodeSet)
+    end
+    
+    it "should allow id-based drill down" do
+      expect(@mets.rels_ext('U4QQPS4KWQSUA8A')).to be_an_instance_of(Nokogiri::XML::NodeSet)
+      expect(@mets.rels_ext('U4QQPS4KWQSUA8A').xpath('//RDF/Description').attr('about').value).to include('U4QQPS4KWQSUA8A')
+    end
+  end
   
   context 'MODS' do
     it "should return a Nokogiri node set" do
@@ -170,6 +181,11 @@ describe UWDC::Mets do
     it 'should export to JSON' do
       expect(JSON.parse(@file_sec.to_json)).to be_an_instance_of(Hash)
       expect(JSON.parse(@file_sec.to_json).keys).to include('fileSec')
+    end
+    
+    it 'should list an array of files' do
+      puts "\n\nFILES: #{@file_sec.files}\n\n"
+      expect(@file_sec.files).to be_an_instance_of(Array)
     end
   end
 end
