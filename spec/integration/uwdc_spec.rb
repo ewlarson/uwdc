@@ -184,7 +184,6 @@ describe UWDC::Mets do
     end
     
     it 'should list an array of files' do
-      puts "\n\nFILES: #{@file_sec.files}\n\n"
       expect(@file_sec.files).to be_an_instance_of(Array)
     end
   end
