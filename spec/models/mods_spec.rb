@@ -2,22 +2,22 @@
 require File.expand_path(File.dirname(__FILE__) + '../../spec_helper')
 require 'uwdc'
 
-# PBO - A life idyl
-def get_pbo_mets
-  @get  = Nokogiri::XML.parse("../fixtures/pbo_mets.xml")
-  @id   = '33QOBSVPJLWEM8S'
-end
-
 # AfricaFocus - Hyena Wrestler with Muzzled Hyena
-def get_af_mets
-  @get  = Nokogiri::XML.parse("../fixtures/af_mets.xml")
+def get_africa_focus_mets
+  @get  = Nokogiri::XML.parse("../fixtures/africa_focus_mets.xml")
   @id   = 'ECJ6ZXEYWUE7B8W'
 end
 
 # Artists' Books - A broth for two parents
-def get_ab_mets
+def get_artists_books_mets
   @get  = Nokogiri::XML.parse("../fixtures/artists_books_mets.xml")
   @id   = 'CXEB4DPJEOYTM8C'
+end
+
+# Publishers' Bindings - A life idyl
+def get_publishers_bindings_mets
+  @get  = Nokogiri::XML.parse("../fixtures/publishers_bindings_mets.xml")
+  @id   = '33QOBSVPJLWEM8S'
 end
 
 def supported_mods_attributes
@@ -38,7 +38,7 @@ describe UWDC::Mods do
   
   context 'PBO' do
     before(:each) do
-      get_pbo_mets
+      get_publishers_bindings_mets
       @mods = UWDC::Mods.new(@id)
     end
     
@@ -54,7 +54,7 @@ describe UWDC::Mods do
   
   context 'AfricaFocus' do
     before(:each) do
-      get_af_mets
+      get_africa_focus_mets
       @mods = UWDC::Mods.new(@id)
     end
     
@@ -63,12 +63,13 @@ describe UWDC::Mods do
       expect(@mods.names.empty?).to be_false
       expect(@mods.names.first).to respond_to(:name)
       expect(@mods.names.first).to respond_to(:role)
+      expect(@mods.names.size).to eq(1)
     end
   end
   
   context 'Artists\' Books' do
     before(:each) do
-      get_ab_mets
+      get_artists_books_mets
       @mods = UWDC::Mods.new(@id)
     end
     
