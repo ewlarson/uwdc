@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<mets OBJID="1711.dl:ECJ6ZXEYWUE7B8W" LABEL="Hyena Wrestler with Muzzled Hyena" xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://depot.library.wisc.edu:9090/fedora/get/1711.dl:XMLSchema-METS-1.7/XSD">
+ <metsHdr/>
+ <dmdSec ID="x1711-dl_ECJ6ZXEYWUE7B8W-BIB0">
+  <mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="MODS">
+   <xmlData>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+  <mods:titleInfo>
+    <mods:title>Hyena Wrestler with Muzzled Hyena</mods:title>
+  </mods:titleInfo>
+  <mods:identifier type="hdl">1711.dl/ECJ6ZXEYWUE7B8W</mods:identifier>
+  <mods:name>
+    <mods:namePart>Delehanty, James</mods:namePart>
+    <mods:role>
+      <mods:roleTerm type="text">Photographer</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:subject>
+    <mods:topic>Delehanty, James</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Animals</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Hyenas</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Portraits</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Sports</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Wrestling</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>West Africa</mods:topic>
+  </mods:subject>
+  <mods:abstract> The man is an entertainer who captured the wild hyena when it was a cub. He earns his living by wandering from village to village in Central Niger wrestling the hyena for the amusement of the crowd.</mods:abstract>
+  <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">1985</mods:dateIssued>
+  </mods:originInfo>
+  <mods:typeOfResource>still image</mods:typeOfResource>
+  <mods:physicalDescription>
+    <mods:form>StillImage</mods:form>
+  </mods:physicalDescription>
+  <mods:relatedItem displayLabel="Part of" type="host">
+    <mods:titleInfo>
+      <mods:title>Africa Focus</mods:title>
+    </mods:titleInfo>
+  </mods:relatedItem>
+  <mods:accessCondition type="useAndReproduction">Delehanty, Jim</mods:accessCondition>
+  <mods:accessCondition type="rightsOwnership">Delehanty, Jim</mods:accessCondition>
+  <mods:recordInfo>
+    <mods:recordIdentifier>1711.dl:ECJ6ZXEYWUE7B8W.BIB0</mods:recordIdentifier>
+    <mods:recordOrigin>UWDCC</mods:recordOrigin>
+    <mods:recordChangeDate encoding="w3cdtf">2004-08-02</mods:recordChangeDate>
+    <mods:languageOfCataloging>
+      <mods:languageTerm authority="iso639-2b">eng</mods:languageTerm>
+    </mods:languageOfCataloging>
+  </mods:recordInfo>
+<mods:relatedItem displayLabel="Collection" type="host">
+      <mods:identifier>1711.dl:CollectionAfricaFocus</mods:identifier>
+      <mods:name>Africa Focus: Sights and Sounds of a Continent</mods:name>
+     </mods:relatedItem>
+    </mods:mods>
+   </xmlData>
+  </mdWrap>
+ </dmdSec>
+ <dmdSec ID="x1711-dl_S2OGIJADZCOBF83-DC">
+  <mdWrap MIMETYPE="text/xml" MDTYPE="DC" LABEL="Dublin Core Record for this object">
+   <xmlData>
+    <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:identifier>1711.dl:S2OGIJADZCOBF83</dc:identifier>
+</oai_dc:dc>
+   </xmlData>
+  </mdWrap>
+ </dmdSec>
+ <amdSec ID="x1711-dl_ECJ6ZXEYWUE7B8W-ORIGIN">
+  <digiprovMD ID="x1711-dl_ECJ6ZXEYWUE7B8W-ORIGIN-PROV0">
+   <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="UNSPECIFIED" LABEL="ORIGIN">
+    <xmlData>
+     <uwdcProv:origin xmlns:premis="info:lc/xmlns/premis-v2" xmlns:uwdcProv="http://digital.library.wisc.edu/1711.dl/UWDCProv-1.0">
+  <uwdcProv:projectID>AfricaFocus</uwdcProv:projectID>
+  <uwdcProv:localID>2913jd27</uwdcProv:localID>
+  <uwdcProv:submitter>
+    <premis:agent>
+      <premis:agentIdentifier>
+        <premis:agentIdentifierType>UWDC Agent ID</premis:agentIdentifierType>
+        <premis:agentIdentifierValue>UWMadCLSASP</premis:agentIdentifierValue>
+      </premis:agentIdentifier>
+      <premis:agentName>University of Wisconsin--Madison. African Studies Program.</premis:agentName>
+    </premis:agent>
+  </uwdcProv:submitter>
+</uwdcProv:origin>
+    </xmlData>
+   </mdWrap>
+  </digiprovMD>
+ </amdSec>
+ <amdSec ID="x1711-dl_ECJ6ZXEYWUE7B8W-RELS-EXT">
+  <techMD ID="x1711-dl_ECJ6ZXEYWUE7B8W-RELS-EXT-TECHMD">
+   <mdWrap MIMETYPE="application/rdf+xml" MDTYPE="OTHER" OTHERMDTYPE="UNSPECIFIED" LABEL="Relationships">
+    <xmlData>
+     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/1711.dl:ECJ6ZXEYWUE7B8W">
+	<hasMember xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/1711.dl:S2OGIJADZCOBF83"/>
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelUWDCObject"/>
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelFirstClassObject"/>
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelCompositeObject"/>
+	<isMemberOfProject xmlns="http://digital.library.wisc.edu/1711.dl/rdf/1.0/relations#" rdf:resource="hdl:1711.dl/AfricaFocus"/>
+	<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/1711.dl:CollectionAfricaFocus"/>
+</rdf:Description>
+
+</rdf:RDF>
+    </xmlData>
+   </mdWrap>
+  </techMD>
+ </amdSec>
+ <amdSec ID="x1711-dl_S2OGIJADZCOBF83-RELS-EXT">
+  <techMD ID="x1711-dl_S2OGIJADZCOBF83-RELS-EXT-TECHMD">
+   <mdWrap MIMETYPE="application/rdf+xml" MDTYPE="OTHER" OTHERMDTYPE="UNSPECIFIED" LABEL="Relationships">
+    <xmlData>
+     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/1711.dl:S2OGIJADZCOBF83">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelUWDCObject"/>
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelImageWithDefaultRes"/>
+	<isMemberOfProject xmlns="http://digital.library.wisc.edu/1711.dl/rdf/1.0/relations#" rdf:resource="hdl:1711.dl/AfricaFocus"/>
+	<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/1711.dl:ECJ6ZXEYWUE7B8W"/>
+</rdf:Description>
+
+</rdf:RDF>
+    </xmlData>
+   </mdWrap>
+  </techMD>
+ </amdSec>
+ <fileSec>
+  <fileGrp ID="x1711-dl_ECJ6ZXEYWUE7B8W-DISSEMINATORS">
+   <file ID="x1711-dl_ECJ6ZXEYWUE7B8W-title" MIMETYPE="text/plain;charset=UTF-8" USE="title">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:ECJ6ZXEYWUE7B8W/methods/1711.dl:SDefineUWDCObject/getTitle"/>
+   </file>
+   <file ID="x1711-dl_ECJ6ZXEYWUE7B8W-visualrepresentation" MIMETYPE="image/jpeg" USE="visualrepresentation">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:ECJ6ZXEYWUE7B8W/methods/1711.dl:SDefineCompositeObject/getVisualRepresentation"/>
+   </file>
+  </fileGrp>
+  <fileGrp ID="x1711-dl_S2OGIJADZCOBF83-DISSEMINATORS">
+   <file ID="x1711-dl_S2OGIJADZCOBF83-title" MIMETYPE="text/plain;charset=UTF-8" USE="title">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:S2OGIJADZCOBF83/methods/1711.dl:SDefineUWDCObject/getTitle"/>
+   </file>
+   <file ID="x1711-dl_S2OGIJADZCOBF83-thumb" MIMETYPE="image/jpeg" USE="thumb">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:S2OGIJADZCOBF83/methods/1711.dl:SDefineImageWithDefaultRes/getThumb"/>
+   </file>
+   <file ID="x1711-dl_S2OGIJADZCOBF83-reference" MIMETYPE="image/jpeg" USE="reference">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:S2OGIJADZCOBF83/methods/1711.dl:SDefineImageWithDefaultRes/getReference"/>
+   </file>
+   <file ID="x1711-dl_S2OGIJADZCOBF83-large" MIMETYPE="image/jpeg" USE="large">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:S2OGIJADZCOBF83/methods/1711.dl:SDefineImageWithDefaultRes/getLarge"/>
+   </file>
+   <file ID="x1711-dl_S2OGIJADZCOBF83-icon" MIMETYPE="image/jpeg" USE="icon">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:S2OGIJADZCOBF83/methods/1711.dl:SDefineImageWithIcon/getIcon"/>
+   </file>
+  </fileGrp>
+ </fileSec>
+ <structMap ID="x1711-dl_ECJ6ZXEYWUE7B8W-STRUCTMAP">
+  <div ID="x1711-dl_ECJ6ZXEYWUE7B8W-STRUCT" DMDID="x1711-dl_ECJ6ZXEYWUE7B8W-BIB0" ADMID="x1711-dl_ECJ6ZXEYWUE7B8W-RELS-EXT x1711-dl_ECJ6ZXEYWUE7B8W-ORIGIN">
+   <fptr FILEID="x1711-dl_ECJ6ZXEYWUE7B8W-title"/>
+   <fptr FILEID="x1711-dl_ECJ6ZXEYWUE7B8W-visualrepresentation"/>
+   <div ID="x1711-dl_S2OGIJADZCOBF83-STRUCT" ORDER="1" DMDID="x1711-dl_S2OGIJADZCOBF83-DC" ADMID="x1711-dl_S2OGIJADZCOBF83-RELS-EXT" CONTENTIDS="info:fedora/1711.dl:S2OGIJADZCOBF83">
+    <fptr FILEID="x1711-dl_S2OGIJADZCOBF83-title"/>
+    <fptr FILEID="x1711-dl_S2OGIJADZCOBF83-thumb"/>
+    <fptr FILEID="x1711-dl_S2OGIJADZCOBF83-reference"/>
+    <fptr FILEID="x1711-dl_S2OGIJADZCOBF83-large"/>
+    <fptr FILEID="x1711-dl_S2OGIJADZCOBF83-icon"/>
+   </div>
+  </div>
+ </structMap>
+</mets>
