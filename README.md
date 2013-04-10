@@ -1,6 +1,8 @@
 uwdc
 ====
 
+[![Code Climate](https://codeclimate.com/github/ewlarson/uwdc.png)](https://codeclimate.com/github/ewlarson/uwdc)
+
 Rubygem for getting University of Wisconsin Digital Collection objects from Fedora.
 
 * METS
