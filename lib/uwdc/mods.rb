@@ -52,10 +52,6 @@ module UWDC
     
     private
     
-    def clean_nodes(node_array)
-      node_array.map{|n| n.text}.reject(&:empty?)
-    end
-    
     def name_part(name)
       name_part = name.xpath('//namePart').text
     end

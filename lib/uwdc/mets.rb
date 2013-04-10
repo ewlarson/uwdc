@@ -55,6 +55,10 @@ module UWDC
     def identifier(id)
       id[0,id.rindex(/[\.-]/)]
     end
+    
+    def clean_nodes(node_array)
+      node_array.map{|n| n.text}.reject(&:empty?)
+    end
   end
   
   class Div
