@@ -5,7 +5,7 @@ module UWDC
     end
   
     def titles
-      nodes.xpath("//mods/titleInfo//title").map{|n| n.text}
+      nodes.xpath("//mods/titleInfo//title").map{|n| n.text}.reject(&:empty?)
     end
     
     def names
@@ -15,28 +15,28 @@ module UWDC
   
     #@TODO: simple dates
     def dates
-      nodes.xpath("//mods/originInfo//dateIssued").map{|n| n.text}
+      nodes.xpath("//mods/originInfo//dateIssued").map{|n| n.text}.reject(&:empty?)
     end
   
     def forms
-      nodes.xpath("//mods/physicalDescription//form").map{|n| n.text}
+      nodes.xpath("//mods/physicalDescription//form").map{|n| n.text}.reject(&:empty?)
     end
   
     def abstracts
-      nodes.xpath("//mods//abstract").map{|n| n.text}
+      nodes.xpath("//mods//abstract").map{|n| n.text}.reject(&:empty?)
     end
   
     def subjects
-      nodes.xpath("//mods/subject//topic").map{|n| n.text}
+      nodes.xpath("//mods/subject//topic").map{|n| n.text}.reject(&:empty?)
     end
     
     # @TODO: subjects_heirarchical_geographic
     def subjects_heirarchical_geographic
     end
     
-    # @TODO: Rights and Ownership
-    # @TODO: Use and Reproduction
     def access_conditions
+      conditions = Struct.new(:rights, :reuse)
+      conditions.new(rights,reuse)
     end
     
     # @TODO: Related Items
@@ -58,6 +58,14 @@ module UWDC
     
     def role(name)
       name.xpath('//role/roleTerm').text
+    end
+    
+    def rights
+      nodes.xpath("//accessCondition[@type='rightsOwnership']").map{|n| n.text}.reject(&:empty?)
+    end
+    
+    def reuse
+      nodes.xpath("//accessCondition[@type='useAndReproduction']").map{|n| n.text}.reject(&:empty?)
     end
   end
 end

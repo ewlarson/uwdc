@@ -50,6 +50,11 @@ describe UWDC::Mods do
       expect(@mods.names).to be_an_instance_of(Array)
       expect(@mods.names.empty?).to be_true
     end
+    
+    it "should have access_conditions" do
+      expect(@mods.access_conditions.rights).to be_true
+      expect(@mods.access_conditions.reuse).to be_true
+    end
   end
   
   context 'AfricaFocus' do
@@ -65,6 +70,11 @@ describe UWDC::Mods do
       expect(@mods.names.first).to respond_to(:role)
       expect(@mods.names.size).to eq(1)
     end
+    
+    it "should have access_conditions" do
+      expect(@mods.access_conditions.rights).to be_true
+      expect(@mods.access_conditions.reuse).to be_true
+    end
   end
   
   context 'Artists\' Books' do
@@ -79,6 +89,11 @@ describe UWDC::Mods do
       expect(@mods.names.first).to respond_to(:name)
       expect(@mods.names.first).to respond_to(:role)
       expect(@mods.names.size).to eq(2)
+    end
+    
+    it "should have empty access_conditions" do
+      expect(@mods.access_conditions.rights.empty?).to be_true
+      expect(@mods.access_conditions.reuse.empty?).to be_true
     end
   end
 end
