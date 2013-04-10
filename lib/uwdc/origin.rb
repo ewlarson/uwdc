@@ -3,9 +3,9 @@ module UWDC
     def nodes
       @get.xpath("//amdSec[contains(@ID,'#{@id}')]//origin[1]")
     end
-    
-    #@TODO: submitters
+
     def submitters
+      clean_nodes(nodes.xpath(".//agentName"))
     end
   end
 end
