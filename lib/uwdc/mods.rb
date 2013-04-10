@@ -5,7 +5,7 @@ module UWDC
     end
   
     def titles
-      nodes.xpath("//mods/titleInfo//title").map{|n| n.text}.reject(&:empty?)
+      clean_nodes(nodes.xpath("//mods/titleInfo//title"))
     end
     
     def names
@@ -15,19 +15,19 @@ module UWDC
   
     #@TODO: simple dates
     def dates
-      nodes.xpath("//mods/originInfo//dateIssued").map{|n| n.text}.reject(&:empty?)
+      clean_nodes(nodes.xpath("//mods/originInfo//dateIssued"))
     end
   
     def forms
-      nodes.xpath("//mods/physicalDescription//form").map{|n| n.text}.reject(&:empty?)
+      clean_nodes(nodes.xpath("//mods/physicalDescription//form"))
     end
   
     def abstracts
-      nodes.xpath("//mods//abstract").map{|n| n.text}.reject(&:empty?)
+      clean_nodes(nodes.xpath("//mods//abstract"))
     end
   
     def subjects
-      nodes.xpath("//mods/subject//topic").map{|n| n.text}.reject(&:empty?)
+      clean_nodes(nodes.xpath("//mods/subject//topic"))
     end
     
     # @TODO: subjects_heirarchical_geographic
@@ -52,6 +52,10 @@ module UWDC
     
     private
     
+    def clean_nodes(node_array)
+      node_array.map{|n| n.text}.reject(&:empty?)
+    end
+    
     def name_part(name)
       name_part = name.xpath('//namePart').text
     end
@@ -61,11 +65,11 @@ module UWDC
     end
     
     def rights
-      nodes.xpath("//accessCondition[@type='rightsOwnership']").map{|n| n.text}.reject(&:empty?)
+      clean_nodes(nodes.xpath("//accessCondition[@type='rightsOwnership']"))
     end
     
     def reuse
-      nodes.xpath("//accessCondition[@type='useAndReproduction']").map{|n| n.text}.reject(&:empty?)
+      clean_nodes(nodes.xpath("//accessCondition[@type='useAndReproduction']"))
     end
   end
 end
