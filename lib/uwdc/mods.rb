@@ -39,8 +39,8 @@ module UWDC
       conditions.new(rights,reuse)
     end
     
-    # @TODO: Related Items
     def related_items
+      nodes.xpath("//mods/relatedItem").inject([]){|arr,relation| arr << capture_relation(relation) ; arr }
     end
   
     def valid?
@@ -66,6 +66,19 @@ module UWDC
     
     def reuse
       clean_nodes(nodes.xpath("//accessCondition[@type='useAndReproduction']"))
+    end
+    
+    def related_label(node)
+      node['displayLabel'] ? node['displayLabel'] : "Related item"
+    end
+    
+    def related_name(node)
+      node.xpath('.//name | .//title').text
+    end
+    
+    def capture_relation(node)
+      relation = Struct.new(:label, :name)
+      relation.new(related_label(node),related_name(node))
     end
   end
 end

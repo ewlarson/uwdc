@@ -55,12 +55,24 @@ describe UWDC::Mods do
       expect(@mods.access_conditions.rights).to be_true
       expect(@mods.access_conditions.reuse).to be_true
     end
+    
+    it "should have a related items" do
+      expect(@mods.related_items).to be_an_instance_of(Array)
+      expect(@mods.related_items.first).to be_true
+      expect(@mods.related_items.first).to respond_to(:label)
+      expect(@mods.related_items.first).to respond_to(:name)
+      expect(@mods.related_items.size).to eq(2)
+    end
   end
   
   context 'AfricaFocus' do
     before(:each) do
       get_africa_focus_mets
       @mods = UWDC::Mods.new(@id)
+    end
+    
+    supported_mods_attributes.each do |method|
+      it { expect(@mods).to respond_to(:"#{method}")}
     end
     
     it "should have names with roles" do
@@ -75,12 +87,24 @@ describe UWDC::Mods do
       expect(@mods.access_conditions.rights).to be_true
       expect(@mods.access_conditions.reuse).to be_true
     end
+    
+    it "should have a related items" do
+      expect(@mods.related_items).to be_an_instance_of(Array)
+      expect(@mods.related_items.first).to be_true
+      expect(@mods.related_items.first).to respond_to(:label)
+      expect(@mods.related_items.first).to respond_to(:name)
+      expect(@mods.related_items.size).to eq(2)
+    end
   end
   
   context 'Artists\' Books' do
     before(:each) do
       get_artists_books_mets
       @mods = UWDC::Mods.new(@id)
+    end
+    
+    supported_mods_attributes.each do |method|
+      it { expect(@mods).to respond_to(:"#{method}")}
     end
     
     it "should have names with roles" do
@@ -94,6 +118,14 @@ describe UWDC::Mods do
     it "should have empty access_conditions" do
       expect(@mods.access_conditions.rights.empty?).to be_true
       expect(@mods.access_conditions.reuse.empty?).to be_true
+    end
+    
+    it "should have a related items" do
+      expect(@mods.related_items).to be_an_instance_of(Array)
+      expect(@mods.related_items.first).to be_true
+      expect(@mods.related_items.first).to respond_to(:label)
+      expect(@mods.related_items.first).to respond_to(:name)
+      expect(@mods.related_items.size).to eq(2)
     end
   end
 end
