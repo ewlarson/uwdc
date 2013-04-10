@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<mets OBJID="1711.dl:CXEB4DPJEOYTM8C" LABEL="A broth for two parents" xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://depot.library.wisc.edu:9090/fedora/get/1711.dl:XMLSchema-METS-1.7/XSD">
+ <metsHdr/>
+ <dmdSec ID="x1711-dl_CXEB4DPJEOYTM8C-BIB0">
+  <mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="MODS">
+   <xmlData>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+  <mods:titleInfo>
+    <mods:title>A broth for two parents</mods:title>
+  </mods:titleInfo>
+  <mods:identifier type="hdl">1711.dl/CXEB4DPJEOYTM8C</mods:identifier>
+  <mods:name>
+    <mods:namePart>Fine, Diane, 1960-</mods:namePart>
+    <mods:role>
+      <mods:roleTerm type="text">Designer</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name>
+    <mods:namePart>Goldblatt, Eli</mods:namePart>
+    <mods:role>
+      <mods:roleTerm type="text">Poet</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:subject>
+    <mods:topic>Artists' books</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Fine, Diane, 1960-</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Goldblatt, Eli</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Moonkosh Press</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Lezon, Sue</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Photo engravings</mods:topic>
+  </mods:subject>
+  <mods:abstract> COLOPHON: "Diane Fine designed and printed A Broth for Two Parents in Garamond on Alcantara handmade paper. Sue Lezon's photographs were translated into photo etchings and hand-printed from polymer plates." Signed by Eli Goldblatt. Number 4/30. Bound in a rectangular vertically-opening case with printed colophon. Photographs mounted on p. [1] and [2] of cover.</mods:abstract>
+  <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2006</mods:dateIssued>
+  </mods:originInfo>
+  <mods:typeOfResource/>
+  <mods:physicalDescription>
+    <mods:form>Physical object</mods:form>
+  </mods:physicalDescription>
+  <mods:relatedItem displayLabel="Part of" type="host">
+    <mods:titleInfo>
+      <mods:title>Artists' Book Collection</mods:title>
+    </mods:titleInfo>
+  </mods:relatedItem>
+  <mods:accessCondition type="useAndReproduction"/>
+  <mods:accessCondition type="rightsOwnership"/>
+  <mods:recordInfo>
+    <mods:recordIdentifier>1711.dl:CXEB4DPJEOYTM8C.BIB0</mods:recordIdentifier>
+    <mods:recordOrigin>UWDCC</mods:recordOrigin>
+    <mods:recordChangeDate encoding="w3cdtf">2006-05-03</mods:recordChangeDate>
+    <mods:languageOfCataloging>
+      <mods:languageTerm authority="iso639-2b">eng</mods:languageTerm>
+    </mods:languageOfCataloging>
+  </mods:recordInfo>
+<mods:relatedItem displayLabel="Collection" type="host">
+      <mods:identifier>1711.dl:CollectionArtistsBks</mods:identifier>
+      <mods:name>Artists' Book Collection</mods:name>
+     </mods:relatedItem>
+    </mods:mods>
+   </xmlData>
+  </mdWrap>
+ </dmdSec>
+ <dmdSec ID="x1711-dl_4UPLJXE6535ML8G-DC">
+  <mdWrap MIMETYPE="text/xml" MDTYPE="DC" LABEL="Dublin Core Record for this object">
+   <xmlData>
+    <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:identifier>1711.dl:4UPLJXE6535ML8G</dc:identifier>
+</oai_dc:dc>
+   </xmlData>
+  </mdWrap>
+ </dmdSec>
+ <dmdSec ID="x1711-dl_ON5YLSXDQ57368Z-DC">
+  <mdWrap MIMETYPE="text/xml" MDTYPE="DC" LABEL="Dublin Core Record for this object">
+   <xmlData>
+    <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:identifier>1711.dl:ON5YLSXDQ57368Z</dc:identifier>
+</oai_dc:dc>
+   </xmlData>
+  </mdWrap>
+ </dmdSec>
+ <dmdSec ID="x1711-dl_ZCEAHQECTWBTC8V-DC">
+  <mdWrap MIMETYPE="text/xml" MDTYPE="DC" LABEL="Dublin Core Record for this object">
+   <xmlData>
+    <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:identifier>1711.dl:ZCEAHQECTWBTC8V</dc:identifier>
+</oai_dc:dc>
+   </xmlData>
+  </mdWrap>
+ </dmdSec>
+ <amdSec ID="x1711-dl_CXEB4DPJEOYTM8C-ORIGIN">
+  <digiprovMD ID="x1711-dl_CXEB4DPJEOYTM8C-ORIGIN-PROV0">
+   <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="UNSPECIFIED" LABEL="ORIGIN">
+    <xmlData>
+     <uwdcProv:origin xmlns:premis="info:lc/xmlns/premis-v2" xmlns:uwdcProv="http://digital.library.wisc.edu/1711.dl/UWDCProv-1.0">
+  <uwdcProv:projectID>ArtistsBks</uwdcProv:projectID>
+  <uwdcProv:localID>ab0764</uwdcProv:localID>
+  <uwdcProv:submitter>
+    <premis:agent>
+      <premis:agentIdentifier>
+        <premis:agentIdentifierType>UWDC Agent ID</premis:agentIdentifierType>
+        <premis:agentIdentifierValue>UWMadLibKAL</premis:agentIdentifierValue>
+      </premis:agentIdentifier>
+      <premis:agentName>University of Wisconsin-Madison. Libraries. Kohler Art Library.</premis:agentName>
+    </premis:agent>
+  </uwdcProv:submitter>
+</uwdcProv:origin>
+    </xmlData>
+   </mdWrap>
+  </digiprovMD>
+ </amdSec>
+ <amdSec ID="x1711-dl_CXEB4DPJEOYTM8C-RELS-EXT">
+  <techMD ID="x1711-dl_CXEB4DPJEOYTM8C-RELS-EXT-TECHMD">
+   <mdWrap MIMETYPE="application/rdf+xml" MDTYPE="OTHER" OTHERMDTYPE="UNSPECIFIED" LABEL="Relationships">
+    <xmlData>
+     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/1711.dl:CXEB4DPJEOYTM8C">
+	<hasMember xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/1711.dl:4UPLJXE6535ML8G"/>
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelUWDCObject"/>
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelFirstClassObject"/>
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelCompositeObject"/>
+	<isMemberOfProject xmlns="http://digital.library.wisc.edu/1711.dl/rdf/1.0/relations#" rdf:resource="hdl:1711.dl/ArtistsBks"/>
+	<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/1711.dl:CollectionArtistsBks"/>
+</rdf:Description>
+
+</rdf:RDF>
+    </xmlData>
+   </mdWrap>
+  </techMD>
+ </amdSec>
+ <amdSec ID="x1711-dl_4UPLJXE6535ML8G-RELS-EXT">
+  <techMD ID="x1711-dl_4UPLJXE6535ML8G-RELS-EXT-TECHMD">
+   <mdWrap MIMETYPE="application/rdf+xml" MDTYPE="OTHER" OTHERMDTYPE="UNSPECIFIED" LABEL="Relationships">
+    <xmlData>
+     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/1711.dl:4UPLJXE6535ML8G">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelUWDCObject"/>
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelCompositeSequenceObject"/>
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelCompositeObject"/>
+	<isMemberOfProject xmlns="http://digital.library.wisc.edu/1711.dl/rdf/1.0/relations#" rdf:resource="hdl:1711.dl/ArtistsBks"/>
+	<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/1711.dl:CXEB4DPJEOYTM8C"/>
+	<hasMember xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/1711.dl:ZCEAHQECTWBTC8V"/>
+	<hasMember xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/1711.dl:ON5YLSXDQ57368Z"/>
+</rdf:Description>
+
+</rdf:RDF>
+    </xmlData>
+   </mdWrap>
+  </techMD>
+ </amdSec>
+ <amdSec ID="x1711-dl_ON5YLSXDQ57368Z-RELS-EXT">
+  <techMD ID="x1711-dl_ON5YLSXDQ57368Z-RELS-EXT-TECHMD">
+   <mdWrap MIMETYPE="application/rdf+xml" MDTYPE="OTHER" OTHERMDTYPE="UNSPECIFIED" LABEL="Relationships">
+    <xmlData>
+     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/1711.dl:ON5YLSXDQ57368Z">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelUWDCObject"/>
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelImageWithDefaultRes"/>
+	<isMemberOfProject xmlns="http://digital.library.wisc.edu/1711.dl/rdf/1.0/relations#" rdf:resource="hdl:1711.dl/ArtistsBks"/>
+	<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/1711.dl:4UPLJXE6535ML8G"/>
+</rdf:Description>
+
+</rdf:RDF>
+    </xmlData>
+   </mdWrap>
+  </techMD>
+ </amdSec>
+ <amdSec ID="x1711-dl_ZCEAHQECTWBTC8V-RELS-EXT">
+  <techMD ID="x1711-dl_ZCEAHQECTWBTC8V-RELS-EXT-TECHMD">
+   <mdWrap MIMETYPE="application/rdf+xml" MDTYPE="OTHER" OTHERMDTYPE="UNSPECIFIED" LABEL="Relationships">
+    <xmlData>
+     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/1711.dl:ZCEAHQECTWBTC8V">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelUWDCObject"/>
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelImageWithDefaultRes"/>
+	<isMemberOfProject xmlns="http://digital.library.wisc.edu/1711.dl/rdf/1.0/relations#" rdf:resource="hdl:1711.dl/ArtistsBks"/>
+	<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/1711.dl:4UPLJXE6535ML8G"/>
+</rdf:Description>
+
+</rdf:RDF>
+    </xmlData>
+   </mdWrap>
+  </techMD>
+ </amdSec>
+ <fileSec>
+  <fileGrp ID="x1711-dl_CXEB4DPJEOYTM8C-DISSEMINATORS">
+   <file ID="x1711-dl_CXEB4DPJEOYTM8C-title" MIMETYPE="text/plain;charset=UTF-8" USE="title">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:CXEB4DPJEOYTM8C/methods/1711.dl:SDefineUWDCObject/getTitle"/>
+   </file>
+   <file ID="x1711-dl_CXEB4DPJEOYTM8C-visualrepresentation" MIMETYPE="image/jpeg" USE="visualrepresentation">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:CXEB4DPJEOYTM8C/methods/1711.dl:SDefineCompositeObject/getVisualRepresentation"/>
+   </file>
+  </fileGrp>
+  <fileGrp ID="x1711-dl_4UPLJXE6535ML8G-DISSEMINATORS">
+   <file ID="x1711-dl_4UPLJXE6535ML8G-title" MIMETYPE="text/plain;charset=UTF-8" USE="title">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:4UPLJXE6535ML8G/methods/1711.dl:SDefineUWDCObject/getTitle"/>
+   </file>
+   <file ID="x1711-dl_4UPLJXE6535ML8G-visualrepresentation" MIMETYPE="image/jpeg" USE="visualrepresentation">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:4UPLJXE6535ML8G/methods/1711.dl:SDefineCompositeObject/getVisualRepresentation"/>
+   </file>
+  </fileGrp>
+  <fileGrp ID="x1711-dl_ZCEAHQECTWBTC8V-DISSEMINATORS">
+   <file ID="x1711-dl_ZCEAHQECTWBTC8V-title" MIMETYPE="text/plain;charset=UTF-8" USE="title">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:ZCEAHQECTWBTC8V/methods/1711.dl:SDefineUWDCObject/getTitle"/>
+   </file>
+   <file ID="x1711-dl_ZCEAHQECTWBTC8V-thumb" MIMETYPE="image/jpeg" USE="thumb">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:ZCEAHQECTWBTC8V/methods/1711.dl:SDefineImageWithDefaultRes/getThumb"/>
+   </file>
+   <file ID="x1711-dl_ZCEAHQECTWBTC8V-reference" MIMETYPE="image/jpeg" USE="reference">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:ZCEAHQECTWBTC8V/methods/1711.dl:SDefineImageWithDefaultRes/getReference"/>
+   </file>
+   <file ID="x1711-dl_ZCEAHQECTWBTC8V-large" MIMETYPE="image/jpeg" USE="large">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:ZCEAHQECTWBTC8V/methods/1711.dl:SDefineImageWithDefaultRes/getLarge"/>
+   </file>
+   <file ID="x1711-dl_ZCEAHQECTWBTC8V-icon" MIMETYPE="image/jpeg" USE="icon">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:ZCEAHQECTWBTC8V/methods/1711.dl:SDefineImageWithIcon/getIcon"/>
+   </file>
+  </fileGrp>
+  <fileGrp ID="x1711-dl_ON5YLSXDQ57368Z-DISSEMINATORS">
+   <file ID="x1711-dl_ON5YLSXDQ57368Z-title" MIMETYPE="text/plain;charset=UTF-8" USE="title">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:ON5YLSXDQ57368Z/methods/1711.dl:SDefineUWDCObject/getTitle"/>
+   </file>
+   <file ID="x1711-dl_ON5YLSXDQ57368Z-thumb" MIMETYPE="image/jpeg" USE="thumb">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:ON5YLSXDQ57368Z/methods/1711.dl:SDefineImageWithDefaultRes/getThumb"/>
+   </file>
+   <file ID="x1711-dl_ON5YLSXDQ57368Z-reference" MIMETYPE="image/jpeg" USE="reference">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:ON5YLSXDQ57368Z/methods/1711.dl:SDefineImageWithDefaultRes/getReference"/>
+   </file>
+   <file ID="x1711-dl_ON5YLSXDQ57368Z-large" MIMETYPE="image/jpeg" USE="large">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:ON5YLSXDQ57368Z/methods/1711.dl:SDefineImageWithDefaultRes/getLarge"/>
+   </file>
+   <file ID="x1711-dl_ON5YLSXDQ57368Z-icon" MIMETYPE="image/jpeg" USE="icon">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:ON5YLSXDQ57368Z/methods/1711.dl:SDefineImageWithIcon/getIcon"/>
+   </file>
+  </fileGrp>
+ </fileSec>
+ <structMap ID="x1711-dl_CXEB4DPJEOYTM8C-STRUCTMAP">
+  <div ID="x1711-dl_CXEB4DPJEOYTM8C-STRUCT" DMDID="x1711-dl_CXEB4DPJEOYTM8C-BIB0" ADMID="x1711-dl_CXEB4DPJEOYTM8C-ORIGIN x1711-dl_CXEB4DPJEOYTM8C-RELS-EXT">
+   <fptr FILEID="x1711-dl_CXEB4DPJEOYTM8C-title"/>
+   <fptr FILEID="x1711-dl_CXEB4DPJEOYTM8C-visualrepresentation"/>
+   <div ID="x1711-dl_4UPLJXE6535ML8G-STRUCT" ORDER="1" DMDID="x1711-dl_4UPLJXE6535ML8G-DC" ADMID="x1711-dl_4UPLJXE6535ML8G-RELS-EXT" CONTENTIDS="info:fedora/1711.dl:4UPLJXE6535ML8G">
+    <fptr FILEID="x1711-dl_4UPLJXE6535ML8G-title"/>
+    <fptr FILEID="x1711-dl_4UPLJXE6535ML8G-visualrepresentation"/>
+    <div ID="x1711-dl_ZCEAHQECTWBTC8V-STRUCT" ORDER="1" DMDID="x1711-dl_ZCEAHQECTWBTC8V-DC" ADMID="x1711-dl_ZCEAHQECTWBTC8V-RELS-EXT" CONTENTIDS="info:fedora/1711.dl:ZCEAHQECTWBTC8V">
+     <fptr FILEID="x1711-dl_ZCEAHQECTWBTC8V-title"/>
+     <fptr FILEID="x1711-dl_ZCEAHQECTWBTC8V-thumb"/>
+     <fptr FILEID="x1711-dl_ZCEAHQECTWBTC8V-reference"/>
+     <fptr FILEID="x1711-dl_ZCEAHQECTWBTC8V-large"/>
+     <fptr FILEID="x1711-dl_ZCEAHQECTWBTC8V-icon"/>
+    </div>
+    <div ID="x1711-dl_ON5YLSXDQ57368Z-STRUCT" ORDER="2" DMDID="x1711-dl_ON5YLSXDQ57368Z-DC" ADMID="x1711-dl_ON5YLSXDQ57368Z-RELS-EXT" CONTENTIDS="info:fedora/1711.dl:ON5YLSXDQ57368Z">
+     <fptr FILEID="x1711-dl_ON5YLSXDQ57368Z-title"/>
+     <fptr FILEID="x1711-dl_ON5YLSXDQ57368Z-thumb"/>
+     <fptr FILEID="x1711-dl_ON5YLSXDQ57368Z-reference"/>
+     <fptr FILEID="x1711-dl_ON5YLSXDQ57368Z-large"/>
+     <fptr FILEID="x1711-dl_ON5YLSXDQ57368Z-icon"/>
+    </div>
+   </div>
+  </div>
+ </structMap>
+</mets>

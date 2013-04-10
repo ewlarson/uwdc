@@ -14,6 +14,12 @@ def get_af_mets
   @id   = 'ECJ6ZXEYWUE7B8W'
 end
 
+# Artists' Books - A broth for two parents
+def get_ab_mets
+  @get  = Nokogiri::XML.parse("../fixtures/artists_books_mets.xml")
+  @id   = 'CXEB4DPJEOYTM8C'
+end
+
 def supported_mods_attributes
   [
     :titles, 
@@ -57,6 +63,21 @@ describe UWDC::Mods do
       expect(@mods.names.empty?).to be_false
       expect(@mods.names.first).to respond_to(:name)
       expect(@mods.names.first).to respond_to(:role)
+    end
+  end
+  
+  context 'Artists\' Books' do
+    before(:each) do
+      get_ab_mets
+      @mods = UWDC::Mods.new(@id)
+    end
+    
+    it "should have names with roles" do
+      expect(@mods.names).to be_an_instance_of(Array)
+      expect(@mods.names.empty?).to be_false
+      expect(@mods.names.first).to respond_to(:name)
+      expect(@mods.names.first).to respond_to(:role)
+      expect(@mods.names.size).to eq(2)
     end
   end
 end
