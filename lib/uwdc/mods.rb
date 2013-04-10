@@ -51,11 +51,11 @@ module UWDC
     private
     
     def name_part(node)
-      name_part = node.xpath('//namePart').text
+      name_part = node.xpath('.//namePart').text
     end
     
     def role(node)
-      node.xpath('//role/roleTerm').text
+      node.xpath('.//role/roleTerm').text
     end
     
     def rights
