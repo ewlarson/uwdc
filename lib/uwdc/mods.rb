@@ -7,7 +7,12 @@ module UWDC
     def titles
       nodes.xpath("//mods/titleInfo//title").map{|n| n.text}
     end
+    
+    #@TODO: names w/ roles
+    def names
+    end
   
+    #@TODO: simple dates
     def dates
       nodes.xpath("//mods/originInfo//dateIssued").map{|n| n.text}
     end
@@ -22,6 +27,19 @@ module UWDC
   
     def subjects
       nodes.xpath("//mods/subject//topic").map{|n| n.text}
+    end
+    
+    # @TODO: subjects_heirarchical_geographic
+    def subjects_heirarchical_geographic
+    end
+    
+    # @TODO: Rights and Ownership
+    # @TODO: Use and Reproduction
+    def access_conditions
+    end
+    
+    # @TODO: Related Items
+    def related_items
     end
   
     def valid?
