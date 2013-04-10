@@ -9,11 +9,9 @@ module UWDC
     end
     
     def names
-      contributor = Struct.new(:name, :role)
-      nodes.xpath("//mods/name").inject([]){|arr,name| arr << contributor.new(name_part(name), role(name)); arr}
+      nodes.xpath("//mods/name").inject([]){|arr,node| arr << capture_name(node); arr}
     end
   
-    #@TODO: simple dates
     def dates
       clean_nodes(nodes.xpath("//mods/originInfo//dateIssued"))
     end
@@ -40,7 +38,7 @@ module UWDC
     end
     
     def related_items
-      nodes.xpath("//mods/relatedItem").inject([]){|arr,relation| arr << capture_relation(relation) ; arr }
+      nodes.xpath("//mods/relatedItem").inject([]){|arr,node| arr << capture_relation(node) ; arr }
     end
   
     def valid?
@@ -52,12 +50,12 @@ module UWDC
     
     private
     
-    def name_part(name)
-      name_part = name.xpath('//namePart').text
+    def name_part(node)
+      name_part = node.xpath('//namePart').text
     end
     
-    def role(name)
-      name.xpath('//role/roleTerm').text
+    def role(node)
+      node.xpath('//role/roleTerm').text
     end
     
     def rights
@@ -79,6 +77,11 @@ module UWDC
     def capture_relation(node)
       relation = Struct.new(:label, :name)
       relation.new(related_label(node),related_name(node))
+    end
+    
+    def capture_name(node)
+      contributor = Struct.new(:name, :role)
+      contributor.new(name_part(node), role(node))
     end
   end
 end
