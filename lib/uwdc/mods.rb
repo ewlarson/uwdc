@@ -8,8 +8,9 @@ module UWDC
       nodes.xpath("//mods/titleInfo//title").map{|n| n.text}
     end
     
-    #@TODO: names w/ roles
     def names
+      contributor = Struct.new(:name, :role)
+      nodes.xpath("//mods/name").inject([]){|arr,name| arr << contributor.new(name_part(name), role(name)); arr}
     end
   
     #@TODO: simple dates
@@ -47,6 +48,16 @@ module UWDC
       xsd = Nokogiri::XML::Schema.new(response.body)
       xml = Nokogiri::XML(nodes.to_xml)
       xsd.valid?(xml)
+    end
+    
+    private
+    
+    def name_part(name)
+      name_part = name.xpath('//namePart').text
+    end
+    
+    def role(name)
+      name.xpath('//role/roleTerm').text
     end
   end
 end
