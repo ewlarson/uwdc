@@ -51,12 +51,12 @@ describe UWDC::Mods do
       expect(@mods.names.empty?).to be_true
     end
     
-    it "should have access_conditions" do
+    it "should have access conditions" do
       expect(@mods.access_conditions.rights).to be_true
       expect(@mods.access_conditions.reuse).to be_true
     end
     
-    it "should have a related items" do
+    it "should have related items" do
       expect(@mods.related_items).to be_an_instance_of(Array)
       expect(@mods.related_items.first).to be_true
       expect(@mods.related_items.first).to respond_to(:label)
@@ -83,12 +83,12 @@ describe UWDC::Mods do
       expect(@mods.names.size).to eq(1)
     end
     
-    it "should have access_conditions" do
+    it "should have access conditions" do
       expect(@mods.access_conditions.rights).to be_true
       expect(@mods.access_conditions.reuse).to be_true
     end
     
-    it "should have a related items" do
+    it "should have related items" do
       expect(@mods.related_items).to be_an_instance_of(Array)
       expect(@mods.related_items.first).to be_true
       expect(@mods.related_items.first).to respond_to(:label)
@@ -115,12 +115,12 @@ describe UWDC::Mods do
       expect(@mods.names.size).to eq(2)
     end
     
-    it "should have empty access_conditions" do
+    it "should have empty access conditions" do
       expect(@mods.access_conditions.rights.empty?).to be_true
       expect(@mods.access_conditions.reuse.empty?).to be_true
     end
     
-    it "should have a related items" do
+    it "should have related items" do
       expect(@mods.related_items).to be_an_instance_of(Array)
       expect(@mods.related_items.first).to be_true
       expect(@mods.related_items.first).to respond_to(:label)
