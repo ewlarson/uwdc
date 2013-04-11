@@ -37,50 +37,50 @@ MODS top-level elements are boiled in Ruby to something more dot-syntax friendly
 <table>
   <thead>
     <tr>
-      <th>MODS Element</th>
       <th>UWDC::Mods method</th>
+      <th>MODS Element</th>
       <th>Example output</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>titleInfo</td>
       <td>mods.titles</td>
+      <td>titleInfo</td>
       <td>["A life idyl", ...]</td>
     </tr>
     <tr>
-      <td>name</td>
       <td>mods.names</td>
+      <td>name</td>
       <td>[Struct.new(:name, :role), ...]</td>
     </tr>
     <tr>
-      <td>originInfo</td>
       <td>mods.dates</td>
+      <td>originInfo</td>
       <td>["1869"]</td>
     </tr>
     <tr>
-      <td>physicalDescription</td>
       <td>mods.forms</td>
+      <td>physicalDescription</td>
       <td>["text"]</td>
     </tr>
     <tr>
-      <td>abstract</td>
       <td>mods.abstracts</td>
+      <td>abstract</td>
       <td>["Green leather with gold stamping...", ...]</td>
     </tr>
     <tr>
-      <td>subject</td>
       <td>mods.subjects</td>
+      <td>subject</td>
       <td>["Bookbinding--Techniques--Gold stamping", ...]</td>
     </tr>
     <tr>
-      <td>accessCondition</td>
       <td>mods.access_conditions</td>
+      <td>accessCondition</td>
       <td>[Struct.new(:rights, :reuse), ...]</td>
     </tr>
     <tr>
-      <td>relatedItem</td>
       <td>mods.related_items</td>
+      <td>relatedItem</td>
       <td>[Struct.new(:label, :name), ...]</td>
     </tr>
   </tbody>
