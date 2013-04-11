@@ -15,8 +15,8 @@ module UWDC
         response = http_client.get("http://depot.library.wisc.edu/uwdcutils/METS/1711.dl:#{@id}")
         response_xml = Nokogiri::XML.parse(response.body)
         response_xml.remove_namespaces!
-      rescue TimeoutError, HTTPClient::ConfigurationError, HTTPClient::BadResponseError, Nokogiri::SyntaxError => e
-        exception = e
+      rescue TimeoutError, HTTPClient::ConfigurationError, HTTPClient::BadResponseError, Nokogiri::SyntaxError => error
+        exception = error
       end
     end
     
@@ -57,7 +57,7 @@ module UWDC
     end
     
     def clean_nodes(node_array)
-      node_array.map{|n| n.text}.reject(&:empty?)
+      node_array.map{|node| node.text}.reject(&:empty?)
     end
   end
   
