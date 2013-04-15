@@ -2,12 +2,6 @@
 require File.expand_path(File.dirname(__FILE__) + '../../spec_helper')
 require 'uwdc'
 
-# AfricaFocus - Hyena Wrestler with Muzzled Hyena
-def get_africa_focus_mets
-  @get  = Nokogiri::XML.parse("../fixtures/africa_focus_mets.xml")
-  @id   = 'ECJ6ZXEYWUE7B8W'
-end
-
 describe UWDC::Origin do
   
   context 'AfricaFocus' do
