@@ -11,10 +11,9 @@ describe UWDC::DublinCore do
     end
     
     it "should have a titles" do
-      puts @dublin_core.titles.inspect
       expect(@dublin_core.titles).to be_true
-      expect(@dublin_core.titles).to be_an_instance_of(Array)
-      expect(@dublin_core.titles.size).to eq(1)
+      expect(@dublin_core.titles).to be_an_instance_of(Hash)
+      expect(@dublin_core.titles.size).to eq(5)
     end
   end
 end
