@@ -1,14 +1,22 @@
 module UWDC
+  # Obtain UWDC METS metadata via an object identifier.
   class Mets
     extend HTTPClient::IncludeClient
     include_http_client
     
     attr_accessor :id
     
+    # Intialize a UWDC Mets object
+    #
+    # @param [String] id of the object
     def initialize(id)
       @id = id
       @get ||= get
     end
+    
+    # HTTP request for the Fedora Commons held METS
+    #
+    # @return [Nokogiri::Document] the resulting METS XML as a Nokogiri document
     
     def get
       begin
@@ -43,11 +51,15 @@ module UWDC
     end
     
     def rels_ext(id=@id)
-      @rels_ext = RelsExt.new(id).nodes
+      @rels_ext = RelsExt.new(id)
     end
     
-    def file_sec
-      @file_sec = FileSec.new
+    def file_sec(id=@id)
+      @file_sec = FileSec.new(id)
+    end
+    
+    def dublin_core(id=@id)
+      @dublin_core = DublinCore.new(id)
     end
     
     private
@@ -58,6 +70,10 @@ module UWDC
     
     def clean_nodes(node_array)
       node_array.map{|node| node.text}.reject(&:empty?)
+    end
+    
+    def pick_attribute(node_array, attribute)
+      node_array.map{|node| node.attribute(attribute).value}.reject(&:empty?)
     end
   end
   
@@ -81,7 +97,7 @@ module UWDC
   end
 
   class FileAsset
-    attr_accessor :id, :mimetype, :use, :href
+    attr_accessor :id, :mimetype, :use, :href, :title
     
     def initialize(node)
       @id   = node["ID"]
