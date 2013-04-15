@@ -94,7 +94,7 @@ describe UWDC::Mets do
       expect(Nokogiri::XML(@mods.to_xml)).to be_an_instance_of(Nokogiri::XML::Document)
     end
     
-    it 'should be valid MODS XML' do
+    it 'should be valid MODS XML', pending: true do
       expect(@mods.valid?).to be_true
     end
     
