@@ -52,9 +52,6 @@ describe UWDC::Mods do
     end
     
     it "should have access conditions" do
-      supported_mods_attributes.each do |method|
-        puts "#{method} => #{@mods.send(method).inspect}"
-      end
       expect(@mods.access_conditions.rights).to be_true
       expect(@mods.access_conditions.reuse).to be_true
     end
