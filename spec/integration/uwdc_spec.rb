@@ -55,8 +55,8 @@ describe UWDC::Mets do
     end
     
     it "should allow id-based drill down" do
-      expect(@mets.rels_ext('U4QQPS4KWQSUA8A')).to be_an_instance_of(Nokogiri::XML::NodeSet)
-      expect(@mets.rels_ext('U4QQPS4KWQSUA8A').xpath('//RDF/Description').attr('about').value).to include('U4QQPS4KWQSUA8A')
+      expect(@mets.rels_ext('U4QQPS4KWQSUA8A').nodes).to be_an_instance_of(Nokogiri::XML::NodeSet)
+      expect(@mets.rels_ext('U4QQPS4KWQSUA8A').nodes.xpath('//RDF/Description').attr('about').value).to include('U4QQPS4KWQSUA8A')
     end
   end
   
