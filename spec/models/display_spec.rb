@@ -23,7 +23,6 @@ describe UWDC::Display do
     end
     
     it "should include images" do
-      puts @display.images.inspect
       expect(@display.images).to be_true
       expect(@display.images.size).to eq(5)
     end
