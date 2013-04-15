@@ -51,7 +51,7 @@ describe UWDC::Mets do
 
   context 'METS > RELS-EXT' do
     it "should return a Nokogiri node set" do
-      expect(@mets.rels_ext).to be_an_instance_of(Nokogiri::XML::NodeSet)
+      expect(@mets.rels_ext.nodes).to be_an_instance_of(Nokogiri::XML::NodeSet)
     end
     
     it "should allow id-based drill down" do
