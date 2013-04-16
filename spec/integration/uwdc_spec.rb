@@ -13,13 +13,12 @@ describe UWDC::Mets do
   end
 
   context 'METS' do
-    mets = UWDC::Mets.new(@id)
     it "should return a Nokogiri document" do
-      expect(mets.nodes).to be_an_instance_of(Nokogiri::XML::Document)
+      expect(@mets.nodes).to be_an_instance_of(Nokogiri::XML::Document)
     end
     
     it 'should have mets' do
-      expect(mets.nodes.xpath('//mets')).to be_true
+      expect(@mets.nodes.xpath('//mets')).to be_true
     end
   end
   
