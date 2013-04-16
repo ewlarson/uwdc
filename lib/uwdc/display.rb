@@ -55,9 +55,11 @@ module UWDC
     def audio
     end
     
-    def metadata
-      @mets.mods.metadata
+    def mods
+      @mets.mods
     end
+    
+    alias :metadata :mods
     
     private
     

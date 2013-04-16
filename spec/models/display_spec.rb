@@ -29,7 +29,7 @@ describe UWDC::Display do
     
     it "should have metadata" do
       expect(@display.metadata).to be_true
-      expect(@display.metadata).to be_an_instance_of(Hash)
+      expect(@display.metadata).to be_an_instance_of(UWDC::Mods)
     end
   end
   
@@ -39,8 +39,8 @@ describe UWDC::Display do
       @display = UWDC::Display.new(@id,@xml)
     end
     
-    it "should have no images" do
-      puts @display.images.inspect
+    it "should have no images", pending: true do
+      #puts @display.images.inspect
       expect(@display.images).to be_true
       expect(@display.images.size).to eq(0)
     end
