@@ -1,7 +1,16 @@
 module UWDC
   class Mods < Mets
     def nodes
-      @get.xpath("//dmdSec[contains(@ID,'#{@id}')]//mods[1]")
+      @xml.nodes.xpath("//dmdSec[contains(@ID,'#{@id}')]//mods[1]")
+    end
+    
+    def metadata
+      metadata = [:titles, :names, :dates, :forms, :abstracts, :subjects, :related_items].inject({}) do |result, method|
+        result[method] = self.send(method) unless self.send(method).empty?
+        result
+      end
+      metadata[:access_conditions] = self.access_conditions
+      metadata
     end
   
     def titles

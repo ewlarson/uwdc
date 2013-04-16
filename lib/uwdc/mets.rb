@@ -1,34 +1,19 @@
 module UWDC
   # Obtain UWDC METS metadata via an object identifier.
   class Mets
-    extend HTTPClient::IncludeClient
-    include_http_client
-    
-    attr_accessor :id
+    attr_accessor :id, :xml
     
     # Intialize a UWDC Mets object
     #
     # @param [String] id of the object
-    def initialize(id)
+    def initialize(id, xml=false)
       @id = id
-      @get ||= get
+      @xml ||= UWDC::XML.new(@id,xml)
     end
     
-    # HTTP request for the Fedora Commons held METS
-    #
-    # @return [Nokogiri::Document] the resulting METS XML as a Nokogiri document
-    
-    def get
-      begin
-        response = http_client.get("http://depot.library.wisc.edu/uwdcutils/METS/1711.dl:#{@id}")
-        response_xml = Nokogiri::XML.parse(response.body)
-        response_xml.remove_namespaces!
-      rescue TimeoutError, HTTPClient::ConfigurationError, HTTPClient::BadResponseError, Nokogiri::SyntaxError => error
-        exception = error
-      end
+    def nodes
+      @xml.nodes
     end
-    
-    alias :nodes :get
     
     def to_json
       Hash.from_xml(nodes.to_xml).to_json

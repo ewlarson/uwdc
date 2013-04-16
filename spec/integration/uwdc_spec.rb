@@ -3,13 +3,13 @@ require 'uwdc'
 
 describe UWDC::Mets do
   before(:each) do
-    @id = '33QOBSVPJLWEM8S'
-    @mets = UWDC::Mets.new(@id)
-    @mods = UWDC::Mods.new(@id)
-    @origin = UWDC::Origin.new(@id)
-    @rels_ext = UWDC::RelsExt.new(@id)
-    @struct_map = UWDC::StructMap.new(@id)
-    @file_sec = UWDC::FileSec.new(@id)
+    get_publishers_bindings_mets
+    @mets = UWDC::Mets.new(@id,@xml)
+    @mods = UWDC::Mods.new(@id,@xml)
+    @origin = UWDC::Origin.new(@id,@xml)
+    @rels_ext = UWDC::RelsExt.new(@id,@xml)
+    @struct_map = UWDC::StructMap.new(@id,@xml)
+    @file_sec = UWDC::FileSec.new(@id,@xml)
   end
 
   context 'METS' do

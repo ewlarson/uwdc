@@ -7,7 +7,7 @@ describe UWDC::RelsExt do
   context 'PBO' do
     before(:each) do
       get_publishers_bindings_mets
-      @rels_ext = UWDC::RelsExt.new(@id)
+      @rels_ext = UWDC::RelsExt.new(@id,@xml)
     end
     
     it "should have models" do

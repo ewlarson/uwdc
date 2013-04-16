@@ -1,7 +1,7 @@
 module UWDC
   class DublinCore < Mets
     def nodes
-      @get.xpath("//dmdSec//dc")
+      @xml.nodes.xpath("//dmdSec//dc")
     end
     
     def titles

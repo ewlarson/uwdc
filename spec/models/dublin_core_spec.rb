@@ -7,7 +7,7 @@ describe UWDC::DublinCore do
   context 'PBO' do
     before(:each) do
       get_publishers_bindings_mets
-      @dublin_core = UWDC::DublinCore.new(@id)
+      @dublin_core = UWDC::DublinCore.new(@id, @xml)
     end
     
     it "should have a titles" do

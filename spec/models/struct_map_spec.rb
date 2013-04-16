@@ -7,7 +7,7 @@ describe UWDC::StructMap do
   context 'PBO' do
     before(:each) do
       get_publishers_bindings_mets
-      @struct_map = UWDC::StructMap.new(@id)
+      @struct_map = UWDC::StructMap.new(@id,@xml)
     end
     
     it "should have structure" do

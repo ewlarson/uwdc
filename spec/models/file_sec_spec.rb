@@ -7,7 +7,7 @@ describe UWDC::FileSec do
   context 'PBO' do
     before(:each) do
       get_publishers_bindings_mets
-      @file_sec = UWDC::FileSec.new(@id)
+      @file_sec = UWDC::FileSec.new(@id, @xml)
     end
     
     it "should have files" do

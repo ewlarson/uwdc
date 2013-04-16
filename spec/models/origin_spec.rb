@@ -7,7 +7,7 @@ describe UWDC::Origin do
   context 'AfricaFocus' do
     before(:each) do
       get_africa_focus_mets
-      @origin = UWDC::Origin.new(@id)
+      @origin = UWDC::Origin.new(@id,@xml)
     end
     
     it "should have a submitter" do

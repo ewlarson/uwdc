@@ -1,7 +1,7 @@
 module UWDC
   class FileSec < Mets
     def nodes
-      @get.xpath("//fileSec")
+      @xml.nodes.xpath("//fileSec")
     end
   
     def files

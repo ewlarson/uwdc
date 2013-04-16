@@ -3,8 +3,8 @@ module UWDC
     
     attr_accessor :mets, :title, :visual_representation
     
-    def initialize(id)
-      @mets = UWDC::Mets.new(id)
+    def initialize(id, xml=false)
+      @mets = UWDC::Mets.new(id,xml)
     end
     
     def use
@@ -14,7 +14,8 @@ module UWDC
         "icon"                  => { :view => true,   :partial => "image" },
         "thumb"                 => { :view => true,   :partial => "image" },
         "reference"             => { :view => true,   :partial => "image" },
-        "large"                 => { :view => true,   :partial => "image" }
+        "large"                 => { :view => true,   :partial => "image" },
+        "audiostream"           => { :view => true,   :partial => "audio" }
       }
     end
     
@@ -55,6 +56,7 @@ module UWDC
     end
     
     def metadata
+      @mets.mods.metadata
     end
     
     private

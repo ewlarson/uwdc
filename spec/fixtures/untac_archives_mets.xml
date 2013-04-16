@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<mets OBJID="1711.dl:4VDIZV5LKXKDD8L" LABEL="United Nations Transitional Authority in Cambodia: UNTAC Radio Archive, Program 38" xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://depot.library.wisc.edu:9090/fedora/get/1711.dl:XMLSchema-METS-1.7/XSD">
+ <metsHdr/>
+ <dmdSec ID="x1711-dl_4VDIZV5LKXKDD8L-BIB0">
+  <mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="MODS">
+   <xmlData>
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+  <mods:titleInfo>
+    <mods:title>United Nations Transitional Authority in Cambodia: UNTAC Radio Archive, Program 38</mods:title>
+  </mods:titleInfo>
+  <mods:identifier type="hdl">1711.dl/4VDIZV5LKXKDD8L</mods:identifier>
+  <mods:name>
+    <mods:namePart>UNTAC</mods:namePart>
+    <mods:role>
+      <mods:roleTerm type="text"/>
+    </mods:role>
+  </mods:name>
+  <mods:subject>
+    <mods:topic>Angkor temple</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Voter registration</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Foreign force</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Party of Democratic Kampuchea (PDK)</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Cambodian Association for the Elderly</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>De-mining</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Buddhist monk</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Electoral process</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Yasushi Akashi, Head of UNTAC</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Torgeman, Co-leader of the Civpol group</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Tep Vong, Grand Patriarch</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Thailand</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Japan</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Ampil Commune</mods:topic>
+  </mods:subject>
+  <mods:abstract> Broadcast date unknown Duration- 25 minutes</mods:abstract>
+  <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">1992-10-22</mods:dateIssued>
+  </mods:originInfo>
+  <mods:typeOfResource/>
+  <mods:physicalDescription>
+    <mods:form>Sound</mods:form>
+  </mods:physicalDescription>
+  <mods:relatedItem displayLabel="Part of" type="host">
+    <mods:titleInfo>
+      <mods:title>United Nations Transitional Authority in Cambodia: UNTAC Archives</mods:title>
+    </mods:titleInfo>
+  </mods:relatedItem>
+  <mods:relatedItem displayLabel="Part of" type="host">
+    <mods:titleInfo>
+      <mods:title>SouthEast Asian images &amp; Texts</mods:title>
+    </mods:titleInfo>
+  </mods:relatedItem>
+  <mods:accessCondition type="useAndReproduction"/>
+  <mods:accessCondition type="rightsOwnership"/>
+  <mods:recordInfo>
+    <mods:recordIdentifier>1711.dl:4VDIZV5LKXKDD8L.BIB0</mods:recordIdentifier>
+    <mods:recordOrigin>UWDCC</mods:recordOrigin>
+    <mods:recordChangeDate encoding="w3cdtf">2010-04-07</mods:recordChangeDate>
+    <mods:languageOfCataloging>
+      <mods:languageTerm authority="iso639-2b">eng</mods:languageTerm>
+    </mods:languageOfCataloging>
+  </mods:recordInfo>
+<mods:relatedItem displayLabel="Collection" type="host">
+      <mods:identifier>1711.dl:CollectionSEAiT</mods:identifier>
+      <mods:name>Southeast Asian Images and Texts</mods:name>
+     </mods:relatedItem>
+     <mods:relatedItem displayLabel="Collection" type="host">
+      <mods:identifier>1711.dl:CollectionUNTACArch</mods:identifier>
+      <mods:name>The United Nations Transitional Authority in Cambodia: UNTAC Archives</mods:name>
+     </mods:relatedItem>
+    </mods:mods>
+   </xmlData>
+  </mdWrap>
+ </dmdSec>
+ <dmdSec ID="x1711-dl_4G6V2XQR7NEJ58D-DC">
+  <mdWrap MIMETYPE="text/xml" MDTYPE="DC" LABEL="Dublin Core Record for this object">
+   <xmlData>
+    <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:identifier>1711.dl:4G6V2XQR7NEJ58D</dc:identifier>
+</oai_dc:dc>
+   </xmlData>
+  </mdWrap>
+ </dmdSec>
+ <amdSec ID="x1711-dl_4VDIZV5LKXKDD8L-ORIGIN">
+  <digiprovMD ID="x1711-dl_4VDIZV5LKXKDD8L-ORIGIN-PROV0">
+   <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="UNSPECIFIED" LABEL="ORIGIN">
+    <xmlData>
+     <uwdcProv:origin xmlns:premis="info:lc/xmlns/premis-v2" xmlns:uwdcProv="http://digital.library.wisc.edu/1711.dl/UWDCProv-1.0">
+  <uwdcProv:projectID>SEAiT</uwdcProv:projectID>
+  <uwdcProv:localID>cam0005</uwdcProv:localID>
+  <uwdcProv:submitter>
+    <premis:agent>
+      <premis:agentIdentifier>
+        <premis:agentIdentifierType>UWDC Agent ID</premis:agentIdentifierType>
+        <premis:agentIdentifierValue>AshmunLa</premis:agentIdentifierValue>
+      </premis:agentIdentifier>
+      <premis:agentName>Ashmun, Larry.  University of Wisconsin-Madison Memorial Library</premis:agentName>
+    </premis:agent>
+  </uwdcProv:submitter>
+</uwdcProv:origin>
+    </xmlData>
+   </mdWrap>
+  </digiprovMD>
+ </amdSec>
+ <amdSec ID="x1711-dl_4VDIZV5LKXKDD8L-RELS-EXT">
+  <techMD ID="x1711-dl_4VDIZV5LKXKDD8L-RELS-EXT-TECHMD">
+   <mdWrap MIMETYPE="application/rdf+xml" MDTYPE="OTHER" OTHERMDTYPE="UNSPECIFIED" LABEL="Relationships">
+    <xmlData>
+     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/1711.dl:4VDIZV5LKXKDD8L">
+	<hasMember xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/1711.dl:4G6V2XQR7NEJ58D"/>
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelUWDCObject"/>
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelFirstClassObject"/>
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelCompositeObject"/>
+	<isMemberOfProject xmlns="http://digital.library.wisc.edu/1711.dl/rdf/1.0/relations#" rdf:resource="hdl:1711.dl/CambodianRadio"/>
+	<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/1711.dl:CollectionSEAiT"/>
+	<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/1711.dl:CollectionUNTACArch"/>
+</rdf:Description>
+
+</rdf:RDF>
+    </xmlData>
+   </mdWrap>
+  </techMD>
+ </amdSec>
+ <amdSec ID="x1711-dl_4G6V2XQR7NEJ58D-RELS-EXT">
+  <techMD ID="x1711-dl_4G6V2XQR7NEJ58D-RELS-EXT-TECHMD">
+   <mdWrap MIMETYPE="application/rdf+xml" MDTYPE="OTHER" OTHERMDTYPE="UNSPECIFIED" LABEL="Relationships">
+    <xmlData>
+     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/1711.dl:4G6V2XQR7NEJ58D">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelUWDCObject"/>
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/1711.dl:CModelAudioStream"/>
+	<isMemberOfProject xmlns="http://digital.library.wisc.edu/1711.dl/rdf/1.0/relations#" rdf:resource="hdl:1711.dl/CambodianRadio"/>
+	<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/1711.dl:4VDIZV5LKXKDD8L"/>
+</rdf:Description>
+
+</rdf:RDF>
+    </xmlData>
+   </mdWrap>
+  </techMD>
+ </amdSec>
+ <fileSec>
+  <fileGrp ID="x1711-dl_4VDIZV5LKXKDD8L-DISSEMINATORS">
+   <file ID="x1711-dl_4VDIZV5LKXKDD8L-title" MIMETYPE="text/plain;charset=UTF-8" USE="title">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:4VDIZV5LKXKDD8L/methods/1711.dl:SDefineUWDCObject/getTitle"/>
+   </file>
+   <file ID="x1711-dl_4VDIZV5LKXKDD8L-visualrepresentation" MIMETYPE="image/jpeg" USE="visualrepresentation">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:4VDIZV5LKXKDD8L/methods/1711.dl:SDefineCompositeObject/getVisualRepresentation"/>
+   </file>
+  </fileGrp>
+  <fileGrp ID="x1711-dl_4G6V2XQR7NEJ58D-DISSEMINATORS">
+   <file ID="x1711-dl_4G6V2XQR7NEJ58D-title" MIMETYPE="text/plain;charset=UTF-8" USE="title">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:4G6V2XQR7NEJ58D/methods/1711.dl:SDefineUWDCObject/getTitle"/>
+   </file>
+   <file ID="x1711-dl_4G6V2XQR7NEJ58D-thumb" MIMETYPE="image/png" USE="thumb">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:4G6V2XQR7NEJ58D/methods/1711.dl:SDefineResourceImage/getThumb"/>
+   </file>
+   <file ID="x1711-dl_4G6V2XQR7NEJ58D-icon" MIMETYPE="image/png" USE="icon">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:4G6V2XQR7NEJ58D/methods/1711.dl:SDefineResourceImage/getIcon"/>
+   </file>
+   <file ID="x1711-dl_4G6V2XQR7NEJ58D-audiostream" MIMETYPE="audio/x-pn-realaudio" USE="audiostream">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://depot.library.wisc.edu/repository/fedora/1711.dl:4G6V2XQR7NEJ58D/methods/1711.dl:SDefineAudioStream/getAudioStream"/>
+   </file>
+  </fileGrp>
+ </fileSec>
+ <structMap ID="x1711-dl_4VDIZV5LKXKDD8L-STRUCTMAP">
+  <div ID="x1711-dl_4VDIZV5LKXKDD8L-STRUCT" DMDID="x1711-dl_4VDIZV5LKXKDD8L-BIB0" ADMID="x1711-dl_4VDIZV5LKXKDD8L-ORIGIN x1711-dl_4VDIZV5LKXKDD8L-RELS-EXT">
+   <fptr FILEID="x1711-dl_4VDIZV5LKXKDD8L-title"/>
+   <fptr FILEID="x1711-dl_4VDIZV5LKXKDD8L-visualrepresentation"/>
+   <div ID="x1711-dl_4G6V2XQR7NEJ58D-STRUCT" ORDER="1" DMDID="x1711-dl_4G6V2XQR7NEJ58D-DC" ADMID="x1711-dl_4G6V2XQR7NEJ58D-RELS-EXT" CONTENTIDS="info:fedora/1711.dl:4G6V2XQR7NEJ58D">
+    <fptr FILEID="x1711-dl_4G6V2XQR7NEJ58D-title"/>
+    <fptr FILEID="x1711-dl_4G6V2XQR7NEJ58D-thumb"/>
+    <fptr FILEID="x1711-dl_4G6V2XQR7NEJ58D-icon"/>
+    <fptr FILEID="x1711-dl_4G6V2XQR7NEJ58D-audiostream"/>
+   </div>
+  </div>
+ </structMap>
+</mets>

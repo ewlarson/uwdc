@@ -7,18 +7,23 @@ end
 
 # AfricaFocus - Hyena Wrestler with Muzzled Hyena
 def get_africa_focus_mets
-  @get  = Nokogiri::XML.parse("../fixtures/africa_focus_mets.xml")
+  @xml  = File.read(File.expand_path("../fixtures/africa_focus_mets.xml", __FILE__))
   @id   = 'ECJ6ZXEYWUE7B8W'
 end
 
 # Artists' Books - A broth for two parents
 def get_artists_books_mets
-  @get  = Nokogiri::XML.parse("../fixtures/artists_books_mets.xml")
+  @xml  = File.read(File.expand_path("../fixtures/artists_books_mets.xml", __FILE__))
   @id   = 'CXEB4DPJEOYTM8C'
 end
 
 # Publishers' Bindings - A life idyl
 def get_publishers_bindings_mets
-  @get  = Nokogiri::XML.parse("../fixtures/publishers_bindings_mets.xml")
+  @xml  = File.read(File.expand_path("../fixtures/publishers_bindings_mets.xml", __FILE__))
   @id   = '33QOBSVPJLWEM8S'
+end
+
+def get_untac_archives_mets
+  @xml  = File.read(File.expand_path("../fixtures/untac_archives_mets.xml", __FILE__))
+  @id   = '4VDIZV5LKXKDD8L'
 end

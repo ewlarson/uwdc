@@ -21,7 +21,7 @@ describe UWDC::Mods do
   context 'PBO' do
     before(:each) do
       get_publishers_bindings_mets
-      @mods = UWDC::Mods.new(@id)
+      @mods = UWDC::Mods.new(@id,@xml)
     end
     
     supported_mods_attributes.each do |method|
@@ -50,7 +50,7 @@ describe UWDC::Mods do
   context 'AfricaFocus' do
     before(:each) do
       get_africa_focus_mets
-      @mods = UWDC::Mods.new(@id)
+      @mods = UWDC::Mods.new(@id,@xml)
     end
     
     supported_mods_attributes.each do |method|
@@ -82,7 +82,7 @@ describe UWDC::Mods do
   context 'Artists\' Books' do
     before(:each) do
       get_artists_books_mets
-      @mods = UWDC::Mods.new(@id)
+      @mods = UWDC::Mods.new(@id,@xml)
     end
     
     supported_mods_attributes.each do |method|
