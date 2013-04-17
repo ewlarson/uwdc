@@ -1,4 +1,4 @@
-Copyright (c) 2013 Eric Larson
+Copyright (c) 2013 Board of Regents - University of Wisconsin System
 
 MIT License
 
