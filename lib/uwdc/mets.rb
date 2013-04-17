@@ -6,9 +6,10 @@ module UWDC
     # Intialize a UWDC Mets object
     #
     # @param [String] id of the object
-    def initialize(id, xml=false)
+    def initialize(id, xml=nil)
       @id = id
       @xml ||= UWDC::XML.new(@id,xml)
+      raise(XmlNotFound) unless [nil,200].include?(@xml.status)
     end
     
     def nodes
@@ -62,6 +63,7 @@ module UWDC
     end
   end
   
+  # Return one division from the StructMap
   class Div
     attr_accessor :id, :admid, :order
     
@@ -81,6 +83,7 @@ module UWDC
     end
   end
 
+  # Return one file asset from the FileSec
   class FileAsset
     attr_accessor :id, :mimetype, :use, :href, :title
     

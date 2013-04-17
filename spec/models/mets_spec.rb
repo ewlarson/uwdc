@@ -29,4 +29,12 @@ describe UWDC::Mets do
       end
     end
   end
+  
+  context 'BAD ID' do
+    it 'should err on a bad id' do
+      expect do
+        UWDC::Mets.new('hellhog')
+      end.to raise_error(UWDC::XmlNotFound)
+    end
+  end
 end
