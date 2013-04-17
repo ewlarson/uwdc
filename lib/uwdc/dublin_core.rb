@@ -1,4 +1,5 @@
 module UWDC
+  # Return dublin core based metadata associated with METS files
   class DublinCore < Mets
     def nodes
       @xml.nodes.xpath("//dmdSec//dc")

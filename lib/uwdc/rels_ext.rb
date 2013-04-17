@@ -1,4 +1,5 @@
 module UWDC
+  # Return the CMODELS related to METS file objects
   class RelsExt < Mets
     def nodes
       @xml.nodes.xpath("//amdSec[contains(@ID,'#{@id}')]//RDF[1]")

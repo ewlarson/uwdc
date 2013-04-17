@@ -1,9 +1,10 @@
 module UWDC
+  # Return an object to drive the display of UWDC items
   class Display
     
     attr_accessor :mets, :title, :visual_representation
     
-    def initialize(id, xml=false)
+    def initialize(id, xml=nil)
       @mets = UWDC::Mets.new(id,xml)
     end
     
@@ -42,9 +43,13 @@ module UWDC
       @mets.file_sec.files
     end
     
+    def image_files(model)
+      files.select{|file| file.id.include?(model) && use[file.use][:partial] == "image"}
+    end
+    
     def images
       viewable_models.inject({}) do |result, model|
-        result[model] = files.select{|file| file.id.include?(model) && use[file.use][:partial] == "image"}
+        result[model] = image_files(model)
         result
       end
     end
@@ -66,10 +71,14 @@ module UWDC
     def content_models
       @mets.rels_ext.models
     end
+    
+    def viewable_model?(model)
+      model.last.detect{|name| cmodels[name][:view] == true}
+    end
 
     def viewable_models
       content_models.inject([]) do |result, model|
-        result << clean_id(model.first) if model.last.detect{|name| cmodels[name][:view] == true}
+        result << clean_id(model.first) if viewable_model?(model)
         result
       end
     end

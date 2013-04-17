@@ -1,4 +1,5 @@
 module UWDC
+  # Return the structure of a METS file
   class StructMap < Mets
     def nodes
       @xml.nodes.xpath("//structMap[contains(@ID,'#{@id}')]")
