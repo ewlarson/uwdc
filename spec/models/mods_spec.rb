@@ -2,20 +2,6 @@
 require File.expand_path(File.dirname(__FILE__) + '../../spec_helper')
 require 'uwdc'
 
-def supported_mods_attributes
-  [
-    :titles, 
-    :names,
-    :dates,
-    :forms,
-    :abstracts,
-    :subjects,
-    :subjects_heirarchical_geographic,
-    :access_conditions,
-    :related_items
-  ]
-end
-
 describe UWDC::Mods do
   
   context 'PBO' do
@@ -24,7 +10,7 @@ describe UWDC::Mods do
       @mods = UWDC::Mods.new(@id,@xml)
     end
     
-    supported_mods_attributes.each do |method|
+    UWDC::Mods.attributes.each do |method|
       it { expect(@mods).to respond_to(:"#{method}")}
     end
     
@@ -53,7 +39,7 @@ describe UWDC::Mods do
       @mods = UWDC::Mods.new(@id,@xml)
     end
     
-    supported_mods_attributes.each do |method|
+    UWDC::Mods.attributes.each do |method|
       it { expect(@mods).to respond_to(:"#{method}")}
     end
     
@@ -85,7 +71,7 @@ describe UWDC::Mods do
       @mods = UWDC::Mods.new(@id,@xml)
     end
     
-    supported_mods_attributes.each do |method|
+    UWDC::Mods.attributes.each do |method|
       it { expect(@mods).to respond_to(:"#{method}")}
     end
     

@@ -3,12 +3,17 @@ require 'ostruct'
 module UWDC
   # Return MODS metadata for UWDC METS object
   class Mods < Mets
+    
+    def self.attributes
+      [:titles, :names, :dates, :forms, :abstracts, :subjects, :related_items]
+    end
+
     def nodes
       @xml.nodes.xpath("//dmdSec[contains(@ID,'#{@id}')]//mods[1]")
     end
     
     def metadata
-      attributes = [:titles, :names, :dates, :forms, :abstracts, :subjects, :related_items].inject({}) do |result, method|
+      attributes = UWDC::Mods.attributes.inject({}) do |result, method|
         result[method] = self.send(method)
         result
       end
