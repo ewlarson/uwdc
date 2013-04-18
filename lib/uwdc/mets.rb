@@ -161,7 +161,7 @@ module UWDC
     end
   end
   
-  # Return one division from the StructMap
+  # Public: One division from the StructMap
   class Div
     attr_accessor :id, :admid, :order
     
@@ -181,7 +181,7 @@ module UWDC
     end
   end
 
-  # Return one file asset from the FileSec
+  # Public: One file asset from the FileSec
   class FileAsset
     attr_accessor :id, :mimetype, :use, :href, :title
     
