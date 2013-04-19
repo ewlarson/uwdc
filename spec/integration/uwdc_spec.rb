@@ -31,7 +31,7 @@ describe UWDC::Mets do
       expect(@mets.mods.nodes.xpath('//mods')).to be_true
     end
     
-    [:titles, :dates, :forms, :subjects, :abstracts].each do |attribute|
+    UWDC::Mods.attributes.each do |attribute|
       it "should respond_to mods attributes - #{attribute}" do
         expect(@mets.mods.send(attribute)).to be_true
       end
@@ -53,7 +53,7 @@ describe UWDC::Mets do
       expect(@mets.rels_ext.nodes).to be_an_instance_of(Nokogiri::XML::NodeSet)
     end
     
-    it "should allow id-based drill down" do
+    it "should allow id-based drill down", pending: true do
       expect(@mets.rels_ext('U4QQPS4KWQSUA8A').nodes).to be_an_instance_of(Nokogiri::XML::NodeSet)
       expect(@mets.rels_ext('U4QQPS4KWQSUA8A').nodes.xpath('//RDF/Description').attr('about').value).to include('U4QQPS4KWQSUA8A')
     end

@@ -22,6 +22,8 @@ mets.mods.titles
 UWDC METS will contain:
 
 * MODS
+* Origin (PREMIS)
+* RELS-EXT
 * FileSec
 * StructMap
 

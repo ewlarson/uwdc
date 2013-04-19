@@ -14,7 +14,9 @@ module UWDC
     def http_xml(xml,status)
       unless xml
         begin
-          response = http_client.get("http://depot.library.wisc.edu/uwdcutils/METS/1711.dl:#{@id}")
+          # http://depot.library.wisc.edu:9090/fedora/objects/1711.dl:33QOBSVPJLWEM8S/methods/1711.dl:SDefineFirstClassObject/viewMets
+          #response = http_client.get("http://depot.library.wisc.edu/uwdcutils/METS/1711.dl:#{@id}")
+          response = http_client.get("http://depot.library.wisc.edu:9090/fedora/objects/1711.dl:#{@id}/methods/1711.dl:SDefineFirstClassObject/viewMets")
           xml = response.body
           status = response.status
         rescue TimeoutError, HTTPClient::ConfigurationError, HTTPClient::BadResponseError, Nokogiri::SyntaxError => error

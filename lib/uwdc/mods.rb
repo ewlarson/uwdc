@@ -1,17 +1,42 @@
 require 'ostruct'
 
 module UWDC
-  # Return MODS metadata for UWDC METS object
+  # Public: Obtain the MODS metadata for a UWDC METS object
+  #
+  # Example
+  #
+  # @mods = UWDC::Mods.new('ECJ6ZXEYWUE7B8W')
+  # # => MODS object fetched from Fedora
+  # 
+  # @mods = UWDC::Mods.new('ECJ6ZXEYWUE7B8W', File.read('../file.xml'))
+  # # => object constructed from XML file
   class Mods < Mets
     
+    # Public: standardized, supported MODS attributes
     def self.attributes
       [:titles, :names, :dates, :forms, :abstracts, :subjects, :related_items]
     end
 
+    # Public: Access the XML nodes of the MODS XML
+    #
+    # Example
+    #
+    # @mods.nodes
+    # # => Nokogiri::XML::NodeSet
+    #
+    # Returns the Nokogiri::XML::NodeSet for the parsed MODS XML
     def nodes
       @xml.nodes.xpath("//dmdSec[contains(@ID,'#{@id}')]//mods[1]")
     end
     
+    # Public: Access the XML nodes of the METS file
+    #
+    # Example
+    #
+    # @mods.metadata
+    # # => Hash
+    #
+    # Returns {:title => ['A life idyl', ...], ...}
     def metadata
       attributes = UWDC::Mods.attributes.inject({}) do |result, method|
         result[method] = self.send(method)
