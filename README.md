@@ -1,6 +1,7 @@
 UWDC
 ====
 
+[![Gem Version](https://badge.fury.io/rb/uwdc.png)](http://badge.fury.io/rb/uwdc)
 [![Build Status](https://travis-ci.org/ewlarson/uwdc.png)](https://travis-ci.org/ewlarson/uwdc)
 [![Dependency Status](https://gemnasium.com/ewlarson/uwdc.png)](https://gemnasium.com/ewlarson/uwdc)
 [![Code Climate](https://codeclimate.com/github/ewlarson/uwdc.png)](https://codeclimate.com/github/ewlarson/uwdc)
