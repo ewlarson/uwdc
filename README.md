@@ -2,6 +2,7 @@ UWDC
 ====
 
 [![Build Status](https://travis-ci.org/ewlarson/uwdc.png)](https://travis-ci.org/ewlarson/uwdc)
+[![Dependency Status](https://gemnasium.com/ewlarson/uwdc.png)](https://gemnasium.com/ewlarson/uwdc)
 [![Code Climate](https://codeclimate.com/github/ewlarson/uwdc.png)](https://codeclimate.com/github/ewlarson/uwdc)
 
 ## Synopsis
