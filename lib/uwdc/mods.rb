@@ -34,9 +34,9 @@ module UWDC
     # Example
     #
     # @mods.metadata
-    # # => Hash
+    # # => {:title => ['A life idyl', ...], ...}
     #
-    # Returns {:title => ['A life idyl', ...], ...}
+    # Returns Hash
     def metadata
       attributes = UWDC::Mods.attributes.inject({}) do |result, method|
         result[method] = self.send(method)
@@ -46,53 +46,120 @@ module UWDC
       attributes
     end
     
-    # Array of title data
+    # Public: Array of title data
+    #
+    # Example
+    #
+    # @mods.titles
+    # # => ['A life ldyl', ...]
+    # 
+    # Returns Array
     def titles
       clean_nodes(nodes.xpath("//mods/titleInfo//title"))
     end
     
-    # Array of roles and nameParts
+    # Public: Array of roles and nameParts
+    #
+    # Example
+    #
+    # @mods.names
+    # # => [#<OpenStruct name="Foo", role="Bar">, ...]
+    #
+    # Returns Array of OpenStructs
     def names
       nodes.xpath("//mods/name").inject([]){|arr,node| arr << capture_name(node); arr}
     end
-  
-    # Array of dates
+    
+    # Public: Array of dates
+    #
+    # Example
+    #
+    # @mods.dates
+    # # => ["1985", ...]
+    #
+    # Returns Array of Strings
     def dates
       clean_nodes(nodes.xpath("//mods/originInfo//dateIssued"))
     end
   
-    # Array of forms
+    # Public: Array of forms
+    # Example
+    #
+    # @mods.forms
+    # # => ["StillImage", ...]
+    #
+    # Returns Array of Strings
     def forms
       clean_nodes(nodes.xpath("//mods/physicalDescription//form"))
     end
 
-    # Array of abstracts (sometimes translated)
-    # @TODO: support lang here  
+    # Public: Array of abstracts (sometimes translated)
+    # @TODO: support lang here
+    #
+    # Example
+    #
+    # @mods.abstracts
+    # # => ["The man is an entertainer who captured the wild hyena...", ...]
+    #
+    # Returns Array of Strings
     def abstracts
       clean_nodes(nodes.xpath("//mods//abstract"))
     end
   
-    # Array of subject data
+    # Public: Array of subject data
+    #
+    # Example
+    #
+    # @mods.subjects
+    # # => ["Delehanty, James", "Animals", ...]
+    #
+    # Returns Array of Strings
     def subjects
       clean_nodes(nodes.xpath("//mods/subject//topic"))
     end
     
+    # Public: Array of geographic subject data
     # @TODO: subjects_heirarchical_geographic
+    #
+    # Example
+    # @mods.subjects_heirarchical_geographic
+    # # => ["Foo", "Bar", "Baz"]
     def subjects_heirarchical_geographic
     end
     
-    # Struct - Terms of Use and Ri
+    # Public: OpenStruct - Terms of Use and Reuse Rights
+    #
+    # Example
+    # 
+    # @mods.access_conditions
+    # # => #<OpenStruct rights=["Delehanty, Jim"], reuse=["Delehanty, Jim"]>
+    #
+    # Retuns an OpenStruct
     def access_conditions
       OpenStruct.new(rights: rights, reuse: reuse)
     end
     
-    # Array of Structs - Related items' label and value
+    # Public: Array of Structs - Related items' label and value
+    #
+    # Example
+    #
+    # @mods.related_items
+    # # => [#<OpenStruct label="Part of", name="Africa Focus">, ...]
+    #
+    # Retuns Array of OpenStruct
     def related_items
       nodes.xpath("//mods/relatedItem").inject([]){|arr,node| arr << capture_relation(node) ; arr }
     end
   
-    # Check MODS for validity
-    # @TODO: UWDC MODS Schema?
+    # Public: Check MODS for validity
+    # @TODO: Use the UWDC MODS Schema
+    #
+    # Example
+    #
+    # @mods.valid?
+    # # => true
+    #
+    # Returns Boolean
     def valid?
       response = http_client.get("http://www.loc.gov/standards/mods/mods.xsd")
       xsd = Nokogiri::XML::Schema.new(response.body)
@@ -101,23 +168,28 @@ module UWDC
     end
     
     private
-    
+
+    # Internal: Rights/Ownership String    
     def rights
       clean_nodes(nodes.xpath("//accessCondition[@type='rightsOwnership']"))
     end
-    
+
+    # Internal: Reuse Rights String    
     def reuse
       clean_nodes(nodes.xpath("//accessCondition[@type='useAndReproduction']"))
     end
     
+    # Internal: Related Label String
     def related_label(node)
       node['displayLabel'] ? node['displayLabel'] : "Related item"
     end
     
+    # Internal: Capture relation metadata
     def capture_relation(node)
       OpenStruct.new(label: related_label(node), name: node.xpath('.//name | .//title').text)
     end
-    
+
+    # Internal: Capture name metadata
     def capture_name(node)
       OpenStruct.new(name: node.xpath('.//namePart').text, role: node.xpath('.//role/roleTerm').text)
     end
