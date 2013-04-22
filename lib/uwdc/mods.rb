@@ -65,6 +65,9 @@ module UWDC
     # @mods.names
     # # => [#<OpenStruct name="Foo", role="Bar">, ...]
     #
+    # @mods.names.first.name
+    # # => "Foo"
+    #
     # Returns Array of OpenStructs
     def names
       nodes.xpath("//mods/name").inject([]){|arr,node| arr << capture_name(node); arr}
@@ -134,6 +137,9 @@ module UWDC
     # @mods.access_conditions
     # # => #<OpenStruct rights=["Delehanty, Jim"], reuse=["Delehanty, Jim"]>
     #
+    # @mods.access_conditions.rights
+    # # => "Delehanty, Jim"
+    #
     # Retuns an OpenStruct
     def access_conditions
       OpenStruct.new(rights: rights, reuse: reuse)
@@ -145,6 +151,9 @@ module UWDC
     #
     # @mods.related_items
     # # => [#<OpenStruct label="Part of", name="Africa Focus">, ...]
+    #
+    # @mods.related_items.first.name
+    # # => "Africa Focus"
     #
     # Retuns Array of OpenStruct
     def related_items
