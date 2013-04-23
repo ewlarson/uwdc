@@ -17,7 +17,7 @@ Obtain the METS metadata for a UWDC object.
 
 ```ruby
 require 'uwdc'
-mets = UWDC::Mets.new('33QOBSVPJLWEM8S') # Ignoring 
+mets = UWDC::Mets.new('33QOBSVPJLWEM8S')
 mets.mods
 mets.mods.titles
 ```
