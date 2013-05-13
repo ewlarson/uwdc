@@ -1,5 +1,10 @@
 module UWDC
-  # Return an object to drive the display of UWDC items
+  # Public: Return an object to drive the display of UWDC items
+  #
+  # Example
+  #
+  # @display = UWDC::Display.new('33QOBSVPJLWEM8S')
+  # # => object
   class Display
     
     attr_accessor :mets, :title, :visual_representation
@@ -8,7 +13,7 @@ module UWDC
       @mets = UWDC::Mets.new(id,xml)
     end
     
-    def use
+    def self.use
       {
         "title"                 => { :view => false,  :partial => "text" },
         "visualrepresentation"  => { :view => false,  :partial => "text" },
@@ -20,7 +25,7 @@ module UWDC
       }
     end
     
-    def cmodels
+    def self.cmodels
       {
         "info:fedora/1711.dl:CModelAudio"                   => { :view => true,   :partial => "audio" },
         "info:fedora/1711.dl:CModelAudioStream"             => { :view => true,   :partial => "audio" },
@@ -44,7 +49,7 @@ module UWDC
     end
     
     def image_files(model)
-      files.select{|file| file.id.include?(model) && use[file.use][:partial] == "image"}
+      files.select{|file| file.id.include?(model) && UWDC::Display.use[file.use][:partial] == "image"}
     end
     
     def images
@@ -64,6 +69,20 @@ module UWDC
       @mets.mods
     end
     
+    # @TODO: 
+    # Public: Partials is the intersection of the struct_map and the object cmodels
+    # Need to preserve the struct map's "div" structure
+    # But also tease out which objects are displayable via which partials
+    # 
+    # Return an array of Hashes (possibly nested) of ids keying to view partials
+    def partials
+      @mets.struct_map.structure
+    end
+    
+    def models
+      @mets.rels_ext.models
+    end
+
     alias :metadata :mods
     
     private
@@ -73,7 +92,7 @@ module UWDC
     end
     
     def viewable_model?(model)
-      model.last.detect{|name| cmodels[name][:view] == true}
+      model.last.detect{|name| UWDC::Display.cmodels[name][:view] == true}
     end
 
     def viewable_models

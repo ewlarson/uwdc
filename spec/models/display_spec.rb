@@ -2,6 +2,11 @@
 require File.expand_path(File.dirname(__FILE__) + '../../spec_helper')
 require 'uwdc'
 
+def clean_id(id)
+  clean = id.split("-")
+  "#{clean[0]}-#{clean[1]}"
+end
+
 describe UWDC::Display do
   
   context 'PBO' do
@@ -11,11 +16,11 @@ describe UWDC::Display do
     end
     
     it "should include use attributes" do
-      expect(@display.use).to be_true
+      expect(UWDC::Display.use).to be_true
     end
     
     it "should include content models" do
-      expect(@display.cmodels).to be_true
+      expect(UWDC::Display.cmodels).to be_true
     end
     
     it "should include files" do
@@ -30,6 +35,18 @@ describe UWDC::Display do
     it "should have metadata" do
       expect(@display.metadata).to be_true
       expect(@display.metadata).to be_an_instance_of(UWDC::Mods)
+    end
+    
+    it "should have partials" do
+      #puts @display.partials.inspect
+      expect(@display.partials).to be_true
+    end
+    
+    it "should have models" do
+      @display.partials.each do |div|
+        puts @display.models.select{|model| model.include?(clean_id(div.id))}
+      end
+      expect(@display.models).to be_true
     end
   end
   
