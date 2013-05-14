@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   
   gem.add_dependency('httpclient', '~>2.3.3')
   gem.add_dependency('nokogiri', '~>1.5.2')
-  gem.add_dependency('json', '~>1.7.0')
+  gem.add_dependency('json', '~>1.8.0')
   gem.add_dependency('active_support', '~>3.0.0')
 
   gem.add_development_dependency 'rake'
