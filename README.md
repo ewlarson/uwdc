@@ -24,6 +24,10 @@ require 'uwdc'
 mets = UWDC::Mets.new('33QOBSVPJLWEM8S')
 mets.mods
 mets.mods.titles
+# => ["A life idyl"]
+
+mets.mods.metadata
+# => {:titles=>["A life idyl"], :names=>[], :dates=>["1869"], :forms=>["text"], ...}
 ```
 
 UWDC METS will contain:
