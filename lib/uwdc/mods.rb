@@ -1,5 +1,3 @@
-require 'ostruct'
-
 module UWDC
   # Public: Obtain the MODS metadata for a UWDC METS object
   #
@@ -140,7 +138,7 @@ module UWDC
     # @mods.access_conditions.rights
     # # => "Delehanty, Jim"
     #
-    # Retuns an OpenStruct
+    # Returns an OpenStruct
     def access_conditions
       OpenStruct.new(rights: rights, reuse: reuse)
     end
