@@ -12,10 +12,10 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Use the UWDC collections}
   gem.homepage      = "https://github.com/ewlarson/uwdc"
   
-  gem.add_dependency 'httpclient'
-  gem.add_dependency 'nokogiri'
-  gem.add_dependency 'json'
-  gem.add_dependency 'active_support'
+  gem.add_dependency('httpclient', '~>2.3')
+  gem.add_dependency('nokogiri', '~>1.5')
+  gem.add_dependency('json', '~>1.7')
+  gem.add_dependency('active_support', '~>3.0')
 
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rspec'
