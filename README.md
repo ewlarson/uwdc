@@ -10,6 +10,10 @@ UWDC
 
 Gem for accessing University of Wisconsin Digital Collection items from our Fedora Commons repository.
 
+## Install
+
+gem install uwdc
+
 ## Usage
 
 ### METS
@@ -91,9 +95,9 @@ MODS top-level elements are boiled in Ruby to something more dot-syntax friendly
   </tbody>
 </table>
 
+Transform via to_* calls. Supports JSON, Ruby and XML
+
 ```ruby
-# Transform via to_* calls
-# - supports JSON, Ruby and XML
 mods.to_json
 mods.to_ruby
 mods.to_xml
