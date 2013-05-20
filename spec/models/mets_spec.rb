@@ -3,7 +3,7 @@ require File.expand_path(File.dirname(__FILE__) + '../../spec_helper')
 require 'uwdc'
 
 def klass_methods
-  [:mods, :struct_map, :rels_ext, :file_sec, :dublin_core]
+  [:mods, :origin, :struct_map, :rels_ext, :file_sec, :dublin_core]
 end
 
 def formats

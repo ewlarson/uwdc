@@ -83,6 +83,18 @@ module UWDC
       @mods = Mods.new(@id)
     end
     
+    # Public: Access the Origin metadata XML nodes
+    # 
+    # Example
+    #
+    # @mets.origin
+    # # => UWDC::Origin
+    #
+    # Returns a UWDC::Origin object
+    def origin
+      @origin = Origin.new(@id)
+    end
+    
     # Public: Access the StructMap structural map section XML nodes
     # 
     # Example
