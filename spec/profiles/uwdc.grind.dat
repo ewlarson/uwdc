@@ -1,0 +1,5198 @@
+events: process_time
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Array#slice!
+0 7
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Comparable#<=
+0 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/core_ext/time/calculations.rb
+cfn=Time#compare_with_coercion
+calls=1 276
+276 44
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Session#invalidated?
+658 5
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::SessionManager#valid_session?
+275 10
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#invalidated?
+calls=1 276
+276 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/core_ext/time/calculations.rb
+cfn=Time#plus_with_duration
+calls=1 276
+276 23
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Comparable#<=
+calls=1 276
+276 49
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Enumerable#each_with_index
+0 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 252
+252 118
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Site#eql?
+62 7
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Site#==
+calls=1 63
+63 8
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/uwdc-0.0.6/lib/uwdc/mets.rb
+fn=UWDC::Mets#mods
+82 11
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 83
+83 5374
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Body#content
+533 8
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message#content
+1001 14
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Body#content
+calls=1 1002
+1002 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Body#content
+calls=1 1002
+1002 4
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/thread.rb
+fn=Queue#pop
+183 12
+cfl=/Users/ewlarson/Ruby/uwdc/<internal:prelude>
+cfn=Mutex#synchronize
+calls=1 184
+184 30
+cfl=/Users/ewlarson/Ruby/uwdc/<internal:prelude>
+cfn=Mutex#synchronize
+calls=1 184
+184 30
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/connection.rb
+fn=HTTPClient::Connection#pop
+66 26
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/thread.rb
+cfn=Queue#pop
+calls=1 67
+67 36
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 68
+68 3
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/thread.rb
+cfn=Queue#pop
+calls=1 67
+67 36
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 68
+68 3
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::WWWAuth#filter_response
+127 19
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#status
+calls=1 129
+129 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#status
+calls=1 129
+129 4
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message#status
+960 26
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::ProxyAuth#filter_response
+207 24
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#status
+calls=1 209
+209 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#status
+calls=1 209
+209 5
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Array#unshift
+0 6
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#hash
+0 8
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#hash
+0 16
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Array#hash
+0 38
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#hash
+calls=2 67
+67 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#hash
+calls=1 67
+67 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#hash
+calls=2 67
+67 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#hash
+calls=1 67
+67 1
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#hash
+calls=2 67
+67 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#hash
+calls=1 67
+67 3
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Site#hash
+66 21
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#hash
+calls=1 67
+67 23
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#hash
+calls=1 67
+67 14
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#hash
+calls=1 67
+67 25
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::SessionManager#add_cached_session
+279 11
+cfl=/Users/ewlarson/Ruby/uwdc/<internal:prelude>
+cfn=Mutex#synchronize
+calls=1 280
+280 69
+cfl=/Users/ewlarson/Ruby/uwdc/<internal:prelude>
+cfn=Mutex#synchronize
+calls=1 280
+280 62
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::SessionManager#keep
+182 12
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#add_cached_session
+calls=1 183
+183 75
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#add_cached_session
+calls=1 183
+183 67
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Session#closed?
+650 14
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#==
+calls=1 651
+651 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#==
+calls=1 651
+651 2
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Session#eof?
+675 27
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 676
+676 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 676
+676 4
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#set_encoding
+1153 45
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#force_encoding
+calls=4 1154
+1154 12
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#force_encoding
+calls=4 1154
+1154 8
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message#body_encoding
+996 32
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=IO#readpartial
+0 224
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Session#read_body_length
+947 380
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+cfn=Object#timeout
+calls=4 953
+953 12754
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#bytesize
+calls=8 962
+962 24
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#body_encoding
+calls=4 1089
+1089 18
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#set_encoding
+calls=4 1089
+1089 36
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+cfn=Object#timeout
+calls=4 953
+953 805
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#bytesize
+calls=8 962
+962 17
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#body_encoding
+calls=4 1089
+1089 14
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#set_encoding
+calls=4 1089
+1089 29
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Session#get_body
+683 56
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#==
+calls=1 685
+685 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=BasicObject#!=
+calls=1 686
+686 7
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#read_body_length
+calls=1 703
+703 13061
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#eof?
+calls=1 711
+711 20
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#==
+calls=1 685
+685 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=BasicObject#!=
+calls=1 686
+686 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#read_body_length
+calls=1 703
+703 1016
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#eof?
+calls=1 711
+711 14
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/thread.rb
+fn=Queue#push
+156 13
+cfl=/Users/ewlarson/Ruby/uwdc/<internal:prelude>
+cfn=Mutex#synchronize
+calls=1 157
+157 39
+cfl=/Users/ewlarson/Ruby/uwdc/<internal:prelude>
+cfn=Mutex#synchronize
+calls=1 157
+157 31
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/connection.rb
+fn=HTTPClient::Connection#push
+74 17
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/thread.rb
+cfn=Queue#push
+calls=1 75
+75 47
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/thread.rb
+cfn=Queue#push
+calls=1 75
+75 36
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#encoding
+0 7
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#force_encoding
+0 28
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=<Class::Encoding>#find
+0 14
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Array#last
+0 6
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#==
+0 7
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Array#assoc
+0 11
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#==
+calls=1 499
+499 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#==
+calls=1 499
+499 3
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#scan
+0 37
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#downcase
+calls=1 471
+471 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#downcase
+calls=1 471
+471 3
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Regexp#to_s
+0 68
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/open-uri.rb
+fn=OpenURI::Meta#content_type_parse
+460 308
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Regexp#to_s
+calls=13 467
+467 68
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Regexp#=~
+calls=1 463
+463 12
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#downcase
+calls=2 465
+465 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#scan
+calls=1 467
+467 26
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Regexp#=~
+calls=1 463
+463 9
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#downcase
+calls=2 465
+465 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#scan
+calls=1 467
+467 18
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/open-uri.rb
+fn=OpenURI::Meta#charset
+497 32
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/open-uri.rb
+cfn=OpenURI::Meta#content_type_parse
+calls=1 498
+498 397
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#assoc
+calls=1 499
+499 11
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#last
+calls=1 500
+500 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#downcase
+calls=1 500
+500 2
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/open-uri.rb
+cfn=OpenURI::Meta#content_type_parse
+calls=1 498
+498 56
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#assoc
+calls=1 499
+499 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#last
+calls=1 500
+500 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#downcase
+calls=1 500
+500 2
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/open-uri.rb
+fn=OpenURI::Meta#meta_setup_encoding
+421 47
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/open-uri.rb
+cfn=OpenURI::Meta#charset
+calls=1 422
+422 432
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Encoding>#find
+calls=1 426
+426 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 431
+431 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#force_encoding
+calls=1 432
+432 5
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/open-uri.rb
+cfn=OpenURI::Meta#charset
+calls=1 422
+422 81
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Encoding>#find
+calls=1 426
+426 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 431
+431 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#force_encoding
+calls=1 432
+432 3
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Hash#[]=
+0 19
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Site#hash
+calls=1 281
+281 30
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/open-uri.rb
+fn=OpenURI::Meta#meta_add_field
+440 31
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#downcase
+calls=1 441
+441 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#[]=
+calls=1 442
+442 6
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/open-uri.rb
+cfn=OpenURI::Meta#meta_setup_encoding
+calls=1 443
+443 476
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#downcase
+calls=1 441
+441 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#[]=
+calls=1 442
+442 6
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/open-uri.rb
+cfn=OpenURI::Meta#meta_setup_encoding
+calls=1 443
+443 114
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=BasicObject#instance_eval
+0 19
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/open-uri.rb
+fn=<Module::OpenURI::Meta>#init
+395 32
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#extend
+calls=1 396
+396 19
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=BasicObject#instance_eval
+calls=1 397
+397 10
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#extend
+calls=1 396
+396 18
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=BasicObject#instance_eval
+calls=1 397
+397 9
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#[]
+317 31
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#get
+calls=1 318
+318 85
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#collect
+calls=1 318
+318 7
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#get
+calls=1 318
+318 84
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#collect
+calls=1 318
+318 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#get
+calls=1 318
+318 67
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#collect
+calls=1 318
+318 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#get
+calls=1 318
+318 66
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#collect
+calls=1 318
+318 2
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#content_type
+219 15
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#[]
+calls=1 220
+220 102
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#[]
+calls=1 220
+220 80
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#set_body_encoding
+233 41
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#content_type
+calls=1 234
+234 111
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/open-uri.rb
+cfn=<Module::OpenURI::Meta>#init
+calls=1 235
+235 48
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/open-uri.rb
+cfn=OpenURI::Meta#meta_add_field
+calls=1 236
+236 502
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#encoding
+calls=1 237
+237 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#content_type
+calls=1 234
+234 86
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/open-uri.rb
+cfn=<Module::OpenURI::Meta>#init
+calls=1 235
+235 40
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/open-uri.rb
+cfn=OpenURI::Meta#meta_add_field
+calls=1 236
+236 138
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#encoding
+calls=1 237
+237 3
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#set_headers
+321 19
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 322
+322 152
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set_body_encoding
+calls=1 325
+325 689
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 322
+322 126
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set_body_encoding
+calls=1 325
+325 284
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message#reason=
+979 11
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message#status=
+969 13
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#status_code=
+calls=1 970
+970 8
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#status_code=
+calls=1 970
+970 13
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message#http_version=
+944 12
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Session#no_message_body?
+922 67
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 924
+924 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 924
+924 2
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Session#parse_keepalive_header
+927 233
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#downcase
+calls=10 928
+928 27
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#to_i
+calls=1 930
+930 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#downcase
+calls=10 928
+928 22
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#to_i
+calls=1 930
+930 4
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#split
+0 129
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#strip
+0 65
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#[]
+0 90
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#chomp!
+0 52
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Regexp#=~
+0 147
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#!~
+0 20
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Regexp#=~
+calls=1 889
+889 101
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Regexp#=~
+calls=1 889
+889 25
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=IO#gets
+0 140
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Session#parse_header
+874 16
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+cfn=Object#timeout
+calls=1 875
+875 1272
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+cfn=Object#timeout
+calls=1 875
+875 1046
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Session#read_header
+853 60
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#parse_header
+calls=1 858
+858 1281
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#shift
+calls=1 861
+861 9
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#no_message_body?
+calls=1 862
+862 61
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#parse_header
+calls=1 858
+858 1053
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#shift
+calls=1 861
+861 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#no_message_body?
+calls=1 862
+862 11
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=BasicObject#!=
+0 14
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#==
+calls=1 664
+664 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#==
+calls=1 686
+686 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#==
+calls=1 664
+664 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#==
+calls=1 686
+686 2
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Session#get_header
+662 31
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=BasicObject#!=
+calls=1 664
+664 6
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#read_header
+calls=1 667
+667 1382
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=BasicObject#!=
+calls=1 664
+664 6
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#read_header
+calls=1 667
+667 1097
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#do_get_header
+1136 54
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#get_header
+calls=1 1137
+1137 1405
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#http_version=
+calls=1 1137
+1137 7
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#status=
+calls=1 1137
+1137 16
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#reason=
+calls=1 1137
+1137 6
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set_headers
+calls=1 1138
+1138 851
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#[]
+calls=1 1140
+1140 95
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 1140
+1140 2
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#get_header
+calls=1 1137
+1137 1117
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#http_version=
+calls=1 1137
+1137 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#status=
+calls=1 1137
+1137 18
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#reason=
+calls=1 1137
+1137 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set_headers
+calls=1 1138
+1138 419
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#[]
+calls=1 1140
+1140 74
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 1140
+1140 2
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=IO#write
+0 76
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=IO#<<
+0 15
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=IO#write
+calls=1 498
+498 105
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=IO#write
+calls=1 498
+498 96
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Body#dump
+482 31
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 483
+483 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#file?
+calls=1 483
+483 13
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=IO#<<
+calls=1 498
+498 113
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 483
+483 2
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#file?
+calls=1 483
+483 11
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=IO#<<
+calls=1 498
+498 103
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Array#join
+0 10
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Array#collect
+0 72
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::ProxyAuth#filter_response
+calls=1 1100
+1100 18
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::WWWAuth#filter_response
+calls=1 1100
+1100 12
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::ProxyAuth#filter_response
+calls=1 1100
+1100 16
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::WWWAuth#filter_response
+calls=1 1100
+1100 14
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#create_query_part
+340 15
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#create_query_uri
+328 31
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 333
+333 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#empty?
+calls=1 333
+333 2
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#create_query_part
+calls=1 334
+334 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 333
+333 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#empty?
+calls=1 333
+333 2
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#create_query_part
+calls=1 334
+334 7
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#request_line
+357 25
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#create_query_uri
+calls=1 358
+358 29
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#create_query_uri
+calls=1 358
+358 27
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Fixnum#to_s
+0 9
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#<=>
+0 30
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Comparable#>=
+0 40
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#<=>
+calls=1 799
+799 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#<=>
+calls=1 393
+393 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#<=>
+calls=1 799
+799 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#<=>
+calls=1 799
+799 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#<=>
+calls=1 393
+393 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#<=>
+calls=1 799
+799 12
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=<Class::HTTP::Message>#keep_alive_enabled?
+798 35
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Comparable#>=
+calls=1 799
+799 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Comparable#>=
+calls=1 799
+799 23
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Comparable#>=
+calls=1 799
+799 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Comparable#>=
+calls=1 799
+799 20
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#set_request_header
+381 62
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#keep_alive_enabled?
+calls=1 384
+384 16
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Comparable#>=
+calls=1 393
+393 6
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#get
+calls=1 393
+393 37
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#empty?
+calls=1 393
+393 2
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#default_port
+calls=1 394
+394 14
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#hostname
+calls=1 398
+398 12
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#to_s
+calls=1 398
+398 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set
+calls=1 398
+398 48
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#keep_alive_enabled?
+calls=1 384
+384 14
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Comparable#>=
+calls=1 393
+393 6
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#get
+calls=1 393
+393 34
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#empty?
+calls=1 393
+393 3
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#default_port
+calls=1 394
+394 11
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#hostname
+calls=1 398
+398 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#to_s
+calls=1 398
+398 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set
+calls=1 398
+398 46
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#set_header
+373 12
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set_request_header
+calls=1 375
+375 172
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set_request_header
+calls=1 375
+375 156
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#dump
+253 36
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set_header
+calls=1 254
+254 178
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#request_line
+calls=1 257
+257 42
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#collect
+calls=1 263
+263 14
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#join
+calls=1 263
+263 6
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set_header
+calls=1 254
+254 162
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#request_line
+calls=1 257
+257 39
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#collect
+calls=1 263
+263 15
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#join
+calls=1 263
+263 4
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message#dump
+919 27
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#dump
+calls=1 920
+920 260
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Body#dump
+calls=1 924
+924 144
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#dump
+calls=1 920
+920 236
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Body#dump
+calls=1 924
+924 132
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#sprintf
+0 31
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Time#sec
+0 6
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Time#min
+0 5
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Time#hour
+0 5
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Time#year
+0 7
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Time#mon
+0 5
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Time#day
+0 5
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Time#wday
+0 6
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Time#utc
+0 23
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#<=>
+calls=2 498
+498 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#divmod
+calls=1 498
+498 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#<=>
+calls=2 498
+498 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#divmod
+calls=1 498
+498 3
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Time#initialize_copy
+0 6
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#initialize_dup
+0 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#initialize_copy
+calls=1 498
+498 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#initialize_copy
+calls=1 498
+498 3
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#dup
+0 18
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#allocate
+calls=1 498
+498 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#initialize_dup
+calls=1 498
+498 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#allocate
+calls=1 498
+498 1
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#initialize_dup
+calls=1 498
+498 6
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/time.rb
+fn=Time#httpdate
+497 58
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#dup
+calls=1 498
+498 18
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#utc
+calls=1 498
+498 21
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#wday
+calls=1 499
+499 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#day
+calls=1 499
+499 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#mon
+calls=1 499
+499 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#year
+calls=2 499
+499 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#hour
+calls=1 499
+499 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#min
+calls=1 499
+499 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#sec
+calls=1 499
+499 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#sprintf
+calls=1 499
+499 16
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#dup
+calls=1 498
+498 16
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#utc
+calls=1 498
+498 15
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#wday
+calls=1 499
+499 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#day
+calls=1 499
+499 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#mon
+calls=1 499
+499 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#year
+calls=2 499
+499 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#hour
+calls=1 499
+499 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#min
+calls=1 499
+499 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#sec
+calls=1 499
+499 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#sprintf
+calls=1 499
+499 15
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#set_date_header
+267 37
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#now
+calls=1 268
+268 20
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/time.rb
+cfn=Time#httpdate
+calls=1 268
+268 108
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set
+calls=1 268
+268 43
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#now
+calls=1 268
+268 15
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/time.rb
+cfn=Time#httpdate
+calls=1 268
+268 90
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set
+calls=1 268
+268 43
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Array#push
+0 64
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#add
+272 211
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=2 273
+273 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#push
+calls=2 278
+278 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 273
+273 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#push
+calls=1 278
+278 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 273
+273 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#push
+calls=1 278
+278 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=10 273
+273 18
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#push
+calls=10 278
+278 18
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=2 273
+273 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#push
+calls=2 278
+278 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 273
+273 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#push
+calls=1 278
+278 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 273
+273 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#push
+calls=1 278
+278 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=10 273
+273 15
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#push
+calls=10 278
+278 15
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Array#delete_if
+0 55
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=1 308
+308 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=2 308
+308 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=3 308
+308 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=1 308
+308 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=2 308
+308 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=3 308
+308 3
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#delete
+306 67
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=2 307
+307 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#delete_if
+calls=2 308
+308 12
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=1 307
+307 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#delete_if
+calls=1 308
+308 13
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=1 307
+307 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#delete_if
+calls=1 308
+308 15
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=2 307
+307 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#delete_if
+calls=2 308
+308 10
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=1 307
+307 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#delete_if
+calls=1 308
+308 13
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=1 307
+307 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#delete_if
+calls=1 308
+308 16
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#set
+283 58
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#delete
+calls=2 284
+284 32
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#add
+calls=2 285
+285 29
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#delete
+calls=1 284
+284 24
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#add
+calls=1 285
+285 13
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#delete
+calls=1 284
+284 27
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#add
+calls=1 285
+285 14
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#delete
+calls=2 284
+284 33
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#add
+calls=2 285
+285 27
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#delete
+calls=1 284
+284 23
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#add
+calls=1 285
+285 12
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#delete
+calls=1 284
+284 26
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#add
+calls=1 285
+285 13
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Enumerable#find_all
+0 52
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=3 296
+296 23
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 296
+296 16
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 296
+296 57
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 296
+296 57
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=3 296
+296 20
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 296
+296 15
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 296
+296 45
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 296
+296 44
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#get
+291 173
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=3 292
+292 14
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=3 295
+295 10
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Enumerable#find_all
+calls=3 296
+296 35
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 292
+292 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=1 295
+295 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Enumerable#find_all
+calls=1 296
+296 20
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 292
+292 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=1 295
+295 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Enumerable#find_all
+calls=1 296
+296 64
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 292
+292 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=1 295
+295 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Enumerable#find_all
+calls=1 296
+296 62
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=3 292
+292 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=3 295
+295 11
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Enumerable#find_all
+calls=3 296
+296 31
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 292
+292 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=1 295
+295 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Enumerable#find_all
+calls=1 296
+296 19
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 292
+292 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=1 295
+295 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Enumerable#find_all
+calls=1 296
+296 49
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 292
+292 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=1 295
+295 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Enumerable#find_all
+calls=1 296
+296 49
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Session#set_header
+723 96
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#get
+calls=3 741
+741 110
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#empty?
+calls=3 741
+741 8
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set
+calls=2 736
+736 75
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set_date_header
+calls=1 742
+742 199
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#get
+calls=3 741
+741 94
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#empty?
+calls=3 741
+741 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set
+calls=2 736
+736 76
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#set_date_header
+calls=1 742
+742 157
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Thread#join
+0 339
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Thread#kill
+0 102
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=IO#sync=
+0 4
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/util.rb
+fn=HTTPClient::Util#https?
+168 13
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#downcase
+calls=1 169
+169 6
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=TCPSocket#initialize
+0 275
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=<Class::IO>#allocate
+0 4
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=<Class::IO>#new
+0 13
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::IO>#allocate
+calls=1 803
+803 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=TCPSocket#initialize
+calls=1 803
+803 919
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Site#==
+57 18
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Session#create_socket
+796 25
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#shift
+calls=1 800
+800 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Site#==
+calls=1 800
+800 10
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::IO>#new
+calls=1 803
+803 936
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=<Class::Thread>#start
+0 11644
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=<Class::Thread>#current
+0 27
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Fixnum#zero?
+0 34
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=BasicObject#==
+0 32
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Fixnum#==
+0 57
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=BasicObject#==
+calls=1 54
+54 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=BasicObject#==
+calls=1 54
+54 1
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=BasicObject#==
+calls=1 54
+54 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=BasicObject#==
+calls=4 54
+54 9
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=BasicObject#==
+calls=1 54
+54 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=BasicObject#==
+calls=1 54
+54 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=BasicObject#==
+calls=4 54
+54 6
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+fn=Timeout#timeout
+53 1876
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#==
+calls=1 54
+54 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#zero?
+calls=1 54
+54 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 58
+58 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Thread>#start
+calls=1 59
+59 65
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#create_socket
+calls=1 752
+752 974
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/util.rb
+cfn=HTTPClient::Util#https?
+calls=1 753
+753 19
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=IO#sync=
+calls=1 775
+775 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Thread#kill
+calls=1 71
+71 11
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Thread#join
+calls=1 72
+72 44
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#==
+calls=1 54
+54 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#zero?
+calls=1 54
+54 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 58
+58 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Thread>#start
+calls=1 59
+59 43
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#set_header
+calls=1 614
+614 442
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#dump
+calls=1 615
+615 419
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Thread#kill
+calls=1 71
+71 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Thread#join
+calls=1 72
+72 46
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#==
+calls=1 54
+54 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#zero?
+calls=1 54
+54 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 58
+58 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Thread>#start
+calls=1 59
+59 42
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=IO#gets
+calls=12 902
+902 164
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 880
+880 19
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#!~
+calls=1 889
+889 112
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#to_i
+calls=1 898
+898 7
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#keep_alive_enabled?
+calls=1 899
+899 32
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#chomp!
+calls=11 906
+906 29
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#empty?
+calls=11 907
+907 24
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#[]
+calls=20 908
+908 48
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#strip
+calls=10 913
+913 31
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#split
+calls=10 913
+913 74
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#parse_keepalive_header
+calls=10 914
+914 158
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Thread#kill
+calls=1 71
+71 15
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Thread#join
+calls=1 72
+72 83
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#==
+calls=4 54
+54 26
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#zero?
+calls=4 54
+54 9
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Thread>#current
+calls=4 58
+58 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Thread>#start
+calls=4 59
+59 11287
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=IO#readpartial
+calls=4 955
+955 382
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Thread#kill
+calls=4 71
+71 34
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Thread#join
+calls=4 72
+72 229
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#==
+calls=1 54
+54 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#zero?
+calls=1 54
+54 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 58
+58 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Thread>#start
+calls=1 59
+59 39
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#set_header
+calls=1 614
+614 377
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#dump
+calls=1 615
+615 380
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Thread#kill
+calls=1 71
+71 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Thread#join
+calls=1 72
+72 46
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#==
+calls=1 54
+54 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#zero?
+calls=1 54
+54 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 58
+58 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Thread>#start
+calls=1 59
+59 26
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=IO#gets
+calls=12 902
+902 128
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 880
+880 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#!~
+calls=1 889
+889 34
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#to_i
+calls=1 898
+898 18
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#keep_alive_enabled?
+calls=1 899
+899 31
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#chomp!
+calls=11 906
+906 23
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#empty?
+calls=11 907
+907 19
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#[]
+calls=20 908
+908 42
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#strip
+calls=10 913
+913 34
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#split
+calls=10 913
+913 55
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#parse_keepalive_header
+calls=10 914
+914 134
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Thread#kill
+calls=1 71
+71 11
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Thread#join
+calls=1 72
+72 71
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#==
+calls=4 54
+54 23
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#zero?
+calls=4 54
+54 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Thread>#current
+calls=4 58
+58 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Thread>#start
+calls=4 59
+59 142
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=IO#readpartial
+calls=4 955
+955 195
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Thread#kill
+calls=4 71
+71 18
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Thread#join
+calls=4 72
+72 224
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+fn=Object#timeout
+98 80
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+cfn=Timeout#timeout
+calls=1 99
+99 1182
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+cfn=Timeout#timeout
+calls=1 99
+99 1012
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+cfn=Timeout#timeout
+calls=1 99
+99 1265
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+cfn=Timeout#timeout
+calls=4 99
+99 12729
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+cfn=Timeout#timeout
+calls=1 99
+99 910
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+cfn=Timeout#timeout
+calls=1 99
+99 1040
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+cfn=Timeout#timeout
+calls=4 99
+99 786
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Session#connect
+747 14
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+cfn=Object#timeout
+calls=1 751
+751 1191
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Session#query
+608 78
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#==
+calls=2 635
+635 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#connect
+calls=1 609
+609 1205
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=NilClass#nil?
+calls=1 611
+611 30
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+cfn=Object#timeout
+calls=1 613
+613 1019
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#push
+calls=1 637
+637 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#now
+calls=1 638
+638 15
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#==
+calls=2 635
+635 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=NilClass#nil?
+calls=1 611
+611 1
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+cfn=Object#timeout
+calls=1 613
+613 917
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#push
+calls=1 637
+637 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#now
+calls=1 638
+638 16
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Session#initialize
+567 49
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Time#compare_without_coercion
+0 11
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#<=>
+calls=1 342
+342 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#<=>
+calls=1 342
+342 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#<=>
+calls=1 342
+342 3
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Fixnum#divmod
+0 15
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Bignum#<=>
+0 7
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Fixnum#<=>
+0 24
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Fixnum#*
+0 16
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Time#getlocal
+0 57
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#*
+calls=2 342
+342 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#<=>
+calls=1 342
+342 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Bignum#<=>
+calls=1 342
+342 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#divmod
+calls=1 342
+342 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#*
+calls=2 342
+342 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#<=>
+calls=1 342
+342 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Bignum#<=>
+calls=1 342
+342 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#divmod
+calls=1 342
+342 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#*
+calls=2 342
+342 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#<=>
+calls=1 342
+342 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Bignum#<=>
+calls=1 342
+342 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#divmod
+calls=1 342
+342 2
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Time#to_time
+0 15
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#getlocal
+calls=1 342
+342 38
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#getlocal
+calls=1 342
+342 36
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#getlocal
+calls=1 342
+342 24
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/core_ext/time/calculations.rb
+fn=Time#compare_with_coercion
+340 26
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 342
+342 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#to_time
+calls=1 342
+342 46
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#compare_without_coercion
+calls=1 342
+342 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 342
+342 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#to_time
+calls=1 342
+342 39
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#compare_without_coercion
+calls=1 342
+342 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 342
+342 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#to_time
+calls=1 342
+342 28
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#compare_without_coercion
+calls=1 342
+342 6
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Comparable#>
+0 11
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/core_ext/time/calculations.rb
+cfn=Time#compare_with_coercion
+calls=1 247
+247 65
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/core_ext/time/calculations.rb
+cfn=Time#compare_with_coercion
+calls=1 247
+247 57
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Time#plus_without_duration
+0 16
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#+
+calls=1 312
+312 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#+
+calls=1 312
+312 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#+
+calls=1 312
+312 1
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/duration.rb
+fn=<Class::ActiveSupport::Duration>#===
+54 23
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 55
+55 1
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 55
+55 1
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 55
+55 3
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/core_ext/time/calculations.rb
+fn=Time#plus_with_duration
+308 27
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/duration.rb
+cfn=<Class::ActiveSupport::Duration>#===
+calls=1 309
+309 10
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#plus_without_duration
+calls=1 312
+312 9
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/duration.rb
+cfn=<Class::ActiveSupport::Duration>#===
+calls=1 309
+309 9
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#plus_without_duration
+calls=1 312
+312 7
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/duration.rb
+cfn=<Class::ActiveSupport::Duration>#===
+calls=1 309
+309 9
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#plus_without_duration
+calls=1 312
+312 6
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::SessionManager#get_cached_session
+244 11
+cfl=/Users/ewlarson/Ruby/uwdc/<internal:prelude>
+cfn=Mutex#synchronize
+calls=1 245
+245 139
+cfl=/Users/ewlarson/Ruby/uwdc/<internal:prelude>
+cfn=Mutex#synchronize
+calls=1 245
+245 297
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Integer#to_i
+0 5
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+fn=URI::Generic#hostname
+659 39
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::SessionManager#open
+198 49
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=2 204
+204 92
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#get_cached_session
+calls=1 201
+201 145
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 199
+199 34
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#get_cached_session
+calls=1 201
+201 302
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::SessionManager#query
+160 32
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#open
+calls=1 162
+162 274
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#query
+calls=1 164
+164 2323
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#open
+calls=1 162
+162 348
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#query
+calls=1 164
+164 970
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Body#init_response
+464 17
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 466
+466 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#bytesize
+calls=1 467
+467 1
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 466
+466 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#bytesize
+calls=1 467
+467 4
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#status_code=
+213 33
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#init_response
+202 29
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#status_code=
+calls=1 204
+204 6
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#status_code=
+calls=1 204
+204 6
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=<Class::HTTP::Message>#new_response
+729 43
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=2 732
+732 57
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#init_response
+calls=1 731
+731 22
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#http_body=
+calls=1 732
+732 10
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Body#init_response
+calls=1 733
+733 14
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#body_size=
+calls=1 734
+734 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=2 732
+732 54
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#init_response
+calls=1 731
+731 19
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#http_body=
+calls=1 732
+732 10
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Body#init_response
+calls=1 733
+733 13
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#body_size=
+calls=1 734
+734 3
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Array#shift
+0 30
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Enumerable#find
+0 21
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#each
+calls=1 795
+795 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 1102
+1102 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#each
+calls=1 795
+795 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 1102
+1102 7
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::OAuth#get
+793 16
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Enumerable#find
+calls=1 797
+797 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Enumerable#find
+calls=1 797
+797 8
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::OAuth#set?
+763 7
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::WWWAuth#filter_request
+111 11
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 112
+112 69
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 112
+112 57
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::BasicAuth#set?
+264 18
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::DigestAuth#set?
+342 16
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::SSPINegotiateAuth#set?
+601 16
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::NegotiateAuth#set?
+516 27
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::ProxyAuth#filter_request
+195 9
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 196
+196 38
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 196
+196 42
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#do_get_block
+1071 109
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 1072
+1072 127
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#shift
+calls=1 1075
+1075 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#new_response
+calls=1 1081
+1081 128
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#query
+calls=1 1083
+1083 2618
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#do_get_header
+calls=1 1086
+1086 2412
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/connection.rb
+cfn=HTTPClient::Connection#push
+calls=1 1087
+1087 57
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#get_body
+calls=1 1088
+1088 13124
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#closed?
+calls=1 1098
+1098 11
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#keep
+calls=1 1098
+1098 81
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#collect
+calls=1 1099
+1099 45
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Enumerable#find
+calls=1 1102
+1102 15
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 1072
+1072 118
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#shift
+calls=1 1075
+1075 1
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#new_response
+calls=1 1081
+1081 120
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#query
+calls=1 1083
+1083 1329
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#do_get_header
+calls=1 1086
+1086 1664
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/connection.rb
+cfn=HTTPClient::Connection#push
+calls=1 1087
+1087 43
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#get_body
+calls=1 1088
+1088 1063
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#closed?
+calls=1 1098
+1098 9
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#keep
+calls=1 1098
+1098 73
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#collect
+calls=1 1099
+1099 40
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Enumerable#find
+calls=1 1102
+1102 12
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#protect_keep_alive_disconnected
+979 17
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#do_get_block
+calls=1 887
+887 18679
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#do_get_block
+calls=1 887
+887 4523
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/cookie.rb
+fn=WebAgent::CookieManager#find
+283 14
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#empty?
+calls=1 284
+284 1
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#empty?
+calls=1 284
+284 1
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#bytesize
+0 50
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=<Class::HTTP::Message>#multiparam_query?
+803 13
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=2 804
+804 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=2 804
+804 4
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=<Class::HTTP::Message>#create_query_part_str
+819 16
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#multiparam_query?
+calls=1 820
+820 11
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 822
+822 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#to_s
+calls=1 825
+825 2
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#multiparam_query?
+calls=1 820
+820 11
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 822
+822 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#to_s
+calls=1 825
+825 3
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Body#set_content
+539 32
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#file?
+calls=1 540
+540 13
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#create_query_part_str
+calls=1 550
+550 28
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#bytesize
+calls=1 551
+551 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#file?
+calls=1 540
+540 13
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#create_query_part_str
+calls=1 550
+550 27
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#bytesize
+calls=1 551
+551 1
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Body#init_request
+456 20
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Body#set_content
+calls=1 459
+459 59
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Body#set_content
+calls=1 459
+459 58
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#body_size=
+248 29
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message#http_body=
+932 30
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#body_size=
+calls=1 934
+934 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#body_size=
+calls=1 934
+934 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#body_size=
+calls=1 934
+934 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#body_size=
+calls=1 934
+934 3
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Body#initialize
+448 31
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#init_request
+193 18
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message::Headers#initialize
+158 102
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=HTTP::Message#initialize
+912 24
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 913
+913 36
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 913
+913 31
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 913
+913 33
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 913
+913 30
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=<Class::HTTP::Message>#new_request
+713 46
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=2 716
+716 66
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#init_request
+calls=1 715
+715 9
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#http_body=
+calls=1 716
+716 13
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Body#init_request
+calls=1 717
+717 70
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#body_size=
+calls=1 722
+722 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=2 716
+716 62
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#init_request
+calls=1 715
+715 9
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#http_body=
+calls=1 716
+716 14
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Body#init_request
+calls=1 717
+717 67
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#body_size=
+calls=1 722
+722 3
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Hash#to_a
+0 7
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Symbol#to_s
+0 8
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#create_request
+990 55
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#to_s
+calls=1 991
+991 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=1 991
+991 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 992
+992 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#to_a
+calls=1 993
+993 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#new_request
+calls=1 1022
+1022 186
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 1023
+1023 1
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/cookie.rb
+cfn=WebAgent::CookieManager#find
+calls=1 1026
+1026 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#to_s
+calls=1 991
+991 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=1 991
+991 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 992
+992 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#to_a
+calls=1 993
+993 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#new_request
+calls=1 1022
+1022 176
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 1023
+1023 2
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/cookie.rb
+cfn=WebAgent::CookieManager#find
+calls=1 1026
+1026 8
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#no_proxy?
+1055 11
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+fn=<Class::HTTP::Message>#file?
+814 32
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 815
+815 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 815
+815 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 815
+815 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 815
+815 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 815
+815 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 815
+815 7
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#taint
+0 9
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/thread.rb
+fn=Queue#initialize
+144 37
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#taint
+calls=3 149
+149 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 150
+150 10
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#taint
+calls=3 149
+149 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 150
+150 12
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/connection.rb
+fn=HTTPClient::Connection#initialize
+42 21
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 46
+46 41
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 46
+46 42
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#do_request
+874 66
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 875
+875 63
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#file?
+calls=1 877
+877 14
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#no_proxy?
+calls=1 881
+881 6
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#create_request
+calls=1 884
+884 235
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#protect_keep_alive_disconnected
+calls=1 886
+886 18688
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/connection.rb
+cfn=HTTPClient::Connection#pop
+calls=1 889
+889 53
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 875
+875 61
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=<Class::HTTP::Message>#file?
+calls=1 877
+877 14
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#no_proxy?
+calls=1 881
+881 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#create_request
+calls=1 884
+884 227
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#protect_keep_alive_disconnected
+calls=1 886
+886 4531
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/connection.rb
+cfn=HTTPClient::Connection#pop
+calls=1 889
+889 51
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+fn=<Class::URI::Generic>#default_port
+29 17
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+fn=URI::Generic#default_port
+36 32
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#class
+calls=1 37
+37 1
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=<Class::URI::Generic>#default_port
+calls=1 37
+37 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#class
+calls=1 37
+37 2
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=<Class::URI::Generic>#default_port
+calls=1 37
+37 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#class
+calls=1 37
+37 2
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=<Class::URI::Generic>#default_port
+calls=1 37
+37 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#class
+calls=1 37
+37 1
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=<Class::URI::Generic>#default_port
+calls=1 37
+37 4
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#freeze
+0 7
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+fn=URI::Generic#set_fragment
+1012 8
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+fn=URI::Generic#set_registry
+778 10
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+fn=URI::Generic#set_opaque
+969 7
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+fn=URI::Generic#set_query
+906 10
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+fn=URI::Generic#set_path
+841 10
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#to_i
+0 41
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#empty?
+0 50
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#kind_of?
+0 4
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+fn=URI::Generic#set_port
+708 33
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#kind_of?
+calls=1 709
+709 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#empty?
+calls=1 710
+710 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#to_i
+calls=1 713
+713 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#kind_of?
+calls=1 709
+709 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#empty?
+calls=1 710
+710 1
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#to_i
+calls=1 713
+713 3
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+fn=URI::Generic#set_host
+616 8
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+fn=URI::Generic#split_userinfo
+555 7
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+fn=URI::Generic#set_userinfo
+522 22
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#split_userinfo
+calls=1 524
+524 4
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#split_userinfo
+calls=1 524
+524 3
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+fn=URI::Generic#set_scheme
+341 9
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+fn=URI::Generic#initialize
+172 124
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_scheme
+calls=1 202
+202 4
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_userinfo
+calls=1 203
+203 15
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_host
+calls=1 204
+204 4
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_port
+calls=1 205
+205 24
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_path
+calls=1 206
+206 7
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_query
+calls=1 207
+207 5
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_opaque
+calls=1 208
+208 4
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_registry
+calls=1 209
+209 5
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_fragment
+calls=1 210
+210 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#freeze
+calls=1 217
+217 4
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#default_port
+calls=1 219
+219 14
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_scheme
+calls=1 202
+202 5
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_userinfo
+calls=1 203
+203 14
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_host
+calls=1 204
+204 4
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_port
+calls=1 205
+205 22
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_path
+calls=1 206
+206 3
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_query
+calls=1 207
+207 5
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_opaque
+calls=1 208
+208 3
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_registry
+calls=1 209
+209 5
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#set_fragment
+calls=1 210
+210 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#freeze
+calls=1 217
+217 3
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#default_port
+calls=1 219
+219 16
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/http.rb
+fn=URI::HTTP#initialize
+83 13
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#initialize
+calls=1 84
+84 153
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#initialize
+calls=1 84
+84 145
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Hash#include?
+0 8
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/common.rb
+fn=<Module::URI>#scheme_list
+659 15
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=MatchData#[]
+0 17
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Regexp#===
+0 49
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#===
+0 6
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/common.rb
+fn=URI::Parser#split
+120 44
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#===
+calls=1 121
+121 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Regexp#===
+calls=1 121
+121 24
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=MatchData#[]
+calls=1 127
+127 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#===
+calls=1 121
+121 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Regexp#===
+calls=1 121
+121 25
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=MatchData#[]
+calls=1 127
+127 9
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/common.rb
+fn=URI::Parser#parse
+209 40
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/common.rb
+cfn=URI::Parser#split
+calls=1 211
+211 57
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/common.rb
+cfn=<Module::URI>#scheme_list
+calls=2 214
+214 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=2 214
+214 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#include?
+calls=1 213
+213 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 214
+214 169
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/common.rb
+cfn=URI::Parser#split
+calls=1 211
+211 59
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/common.rb
+cfn=<Module::URI>#scheme_list
+calls=2 214
+214 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=2 214
+214 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#include?
+calls=1 213
+213 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 214
+214 161
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/common.rb
+fn=<Module::URI>#parse
+746 12
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/common.rb
+cfn=URI::Parser#parse
+calls=1 747
+747 264
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/common.rb
+cfn=URI::Parser#parse
+calls=1 747
+747 255
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#to_s
+0 10
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#is_a?
+0 98
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#nil?
+0 84
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/util.rb
+fn=HTTPClient::Util#urify
+126 36
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 127
+127 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 129
+129 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#to_s
+calls=1 134
+134 2
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/common.rb
+cfn=<Module::URI>#parse
+calls=1 134
+134 269
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#nil?
+calls=1 127
+127 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 129
+129 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#to_s
+calls=1 134
+134 3
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/common.rb
+cfn=<Module::URI>#parse
+calls=1 134
+134 262
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Symbol#==
+0 43
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Array#include?
+0 22
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#==
+calls=2 757
+757 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=BasicObject#==
+calls=1 23
+23 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#==
+calls=2 757
+757 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=BasicObject#==
+calls=1 23
+23 3
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Module#===
+0 8
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#request
+755 46
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/util.rb
+cfn=HTTPClient::Util#keyword_argument
+calls=1 756
+756 10
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#include?
+calls=1 757
+757 11
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#==
+calls=1 760
+760 1
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/util.rb
+cfn=HTTPClient::Util#urify
+calls=1 765
+765 296
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#do_request
+calls=1 774
+774 19092
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/util.rb
+cfn=HTTPClient::Util#keyword_argument
+calls=1 756
+756 14
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#include?
+calls=1 757
+757 9
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Symbol#==
+calls=1 760
+760 2
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/util.rb
+cfn=HTTPClient::Util#urify
+calls=1 765
+765 287
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#do_request
+calls=1 774
+774 4922
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Array#empty?
+0 31
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/util.rb
+fn=HTTPClient::Util#argument_to_hash
+110 11
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#empty?
+calls=1 111
+111 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#empty?
+calls=1 111
+111 3
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#get
+676 16
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/util.rb
+cfn=HTTPClient::Util#argument_to_hash
+calls=1 677
+677 9
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#request
+calls=1 677
+677 19434
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/util.rb
+cfn=HTTPClient::Util#argument_to_hash
+calls=1 677
+677 7
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#request
+calls=1 677
+677 5256
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#respond_to_missing?
+0 20
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#respond_to?
+0 60
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 404
+404 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 815
+815 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 815
+815 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 822
+822 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 815
+815 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 815
+815 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 815
+815 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 822
+822 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 815
+815 3
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#keep_webmock_compat
+403 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 404
+404 9
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Array#clear
+0 2
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#no_proxy=
+482 11
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#clear
+calls=1 484
+484 2
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#reset_all
+calls=1 495
+495 37
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::SessionManager#proxy=
+152 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=NilClass#nil?
+calls=1 153
+153 2
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Mutex#unlock
+0 31
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Hash#each
+0 10
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::SessionManager#close_all
+223 15
+cfl=/Users/ewlarson/Ruby/uwdc/<internal:prelude>
+cfn=Mutex#synchronize
+calls=1 224
+224 20
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#clear
+calls=1 231
+231 2
+cfl=/Users/ewlarson/Ruby/uwdc/<internal:prelude>
+cfn=Mutex#synchronize
+calls=1 224
+224 19
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#clear
+calls=1 231
+231 3
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::SessionManager#reset_all
+177 10
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#close_all
+calls=1 178
+178 31
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#close_all
+calls=1 178
+178 28
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#reset_all
+858 11
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#reset_all
+calls=1 859
+859 37
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#reset_all
+calls=1 859
+859 32
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::BasicAuth#reset_challenge
+247 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#clear
+calls=1 248
+248 3
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::ProxyDigestAuth#reset_challenge
+464 4
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::SSPINegotiateAuth#reset_challenge
+589 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#clear
+calls=1 590
+590 1
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Hash#clear
+0 12
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::NegotiateAuth#reset_challenge
+499 11
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#clear
+calls=2 500
+500 3
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Array#each
+0 336
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::NegotiateAuth#reset_challenge
+calls=2 181
+181 14
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::SSPINegotiateAuth#reset_challenge
+calls=1 181
+181 7
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::ProxyDigestAuth#reset_challenge
+calls=1 181
+181 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::BasicAuth#reset_challenge
+calls=1 181
+181 7
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::ProxyAuth#filter_request
+calls=1 1073
+1073 43
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::WWWAuth#filter_request
+calls=1 1073
+1073 75
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::NegotiateAuth#set?
+calls=2 197
+197 8
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::SSPINegotiateAuth#set?
+calls=1 197
+197 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::DigestAuth#set?
+calls=1 197
+197 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::BasicAuth#set?
+calls=1 197
+197 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::OAuth#set?
+calls=1 113
+113 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::OAuth#get
+calls=1 114
+114 16
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::NegotiateAuth#set?
+calls=2 113
+113 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::SSPINegotiateAuth#set?
+calls=1 113
+113 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::DigestAuth#set?
+calls=1 113
+113 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::BasicAuth#set?
+calls=1 113
+113 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=3 296
+296 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=3 296
+296 6
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#add
+calls=10 323
+323 114
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=10 296
+296 19
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=10 296
+296 19
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::ProxyAuth#filter_request
+calls=1 1073
+1073 46
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::WWWAuth#filter_request
+calls=1 1073
+1073 62
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::NegotiateAuth#set?
+calls=2 197
+197 7
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::SSPINegotiateAuth#set?
+calls=1 197
+197 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::DigestAuth#set?
+calls=1 197
+197 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::BasicAuth#set?
+calls=1 197
+197 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::OAuth#set?
+calls=1 113
+113 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::OAuth#get
+calls=1 114
+114 15
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::NegotiateAuth#set?
+calls=2 113
+113 7
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::SSPINegotiateAuth#set?
+calls=1 113
+113 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::DigestAuth#set?
+calls=1 113
+113 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::BasicAuth#set?
+calls=1 113
+113 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#valid_session?
+calls=1 253
+253 87
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#slice!
+calls=1 254
+254 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=3 296
+296 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=3 296
+296 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#add
+calls=10 323
+323 96
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=10 296
+296 13
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=10 296
+296 17
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::ProxyAuth#reset_challenge
+179 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#each
+calls=1 180
+180 51
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=NilClass#nil?
+0 36
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#proxy=
+446 19
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=NilClass#nil?
+calls=1 447
+447 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::ProxyAuth#reset_challenge
+calls=1 449
+449 56
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#reset_all
+calls=1 461
+461 43
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#proxy=
+calls=1 462
+462 10
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#upcase
+0 198
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=<Object::Object>#[]
+0 10
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=String#downcase
+0 91
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#getenv
+942 30
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#downcase
+calls=3 943
+943 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Object::Object>#[]
+calls=6 943
+943 10
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=String#upcase
+calls=3 943
+943 7
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#load_environment
+928 14
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#getenv
+calls=3 939
+939 53
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#proxy=
+calls=1 936
+936 131
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#no_proxy=
+calls=1 939
+939 50
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Module#extended
+0 8
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/monitor.rb
+fn=MonitorMixin#mon_initialize
+238 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 241
+241 12
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Module#extend_object
+0 19
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/monitor.rb
+fn=<Module::MonitorMixin>#extend_object
+159 12
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Module#extend_object
+calls=1 160
+160 5
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/monitor.rb
+cfn=MonitorMixin#mon_initialize
+calls=1 161
+161 20
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#extend
+0 25
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/monitor.rb
+cfn=<Module::MonitorMixin>#extend_object
+calls=1 226
+226 37
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Module#extended
+calls=1 226
+226 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Module#extend_object
+calls=1 396
+396 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Module#extended
+calls=1 396
+396 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Module#extend_object
+calls=1 396
+396 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Module#extended
+calls=1 396
+396 3
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Array#initialize
+0 7
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=<Class::Array>#allocate
+0 6
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/cookie.rb
+fn=WebAgent::CookieManager#initialize
+224 22
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=3 230
+230 24
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#extend
+calls=1 226
+226 47
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Fixnum#|
+0 6
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=OpenSSL::X509::Store#initialize
+0 9
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=<Class::OpenSSL::X509::Store>#allocate
+0 9
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/ssl_config.rb
+fn=HTTPClient::SSLConfig#initialize
+76 37
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 79
+79 25
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#|
+calls=2 87
+87 6
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Fixnum#+
+0 27
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Time#initialize
+0 30
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#+
+calls=1 149
+149 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#+
+calls=1 246
+246 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#+
+calls=1 268
+268 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#+
+calls=1 638
+638 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#+
+calls=1 246
+246 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#+
+calls=1 268
+268 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Fixnum#+
+calls=1 638
+638 3
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=<Class::Time>#allocate
+0 28
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=<Class::Time>#now
+0 42
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#allocate
+calls=1 149
+149 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#initialize
+calls=1 149
+149 10
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#allocate
+calls=1 246
+246 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#initialize
+calls=1 246
+246 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#allocate
+calls=1 268
+268 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#initialize
+calls=1 268
+268 9
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#allocate
+calls=1 638
+638 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#initialize
+calls=1 638
+638 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#allocate
+calls=1 246
+246 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#initialize
+calls=1 246
+246 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#allocate
+calls=1 268
+268 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#initialize
+calls=1 268
+268 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#allocate
+calls=1 638
+638 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Time#initialize
+calls=1 638
+638 6
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Mutex#initialize
+0 10
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=<Class::Mutex>#allocate
+0 12
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::Site#initialize
+39 40
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#hostname
+calls=1 42
+42 10
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Integer#to_i
+calls=1 43
+43 2
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/generic.rb
+cfn=URI::Generic#hostname
+calls=1 42
+42 9
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Integer#to_i
+calls=1 43
+43 3
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#debug_dev
+417 4
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#proxy
+432 4
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+fn=HTTPClient::SessionManager#initialize
+121 54
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#proxy
+calls=1 123
+123 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#debug_dev
+calls=1 129
+129 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=2 148
+148 27
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#now
+calls=1 149
+149 20
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::ProxyAuth#initialize
+168 22
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=5 173
+173 74
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#method
+0 8
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::OAuth#initialize
+739 17
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#method
+calls=1 744
+744 5
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::SSPINegotiateAuth#initialize
+582 12
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::NegotiateAuth#initialize
+486 45
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::DigestAuth#initialize
+317 19
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::BasicAuth#initialize
+237 19
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+fn=HTTPClient::WWWAuth#initialize
+83 30
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=6 89
+89 111
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/util.rb
+fn=HTTPClient::Util#keyword_argument
+93 22
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Module#===
+calls=1 94
+94 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Module#===
+calls=1 94
+94 4
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+fn=HTTPClient#initialize
+379 55
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/util.rb
+cfn=HTTPClient::Util#keyword_argument
+calls=1 380
+380 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=5 394
+394 544
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#method
+calls=1 388
+388 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#load_environment
+calls=1 396
+396 248
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#keep_webmock_compat
+calls=1 398
+398 15
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Mutex#lock
+0 32
+
+fl=/Users/ewlarson/Ruby/uwdc/<internal:prelude>
+fn=Mutex#synchronize
+7 196
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#lock
+calls=1 8
+8 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 68
+68 881
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#unlock
+calls=1 12
+12 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#lock
+calls=1 8
+8 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#each
+calls=1 225
+225 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#unlock
+calls=1 12
+12 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#lock
+calls=1 8
+8 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#each
+calls=1 225
+225 1
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#unlock
+calls=1 12
+12 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#lock
+calls=1 8
+8 1
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#now
+calls=1 246
+246 14
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/core_ext/time/calculations.rb
+cfn=Time#plus_with_duration
+calls=1 247
+247 29
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Comparable#>
+calls=1 247
+247 71
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#unlock
+calls=1 12
+12 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#lock
+calls=1 8
+8 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#push
+calls=1 158
+158 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#shift
+calls=1 160
+160 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#unlock
+calls=1 12
+12 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#lock
+calls=1 8
+8 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Hash#[]=
+calls=1 281
+281 37
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#unshift
+calls=1 281
+281 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#unlock
+calls=1 12
+12 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#lock
+calls=1 8
+8 1
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#empty?
+calls=1 186
+186 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#shift
+calls=1 191
+191 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#unlock
+calls=1 12
+12 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#lock
+calls=1 8
+8 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Time>#now
+calls=1 246
+246 18
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/core_ext/time/calculations.rb
+cfn=Time#plus_with_duration
+calls=1 247
+247 25
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Comparable#>
+calls=1 247
+247 62
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Site#hash
+calls=1 251
+251 19
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Site#eql?
+calls=1 251
+251 15
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Enumerable#each_with_index
+calls=1 252
+252 123
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#unlock
+calls=1 12
+12 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#lock
+calls=1 8
+8 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#push
+calls=1 158
+158 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#shift
+calls=1 160
+160 1
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#unlock
+calls=1 12
+12 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#lock
+calls=1 8
+8 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Site#hash
+calls=1 281
+281 34
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#unshift
+calls=1 281
+281 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#unlock
+calls=1 12
+12 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#lock
+calls=1 8
+8 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#empty?
+calls=1 186
+186 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#shift
+calls=1 191
+191 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#unlock
+calls=1 12
+12 3
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/include_client.rb
+fn=UWDC::XML#http_client
+78 15
+cfl=/Users/ewlarson/Ruby/uwdc/<internal:prelude>
+cfn=Mutex#synchronize
+calls=1 65
+65 907
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#class
+0 11
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/uwdc-0.0.6/lib/uwdc/xml.rb
+fn=UWDC::XML#http_xml
+14 44
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/uwdc-0.0.6/lib/uwdc/xml.rb
+cfn=UWDC::XML#http_xml
+calls=1 19
+19 928
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#get
+calls=1 19
+19 19451
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#content
+calls=1 20
+20 12
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#status
+calls=1 21
+21 5
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#class
+calls=1 78
+78 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/include_client.rb
+cfn=UWDC::XML#http_client
+calls=1 78
+78 918
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/uwdc-0.0.6/lib/uwdc/xml.rb
+cfn=UWDC::XML#http_xml
+calls=1 19
+19 16
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#get
+calls=1 19
+19 5271
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#content
+calls=1 20
+20 10
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#status
+calls=1 21
+21 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#class
+calls=1 78
+78 2
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/include_client.rb
+cfn=UWDC::XML#http_client
+calls=1 78
+78 4
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/uwdc-0.0.6/lib/uwdc/xml.rb
+fn=UWDC::XML#initialize
+9 17
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/uwdc-0.0.6/lib/uwdc/xml.rb
+cfn=UWDC::XML#http_xml
+calls=1 11
+11 20416
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/uwdc-0.0.6/lib/uwdc/xml.rb
+cfn=UWDC::XML#http_xml
+calls=1 11
+11 5325
+
+fl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/uwdc-0.0.6/lib/uwdc/mets.rb
+fn=UWDC::Mets#initialize
+20 30
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 22
+22 20433
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#include?
+calls=1 23
+23 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 22
+22 5342
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#include?
+calls=1 23
+23 8
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=<Class::BasicObject>#allocate
+0 81
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Class#new
+0 21
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 5
+5 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/uwdc-0.0.6/lib/uwdc/mets.rb
+cfn=UWDC::Mets#initialize
+calls=1 5
+5 20456
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 22
+22 2
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/uwdc-0.0.6/lib/uwdc/xml.rb
+cfn=UWDC::XML#initialize
+calls=1 22
+22 20425
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 68
+68 2
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient.rb
+cfn=HTTPClient#initialize
+calls=1 68
+68 871
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=5 394
+394 10
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::WWWAuth#initialize
+calls=1 384
+384 141
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::ProxyAuth#initialize
+calls=1 385
+385 96
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::SessionManager#initialize
+calls=1 390
+390 109
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/ssl_config.rb
+cfn=HTTPClient::SSLConfig#initialize
+calls=1 393
+393 68
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/cookie.rb
+cfn=WebAgent::CookieManager#initialize
+calls=1 394
+394 93
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=6 89
+89 7
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::BasicAuth#initialize
+calls=1 84
+84 10
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::DigestAuth#initialize
+calls=1 85
+85 10
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::NegotiateAuth#initialize
+calls=2 87
+87 25
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::SSPINegotiateAuth#initialize
+calls=1 88
+88 7
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::OAuth#initialize
+calls=1 89
+89 22
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=5 173
+173 8
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::BasicAuth#initialize
+calls=1 169
+169 9
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::NegotiateAuth#initialize
+calls=2 171
+171 20
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::SSPINegotiateAuth#initialize
+calls=1 172
+172 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/auth.rb
+cfn=HTTPClient::DigestAuth#initialize
+calls=1 173
+173 9
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 145
+145 1
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Site#initialize
+calls=1 145
+145 10
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Mutex>#allocate
+calls=1 148
+148 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#initialize
+calls=1 148
+148 4
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::OpenSSL::X509::Store>#allocate
+calls=1 79
+79 9
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=OpenSSL::X509::Store#initialize
+calls=1 79
+79 9
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Array>#allocate
+calls=3 230
+230 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Array#initialize
+calls=3 230
+230 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Mutex>#allocate
+calls=1 241
+241 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#initialize
+calls=1 241
+241 1
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 214
+214 3
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/http.rb
+cfn=URI::HTTP#initialize
+calls=1 214
+214 159
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 875
+875 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/connection.rb
+cfn=HTTPClient::Connection#initialize
+calls=1 875
+875 53
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 46
+46 2
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/thread.rb
+cfn=Queue#initialize
+calls=1 46
+46 34
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Mutex>#allocate
+calls=1 150
+150 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#initialize
+calls=1 150
+150 2
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=2 716
+716 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#initialize
+calls=1 714
+714 44
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Body#initialize
+calls=1 716
+716 10
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 913
+913 1
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#initialize
+calls=1 913
+913 29
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=2 732
+732 5
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#initialize
+calls=1 730
+730 35
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Body#initialize
+calls=1 732
+732 6
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 913
+913 1
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#initialize
+calls=1 913
+913 24
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=2 204
+204 2
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Site#initialize
+calls=1 199
+199 28
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Session#initialize
+calls=1 204
+204 49
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 83
+83 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/uwdc-0.0.6/lib/uwdc/mets.rb
+cfn=UWDC::Mets#initialize
+calls=1 83
+83 5365
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 22
+22 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/uwdc-0.0.6/lib/uwdc/xml.rb
+cfn=UWDC::XML#initialize
+calls=1 22
+22 5333
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 214
+214 1
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/uri/http.rb
+cfn=URI::HTTP#initialize
+calls=1 214
+214 152
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 875
+875 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/connection.rb
+cfn=HTTPClient::Connection#initialize
+calls=1 875
+875 51
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 46
+46 2
+cfl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/thread.rb
+cfn=Queue#initialize
+calls=1 46
+46 34
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::Mutex>#allocate
+calls=1 150
+150 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Mutex#initialize
+calls=1 150
+150 3
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=2 716
+716 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#initialize
+calls=1 714
+714 40
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Body#initialize
+calls=1 716
+716 8
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 913
+913 2
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#initialize
+calls=1 913
+913 26
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=2 732
+732 4
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message#initialize
+calls=1 730
+730 35
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Body#initialize
+calls=1 732
+732 7
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 913
+913 3
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/http.rb
+cfn=HTTP::Message::Headers#initialize
+calls=1 913
+913 23
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=<Class::BasicObject>#allocate
+calls=1 199
+199 1
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/httpclient-2.3.3/lib/httpclient/session.rb
+cfn=HTTPClient::Site#initialize
+calls=1 199
+199 26
+
+fl=/Users/ewlarson/Ruby/uwdc/spec/profiles/profile_uwdc.rb
+fn=Global#[No method]
+5 53
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Class#new
+calls=1 5
+5 20475
+cfl=/Users/ewlarson/.rvm/gems/ruby-1.9.3-p392/gems/uwdc-0.0.6/lib/uwdc/mets.rb
+cfn=UWDC::Mets#mods
+calls=1 6
+6 5385
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#sleep
+0 618
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+fn=Timeout#timeout
+60 54
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#sleep
+calls=1 61
+61 706
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#sleep
+0 24
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+fn=Timeout#timeout
+60 74
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#sleep
+calls=1 61
+61 63
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#sleep
+0 78
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+fn=Timeout#timeout
+60 35
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#sleep
+calls=1 61
+61 1100
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#sleep
+0 8
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+fn=Timeout#timeout
+60 34
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#sleep
+calls=1 61
+61 8
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#sleep
+0 57
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+fn=Timeout#timeout
+60 50
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#sleep
+calls=1 61
+61 123
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#sleep
+0 34
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+fn=Timeout#timeout
+60 56
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#sleep
+calls=1 61
+61 65
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#sleep
+0 93
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+fn=Timeout#timeout
+60 39
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#sleep
+calls=1 61
+61 150
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#sleep
+0 50
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+fn=Timeout#timeout
+60 49
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#sleep
+calls=1 61
+61 88
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#sleep
+0 58
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+fn=Timeout#timeout
+60 64
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#sleep
+calls=1 61
+61 883
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#sleep
+0 7
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+fn=Timeout#timeout
+60 26
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#sleep
+calls=1 61
+61 7
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#sleep
+0 6
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+fn=Timeout#timeout
+60 42
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#sleep
+calls=1 61
+61 6
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#sleep
+0 35
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+fn=Timeout#timeout
+60 49
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#sleep
+calls=1 61
+61 64
+
+fl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+fn=Kernel#sleep
+0 41
+
+fl=/Users/ewlarson/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/timeout.rb
+fn=Timeout#timeout
+60 40
+cfl=/Users/ewlarson/Ruby/uwdc/ruby_runtime
+cfn=Kernel#sleep
+calls=1 61
+61 91
+

@@ -6,8 +6,5 @@ result = RubyProf.profile do
   kolors.mods
 end
 
-printer = RubyProf::GraphPrinter.new(result)
-
-File.open('spec/profiles/uwdc_profile.txt', 'w+') do |file|
-  printer.print(file)
-end
+printer = RubyProf::MultiPrinter.new(result)
+printer.print(:path => "spec/profiles", :profile => "uwdc")
