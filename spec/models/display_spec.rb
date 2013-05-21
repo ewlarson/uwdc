@@ -32,9 +32,8 @@ describe UWDC::Display do
       expect(@display.images.size).to eq(5)
     end
     
-    it "should note include audio" do
-      puts @display.audio.inspect
-      expect(@display.audio).to be_false
+    it "should not include audio" do
+      expect(@display.audio).to be_empty
     end
 
     it "should have metadata" do
@@ -43,14 +42,10 @@ describe UWDC::Display do
     end
     
     it "should have partials" do
-      #puts @display.partials.inspect
       expect(@display.partials).to be_true
     end
     
     it "should have models" do
-      @display.partials.each do |div|
-        puts @display.models.select{|model| model.include?(clean_id(div.id))}
-      end
       expect(@display.models).to be_true
     end
   end

@@ -48,32 +48,20 @@ module UWDC
       @mets.file_sec.files
     end
     
-    def image_files(model)
-      files.select{|file| file.id.include?(model) && UWDC::Display.use[file.use][:partial] == "image"}
-    end
-    
     def images
       viewable_models.inject({}) do |result, model|
-        unless image_files(model).empty?
-          result[model] = image_files(model)
-          result
-        end
+        result[model] = select_files(model, "image") unless select_files(model, "image").empty?
+        result
       end
     end
     
     def video
     end
     
-    def audio_files(model)
-      files.select{|file| file.id.include?(model) && UWDC::Display.use[file.use][:partial] == "audio"}
-    end
-    
     def audio
       viewable_models.inject({}) do |result, model|
-        unless audio_files(model).empty?
-          result[model] = audio_files(model)
-          result
-        end
+        result[model] = select_files(model, "audio") unless select_files(model, "audio").empty?
+        result
       end
     end
     
@@ -98,6 +86,10 @@ module UWDC
     alias :metadata :mods
     
     private
+    
+    def select_files(model, partial)
+      files.select{|file| file.id.include?(model) && UWDC::Display.use[file.use][:partial] == partial}
+    end
     
     def content_models
       @mets.rels_ext.models
