@@ -32,6 +32,11 @@ describe UWDC::Display do
       expect(@display.images.size).to eq(5)
     end
     
+    it "should note include audio" do
+      puts @display.audio.inspect
+      expect(@display.audio).to be_false
+    end
+
     it "should have metadata" do
       expect(@display.metadata).to be_true
       expect(@display.metadata).to be_an_instance_of(UWDC::Mods)
@@ -56,10 +61,9 @@ describe UWDC::Display do
       @display = UWDC::Display.new(@id,@xml)
     end
     
-    it "should have no images", pending: true do
-      #puts @display.images.inspect
-      expect(@display.images).to be_true
-      expect(@display.images.size).to eq(0)
+    it "should include audio" do
+      expect(@display.audio).to be_true
+      expect(@display.audio.size).to eq(1)
     end
   end
 end

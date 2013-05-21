@@ -54,15 +54,27 @@ module UWDC
     
     def images
       viewable_models.inject({}) do |result, model|
-        result[model] = image_files(model)
-        result
+        unless image_files(model).empty?
+          result[model] = image_files(model)
+          result
+        end
       end
     end
     
     def video
     end
     
+    def audio_files(model)
+      files.select{|file| file.id.include?(model) && UWDC::Display.use[file.use][:partial] == "audio"}
+    end
+    
     def audio
+      viewable_models.inject({}) do |result, model|
+        unless audio_files(model).empty?
+          result[model] = audio_files(model)
+          result
+        end
+      end
     end
     
     def mods
