@@ -1,420 +1,985 @@
 Thread ID: 2151950420
-Fiber ID: 2160650920
-Total: 0.025913
+Fiber ID: 2156166000
+Total: 0.244291
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
- 44.93      0.012     0.012     0.000     0.000       13   <Class::Thread>#start 
-  7.24      0.019     0.002     0.000     0.017       13   Timeout#timeout 
-  1.47      0.014     0.000     0.000     0.014        2   HTTPClient::Session#read_body_length 
-  1.31      0.001     0.000     0.000     0.000       13   Thread#join 
-  1.30      0.001     0.000     0.000     0.001       28  *Array#each 
-  1.19      0.000     0.000     0.000     0.000        2   OpenURI::Meta#content_type_parse 
-  1.06      0.001     0.000     0.001     0.000        1   TCPSocket#initialize 
-  0.90      0.000     0.000     0.000     0.000       20   HTTPClient::Session#parse_keepalive_header 
-  0.86      0.001     0.000     0.000     0.000        8   IO#readpartial 
-  0.81      0.000     0.000     0.000     0.000       28   HTTP::Message::Headers#add 
-  0.76      0.000     0.000     0.000     0.000       93   String#upcase 
-  0.76      0.002     0.000     0.000     0.001       11  *Mutex#synchronize 
-  0.67      0.001     0.000     0.000     0.000       12   HTTP::Message::Headers#get 
-  0.57      0.000     0.000     0.000     0.000        4   Regexp#=~ 
-  0.54      0.000     0.000     0.000     0.000       24   IO#gets 
-  0.50      0.000     0.000     0.000     0.000       20   String#split 
-  0.48      0.000     0.000     0.000     0.000        2   URI::Generic#initialize 
-  0.42      0.023     0.000     0.000     0.023        2   HTTPClient#do_get_block 
-  0.39      0.000     0.000     0.000     0.000        4   HTTP::Message::Headers#initialize 
-  0.39      0.000     0.000     0.000     0.000       13   Thread#kill 
-  0.38      0.000     0.000     0.000     0.000       46   Kernel#is_a? 
-  0.37      0.001     0.000     0.000     0.001        2   HTTPClient::Session#set_header 
-  0.35      0.000     0.000     0.000     0.000       34   String#downcase 
-  0.35      0.000     0.000     0.000     0.000       40   String#[] 
-  0.32      0.000     0.000     0.000     0.000       22   Kernel#nil? 
-  0.31      0.000     0.000     0.000     0.000       43   <Class::BasicObject>#allocate 
-  0.31      0.019     0.000     0.000     0.019       13   Object#timeout 
-  0.30      0.003     0.000     0.000     0.003        2   HTTPClient::Session#query 
-  0.29      0.000     0.000     0.000     0.000        2   IO#write 
-  0.28      0.000     0.000     0.000     0.000        8   Array#collect 
-  0.26      0.000     0.000     0.000     0.000       13   Regexp#to_s 
-  0.26      0.000     0.000     0.000     0.000        2   HTTPClient::Session#no_message_body? 
-  0.26      0.000     0.000     0.000     0.000        8   HTTP::Message::Headers#delete 
-  0.25      0.024     0.000     0.000     0.024        2   HTTPClient#do_request 
-  0.25      0.000     0.000     0.000     0.000       20   String#strip 
-  0.25      0.000     0.000     0.000     0.000       32   Array#push 
-  0.24      0.000     0.000     0.000     0.000        2   HTTP::Message::Headers#set_request_header 
-  0.23      0.002     0.000     0.000     0.002        2   HTTPClient::Session#read_header 
-  0.23      0.000     0.000     0.000     0.000       13   Kernel#respond_to? 
-  0.22      0.000     0.000     0.000     0.000        8   HTTP::Message::Headers#set 
-  0.22      0.000     0.000     0.000     0.000        2   Time#httpdate 
-  0.22      0.000     0.000     0.000     0.000       13   Fixnum#== 
-  0.22      0.000     0.000     0.000     0.000        3   Time#getlocal 
-  0.22      0.014     0.000     0.000     0.014        2   HTTPClient::Session#get_body 
-  0.21      0.001     0.000     0.000     0.001        1   HTTPClient#initialize 
-  0.21      0.000     0.000     0.000     0.000        8   Array#delete_if 
-  0.21      0.000     0.000     0.000     0.000        2   HTTPClient#create_request 
-  0.21      0.004     0.000     0.000     0.004        2   HTTPClient#do_get_header 
-  0.21      0.000     0.000     0.000     0.000        1   HTTPClient::SessionManager#initialize 
-  0.20      0.026     0.000     0.000     0.026        1   Global#[No method] 
-  0.20      0.000     0.000     0.000     0.000       22   String#chomp! 
-  0.20      0.000     0.000     0.000     0.000       12   Enumerable#find_all 
-  0.19      0.000     0.000     0.000     0.000       26   String#empty? 
-  0.19      0.000     0.000     0.000     0.000       20   String#bytesize 
-  0.19      0.000     0.000     0.000     0.000        1   HTTPClient::Session#initialize 
-  0.19      0.001     0.000     0.000     0.001        2   HTTPClient::SessionManager#open 
-  0.19      0.000     0.000     0.000     0.000        2   Regexp#=== 
-  0.18      0.001     0.000     0.000     0.001        2   OpenURI::Meta#meta_setup_encoding 
-  0.18      0.025     0.000     0.000     0.025        2   HTTPClient#request 
-  0.18      0.000     0.000     0.000     0.000        2   <Class::HTTP::Message>#new_request 
-  0.17      0.000     0.000     0.000     0.000        8   HTTPClient#set_encoding 
-  0.17      0.000     0.000     0.000     0.000        4   HTTPClient::NegotiateAuth#initialize 
-  0.17      0.000     0.000     0.000     0.000        2   URI::Parser#split 
-  0.17      0.026     0.000     0.000     0.026        4  *UWDC::XML#http_xml 
-  0.17      0.000     0.000     0.000     0.000       18   Symbol#== 
-  0.17      0.000     0.000     0.000     0.000        2   <Class::HTTP::Message>#new_response 
-  0.16      0.000     0.000     0.000     0.000        7   <Class::Time>#now 
-  0.16      0.001     0.000     0.000     0.001        2   HTTP::Message::Headers#set_body_encoding 
-  0.16      0.000     0.000     0.000     0.000        6   String#to_i 
-  0.15      0.001     0.000     0.000     0.000        2   URI::Parser#parse 
-  0.15      0.000     0.000     0.000     0.000        3   HTTPClient::Site#initialize 
-  0.15      0.000     0.000     0.000     0.000        6   Comparable#>= 
-  0.15      0.000     0.000     0.000     0.000        4   URI::Generic#hostname 
-  0.15      0.000     0.000     0.000     0.000        3   Array#hash 
-  0.14      0.000     0.000     0.000     0.000        2   String#scan 
-  0.14      0.000     0.000     0.000     0.000        1   HTTPClient::SSLConfig#initialize 
-  0.14      0.000     0.000     0.000     0.000        2   HTTP::Message::Headers#set_date_header 
-  0.14      0.000     0.000     0.000     0.000        2   Queue#initialize 
-  0.14      0.000     0.000     0.000     0.000        4   NilClass#nil? 
-  0.14      0.001     0.000     0.000     0.001        2   HTTPClient::Util#urify 
-  0.14      0.000     0.000     0.000     0.000        2   HTTP::Message::Headers#dump 
-  0.14      0.000     0.000     0.000     0.000        4   <Class::HTTP::Message>#keep_alive_enabled? 
-  0.13      0.000     0.000     0.000     0.000       13   Fixnum#zero? 
-  0.13      0.000     0.000     0.000     0.000        2   URI::Generic#set_port 
-  0.13      0.000     0.000     0.000     0.000        4   HTTP::Message::Headers#status_code= 
-  0.12      0.000     0.000     0.000     0.000        6   <Class::HTTP::Message>#file? 
-  0.12      0.004     0.000     0.000     0.004        2   HTTPClient::SessionManager#query 
-  0.12      0.000     0.000     0.000     0.000        2   HTTP::Message::Body#set_content 
-  0.12      0.000     0.000     0.000     0.000        2   <Module::OpenURI::Meta>#init 
-  0.12      0.001     0.000     0.000     0.000        2   OpenURI::Meta#charset 
-  0.12      0.000     0.000     0.000     0.000        8   HTTP::Message#body_encoding 
-  0.12      0.000     0.000     0.000     0.000       11   Mutex#lock 
-  0.12      0.000     0.000     0.000     0.000        4   URI::Generic#default_port 
-  0.12      0.000     0.000     0.000     0.000       15   BasicObject#== 
-  0.12      0.000     0.000     0.000     0.000       14   Array#empty? 
-  0.12      0.003     0.000     0.000     0.002        2   HTTPClient::Session#get_header 
-  0.12      0.000     0.000     0.000     0.000        2   HTTP::Message::Body#dump 
-  0.12      0.000     0.000     0.000     0.000        4   HTTP::Message::Headers#[] 
-  0.12      0.000     0.000     0.000     0.000        2   HTTP::Message::Headers#create_query_uri 
-  0.12      0.000     0.000     0.000     0.000        2   Kernel#sprintf 
-  0.12      0.000     0.000     0.000     0.000        4   HTTP::Message::Body#initialize 
-  0.12      0.001     0.000     0.000     0.001        2   OpenURI::Meta#meta_add_field 
-  0.12      0.000     0.000     0.000     0.000       11   Mutex#unlock 
-  0.12      0.000     0.000     0.000     0.000        4   HTTP::Message#http_body= 
-  0.12      0.000     0.000     0.000     0.000        7   Time#initialize 
-  0.12      0.000     0.000     0.000     0.000        3   HTTPClient#getenv 
-  0.12      0.000     0.000     0.000     0.000        9   Array#shift 
-  0.12      0.000     0.000     0.000     0.000        1   HTTPClient::WWWAuth#initialize 
-  0.12      0.026     0.000     0.000     0.026        2   UWDC::Mets#initialize 
-  0.12      0.000     0.000     0.000     0.000        6   String#<=> 
-  0.11      0.000     0.000     0.000     0.000        2   HTTP::Message::Headers#init_response 
-  0.11      0.000     0.000     0.000     0.000        8   HTTP::Message::Headers#body_size= 
-  0.11      0.000     0.000     0.000     0.000        9   <Class::Time>#allocate 
-  0.11      0.000     0.000     0.000     0.000       10   String#force_encoding 
-  0.10      0.000     0.000     0.000     0.000       13   <Class::Thread>#current 
-  0.10      0.000     0.000     0.000     0.000        2   HTTPClient::Session#eof? 
-  0.10      0.001     0.000     0.000     0.001        2   HTTP::Message#dump 
-  0.10      0.000     0.000     0.000     0.000        3   Time#plus_with_duration 
-  0.10      0.000     0.000     0.000     0.000       10   Fixnum#+ 
-  0.10      0.000     0.000     0.000     0.000        8   HTTPClient::NegotiateAuth#set? 
-  0.10      0.000     0.000     0.000     0.000        2   HTTPClient::Connection#pop 
-  0.10      0.000     0.000     0.000     0.000        3   Time#compare_with_coercion 
-  0.10      0.000     0.000     0.000     0.000        6   HTTP::Message#status 
-  0.10      0.000     0.000     0.000     0.000        3   Kernel#extend 
-  0.10      0.001     0.000     0.000     0.001        1   HTTPClient::Session#create_socket 
-  0.10      0.000     0.000     0.000     0.000        2   HTTP::Message::Headers#request_line 
-  0.09      0.000     0.000     0.000     0.000        4   HTTP::Message#initialize 
-  0.09      0.000     0.000     0.000     0.000        2   HTTPClient::ProxyAuth#filter_response 
-  0.09      0.000     0.000     0.000     0.000       10   Fixnum#<=> 
-  0.09      0.000     0.000     0.000     0.000        2   Time#utc 
-  0.09      0.000     0.000     0.000     0.000        3   <Class::ActiveSupport::Duration>#=== 
-  0.08      0.000     0.000     0.000     0.000        1   WebAgent::CookieManager#initialize 
-  0.08      0.000     0.000     0.000     0.000        1   HTTPClient::ProxyAuth#initialize 
-  0.08      0.000     0.000     0.000     0.000        3   HTTPClient::Util#keyword_argument 
-  0.08      0.000     0.000     0.000     0.000        2   URI::Generic#set_userinfo 
-  0.08      0.000     0.000     0.000     0.000        4   Array#include? 
-  0.08      0.000     0.000     0.000     0.000        4   Enumerable#find 
-  0.08      0.000     0.000     0.000     0.000        2   HTTPClient::Connection#initialize 
-  0.08      0.000     0.000     0.000     0.000        3   HTTPClient::Site#hash 
-  0.08      0.026     0.000     0.000     0.026       51  *Class#new 
-  0.08      0.000     0.000     0.000     0.000        2   Kernel#!~ 
-  0.08      0.000     0.000     0.000     0.000        2   HTTP::Message::Body#init_request 
-  0.08      0.000     0.000     0.000     0.000        9   Kernel#respond_to_missing? 
-  0.07      0.000     0.000     0.000     0.000        3   Hash#[]= 
-  0.07      0.000     0.000     0.000     0.000        2   BasicObject#instance_eval 
-  0.07      0.000     0.000     0.000     0.000        2   HTTPClient::DigestAuth#initialize 
-  0.07      0.000     0.000     0.000     0.000        1   HTTPClient#proxy= 
-  0.07      0.001     0.000     0.000     0.001        2   HTTP::Message::Headers#set_headers 
-  0.07      0.000     0.000     0.000     0.000        3   Module#extend_object 
-  0.07      0.000     0.000     0.000     0.000        2   HTTPClient::WWWAuth#filter_response 
-  0.07      0.000     0.000     0.000     0.000        2   HTTPClient::BasicAuth#initialize 
-  0.07      0.000     0.000     0.000     0.000        2   Kernel#dup 
-  0.07      0.000     0.000     0.000     0.000        2   HTTP::Message::Headers#init_request 
-  0.07      0.000     0.000     0.000     0.000        2   HTTPClient::Site#== 
-  0.07      0.000     0.000     0.000     0.000        4   HTTPClient::BasicAuth#set? 
-  0.07      0.000     0.000     0.000     0.000        2   HTTPClient::Connection#push 
-  0.07      0.026     0.000     0.000     0.026        2   UWDC::XML#initialize 
-  0.07      0.000     0.000     0.000     0.000        4   <Class::URI::Generic>#default_port 
-  0.07      0.000     0.000     0.000     0.000        1   HTTPClient::OAuth#initialize 
-  0.07      0.023     0.000     0.000     0.023        2   HTTPClient#protect_keep_alive_disconnected 
-  0.07      0.000     0.000     0.000     0.000        2   MatchData#[] 
-  0.07      0.000     0.000     0.000     0.000        2   HTTP::Message::Body#init_response 
-  0.06      0.000     0.000     0.000     0.000        2   <Class::HTTP::Message>#create_query_part_str 
-  0.06      0.000     0.000     0.000     0.000        6   Fixnum#* 
-  0.06      0.000     0.000     0.000     0.000        3   Time#plus_without_duration 
-  0.06      0.002     0.000     0.000     0.002        2   HTTPClient::Session#parse_header 
-  0.06      0.000     0.000     0.000     0.000        4   HTTPClient::SSPINegotiateAuth#set? 
-  0.06      0.025     0.000     0.000     0.025        2   HTTPClient#get 
-  0.06      0.000     0.000     0.000     0.000        4   HTTPClient::DigestAuth#set? 
-  0.06      0.000     0.000     0.000     0.000        2   HTTPClient::OAuth#get 
-  0.06      0.000     0.000     0.000     0.000        6   String#hash 
-  0.06      0.000     0.000     0.000     0.000        5   Fixnum#divmod 
-  0.06      0.000     0.000     0.000     0.000        3   Time#to_time 
-  0.06      0.001     0.000     0.000     0.001        2   UWDC::XML#http_client 
-  0.06      0.000     0.000     0.000     0.000        2   IO#<< 
-  0.06      0.000     0.000     0.000     0.000        2   HTTP::Message::Headers#create_query_part 
-  0.06      0.000     0.000     0.000     0.000        2   HTTP::Message::Headers#content_type 
-  0.06      0.000     0.000     0.000     0.000        4   <Module::URI>#scheme_list 
-  0.06      0.000     0.000     0.000     0.000        2   HTTPClient::SessionManager#close_all 
-  0.05      0.000     0.000     0.000     0.000        2   HTTP::Message#content 
-  0.05      0.000     0.000     0.000     0.000        2   <Class::Encoding>#find 
-  0.05      0.000     0.000     0.000     0.000        2   WebAgent::CookieManager#find 
-  0.05      0.000     0.000     0.000     0.000        2   HTTPClient::Session#closed? 
-  0.05      0.001     0.000     0.000     0.001        1   HTTPClient::Session#connect 
-  0.05      0.000     0.000     0.000     0.000        1   HTTPClient#load_environment 
-  0.05      0.000     0.000     0.000     0.000        4   BasicObject#!= 
-  0.05      0.000     0.000     0.000     0.000        2   <Class::HTTP::Message>#multiparam_query? 
-  0.05      0.000     0.000     0.000     0.000        1   HTTPClient::Util#https? 
-  0.05      0.001     0.000     0.000     0.001        1   <Class::IO>#new 
-  0.05      0.000     0.000     0.000     0.000        2   URI::HTTP#initialize 
-  0.05      0.000     0.000     0.000     0.000        2   Queue#push 
-  0.05      0.000     0.000     0.000     0.000        2   HTTP::Message#status= 
-  0.05      0.000     0.000     0.000     0.000        6   Hash#clear 
-  0.05      0.000     0.000     0.000     0.000        2   HTTPClient::SSPINegotiateAuth#initialize 
-  0.05      0.000     0.000     0.000     0.000        2   HTTP::Message#http_version= 
-  0.05      0.000     0.000     0.000     0.000        1   <Module::MonitorMixin>#extend_object 
-  0.05      0.000     0.000     0.000     0.000        4   <Class::Mutex>#allocate 
-  0.05      0.000     0.000     0.000     0.000        2   HTTPClient::SessionManager#keep 
-  0.05      0.000     0.000     0.000     0.000        2   HTTP::Message::Headers#set_header 
-  0.05      0.001     0.000     0.000     0.001        2   <Module::URI>#parse 
-  0.05      0.000     0.000     0.000     0.000        2   Queue#pop 
-  0.04      0.000     0.000     0.000     0.000        3   Time#compare_without_coercion 
-  0.04      0.000     0.000     0.000     0.000        2   HTTPClient::SessionManager#get_cached_session 
-  0.04      0.000     0.000     0.000     0.000        2   HTTPClient#no_proxy? 
-  0.04      0.005     0.000     0.000     0.005        1   UWDC::Mets#mods 
-  0.04      0.000     0.000     0.000     0.000        6   Kernel#class 
-  0.04      0.000     0.000     0.000     0.000        2   HTTPClient#reset_all 
-  0.04      0.000     0.000     0.000     0.000        2   HTTPClient::WWWAuth#filter_request 
-  0.04      0.000     0.000     0.000     0.000        2   Comparable#> 
-  0.04      0.000     0.000     0.000     0.000        2   HTTP::Message#reason= 
-  0.04      0.000     0.000     0.000     0.000        1   HTTPClient#no_proxy= 
-  0.04      0.000     0.000     0.000     0.000        2   Array#assoc 
-  0.04      0.000     0.000     0.000     0.000        2   HTTPClient::SessionManager#add_cached_session 
-  0.04      0.000     0.000     0.000     0.000        2   HTTPClient::NegotiateAuth#reset_challenge 
-  0.04      0.000     0.000     0.000     0.000        2   HTTPClient::Util#argument_to_hash 
-  0.04      0.000     0.000     0.000     0.000        6   <Object::Object>#[] 
-  0.04      0.000     0.000     0.000     0.000        2   URI::Generic#set_registry 
-  0.04      0.000     0.000     0.000     0.000        1   HTTPClient::SessionManager#valid_session? 
-  0.04      0.000     0.000     0.000     0.000        2   HTTPClient::SessionManager#reset_all 
-  0.04      0.000     0.000     0.000     0.000        4   Mutex#initialize 
-  0.04      0.000     0.000     0.000     0.000        2   URI::Generic#set_query 
-  0.04      0.000     0.000     0.000     0.000        2   URI::Generic#set_path 
-  0.04      0.000     0.000     0.000     0.000        4   Hash#each 
-  0.04      0.000     0.000     0.000     0.000        2   Array#join 
-  0.04      0.000     0.000     0.000     0.000        4   String#to_s 
-  0.03      0.000     0.000     0.000     0.000        6   Kernel#taint 
-  0.03      0.000     0.000     0.000     0.000        2   Fixnum#to_s 
-  0.03      0.000     0.000     0.000     0.000        1   <Class::OpenSSL::X509::Store>#allocate 
-  0.03      0.000     0.000     0.000     0.000        1   OpenSSL::X509::Store#initialize 
-  0.03      0.000     0.000     0.000     0.000        2   HTTPClient::ProxyAuth#filter_request 
-  0.03      0.000     0.000     0.000     0.000        2   URI::Generic#set_scheme 
-  0.03      0.000     0.000     0.000     0.000        2   URI::Generic#set_fragment 
-  0.03      0.000     0.000     0.000     0.000        1   HTTPClient::SessionManager#proxy= 
-  0.03      0.000     0.000     0.000     0.000        2   URI::Generic#set_host 
-  0.03      0.000     0.000     0.000     0.000        1   MonitorMixin#mon_initialize 
-  0.03      0.000     0.000     0.000     0.000        2   Kernel#method 
-  0.03      0.000     0.000     0.000     0.000        2   HTTP::Message::Body#content 
-  0.03      0.000     0.000     0.000     0.000        3   Kernel#hash 
-  0.03      0.000     0.000     0.000     0.000        2   Symbol#to_s 
-  0.03      0.000     0.000     0.000     0.000        2   Hash#include? 
-  0.03      0.000     0.000     0.000     0.000        3   Module#extended 
-  0.03      0.000     0.000     0.000     0.000        2   Module#=== 
-  0.03      0.000     0.000     0.000     0.000        4   Time#year 
-  0.03      0.000     0.000     0.000     0.000        3   Bignum#<=> 
-  0.03      0.000     0.000     0.000     0.000        2   URI::Generic#set_opaque 
-  0.03      0.000     0.000     0.000     0.000        2   Kernel#freeze 
-  0.03      0.000     0.000     0.000     0.000        3   Array#initialize 
-  0.03      0.000     0.000     0.000     0.000        1   Array#slice! 
-  0.03      0.000     0.000     0.000     0.000        2   HTTPClient::OAuth#set? 
-  0.03      0.000     0.000     0.000     0.000        2   URI::Generic#split_userinfo 
-  0.03      0.000     0.000     0.000     0.000        2   Hash#to_a 
-  0.03      0.000     0.000     0.000     0.000        2   String#== 
-  0.03      0.000     0.000     0.000     0.000        1   HTTPClient::Site#eql? 
-  0.03      0.000     0.000     0.000     0.000        2   Kernel#initialize_dup 
-  0.03      0.000     0.000     0.000     0.000        2   String#encoding 
-  0.02      0.000     0.000     0.000     0.000        2   Time#sec 
-  0.02      0.000     0.000     0.000     0.000        2   Array#unshift 
-  0.02      0.000     0.000     0.000     0.000        1   HTTPClient#keep_webmock_compat 
-  0.02      0.000     0.000     0.000     0.000        2   String#=== 
-  0.02      0.000     0.000     0.000     0.000        2   Time#wday 
-  0.02      0.000     0.000     0.000     0.000        2   Fixnum#| 
-  0.02      0.000     0.000     0.000     0.000        3   <Class::Array>#allocate 
-  0.02      0.000     0.000     0.000     0.000        2   Time#initialize_copy 
-  0.02      0.000     0.000     0.000     0.000        1   HTTPClient::SSPINegotiateAuth#reset_challenge 
-  0.02      0.000     0.000     0.000     0.000        2   Array#last 
-  0.02      0.000     0.000     0.000     0.000        2   Time#hour 
-  0.02      0.000     0.000     0.000     0.000        2   Time#mon 
-  0.02      0.000     0.000     0.000     0.000        2   Integer#to_i 
-  0.02      0.000     0.000     0.000     0.000        2   Time#min 
-  0.02      0.000     0.000     0.000     0.000        1   Comparable#<= 
-  0.02      0.000     0.000     0.000     0.000        2   Time#day 
-  0.02      0.000     0.000     0.000     0.000        1   HTTPClient::Session#invalidated? 
-  0.02      0.000     0.000     0.000     0.000        1   HTTPClient::ProxyAuth#reset_challenge 
-  0.02      0.000     0.000     0.000     0.000        1   Enumerable#each_with_index 
-  0.02      0.000     0.000     0.000     0.000        1   HTTPClient::ProxyDigestAuth#reset_challenge 
-  0.02      0.000     0.000     0.000     0.000        1   HTTPClient#proxy 
-  0.02      0.000     0.000     0.000     0.000        1   IO#sync= 
-  0.02      0.000     0.000     0.000     0.000        1   <Class::IO>#allocate 
-  0.02      0.000     0.000     0.000     0.000        1   HTTPClient#debug_dev 
-  0.02      0.000     0.000     0.000     0.000        1   HTTPClient::BasicAuth#reset_challenge 
-  0.02      0.000     0.000     0.000     0.000        2   Kernel#kind_of? 
-  0.01      0.000     0.000     0.000     0.000        1   Array#clear 
+ 45.94      0.112     0.112     0.000     0.000       68   <Class::Thread>#start 
+  8.53      0.165     0.021     0.000     0.144       68   Timeout#timeout 
+  3.07      0.008     0.008     0.000     0.000       10   <Class::Nokogiri::XML::Document>#read_memory 
+  1.75      0.008     0.004     0.000     0.003      448   Nokogiri::XML::Node#[] 
+  1.07      0.003     0.003     0.000     0.001      140   HTTPClient::Session#parse_keepalive_header 
+  0.89      0.095     0.002     0.000     0.093       14   HTTPClient::Session#read_body_length 
+  0.80      0.016     0.002     0.000     0.014      112   UWDC::FileAsset#initialize 
+  0.77      0.004     0.002     0.002     0.000       68   Thread#join 
+  0.72      0.002     0.002     0.000     0.000      582   Nokogiri::XML::Document#decorate 
+  0.70      0.003     0.002     0.000     0.001      196   HTTP::Message::Headers#add 
+  0.59      0.001     0.001     0.000     0.000      146   String#split 
+  0.57      0.140     0.001     0.000     0.139      244  *Array#each 
+  0.57      0.006     0.001     0.000     0.005       59  *Mutex#synchronize 
+  0.57      0.001     0.001     0.000     0.000      924   String#to_s 
+  0.56      0.001     0.001     0.000     0.000      633   String#upcase 
+  0.56      0.003     0.001     0.001     0.000      168   IO#gets 
+  0.55      0.002     0.001     0.000     0.001      374   Nokogiri::XML::NodeSet#[] 
+  0.54      0.004     0.001     0.000     0.003       84   HTTP::Message::Headers#get 
+  0.52      0.001     0.001     0.000     0.000      448   Nokogiri::XML::Node#get 
+  0.45      0.002     0.001     0.001     0.000       39   IO#readpartial 
+  0.45      0.022     0.001     0.000     0.021      140  *Integer#upto 
+  0.42      0.001     0.001     0.000     0.000      280   String#[] 
+  0.40      0.001     0.001     0.000     0.000       28   Regexp#=~ 
+  0.39      0.002     0.001     0.000     0.001       14   URI::Generic#initialize 
+  0.39      0.001     0.001     0.000     0.000       28   Nokogiri::XML::XPathContext#evaluate 
+  0.33      0.224     0.001     0.000     0.223      341  *Class#new 
+  0.31      0.193     0.001     0.000     0.193       14   HTTPClient#do_get_block 
+  0.31      0.002     0.001     0.000     0.002       28   Nokogiri::XML::Node#extract_params 
+  0.31      0.001     0.001     0.000     0.000       28   HTTP::Message::Headers#initialize 
+  0.31      0.001     0.001     0.000     0.000      344   Kernel#is_a? 
+  0.30      0.001     0.001     0.000     0.001       14   OpenURI::Meta#content_type_parse 
+  0.30      0.006     0.001     0.000     0.005      120   Enumerable#detect 
+  0.29      0.005     0.001     0.000     0.005       14   HTTPClient::Session#set_header 
+  0.29      0.001     0.001     0.000     0.000      448   Nokogiri::XML::Node#key? 
+  0.29      0.001     0.001     0.000     0.000      112   Nokogiri::XML::Node#children 
+  0.29      0.001     0.001     0.000     0.000      214   String#downcase 
+  0.29      0.001     0.001     0.000     0.000      140   String#strip 
+  0.26      0.048     0.001     0.000     0.047       14   HTTPClient::Session#read_header 
+  0.24      0.001     0.001     0.000     0.000      212   String#empty? 
+  0.24      0.001     0.001     0.000     0.000      192   Kernel#nil? 
+  0.23      0.001     0.001     0.000     0.000      154   String#chomp! 
+  0.23      0.001     0.001     0.000     0.000      311   <Class::BasicObject>#allocate 
+  0.22      0.001     0.001     0.000     0.000       34   <Class::UWDC::Display>#use 
+  0.22      0.001     0.001     0.000     0.000       68   Thread#kill 
+  0.22      0.002     0.001     0.001     0.000       14   IO#write 
+  0.21      0.001     0.001     0.000     0.001        8   Array#select 
+  0.21      0.199     0.001     0.000     0.199       14   HTTPClient#do_request 
+  0.21      0.001     0.001     0.000     0.000      224   Array#push 
+  0.21      0.003     0.001     0.000     0.002       56   Array#map 
+  0.21      0.001     0.001     0.000     0.000       56   Array#collect 
+  0.19      0.001     0.000     0.000     0.000       27   Time#getlocal 
+  0.19      0.166     0.000     0.000     0.165       68   Object#timeout 
+  0.19      0.002     0.000     0.000     0.002       56   HTTP::Message::Headers#set 
+  0.18      0.002     0.000     0.000     0.002       14   HTTP::Message::Headers#set_request_header 
+  0.18      0.027     0.000     0.000     0.027       14   HTTPClient::Session#query 
+  0.18      0.003     0.000     0.000     0.003       14   HTTPClient#create_request 
+  0.18      0.000     0.000     0.000     0.000       28   <Class::Nokogiri::XML::XPathContext>#new 
+  0.17      0.001     0.000     0.000     0.001       56   HTTP::Message::Headers#delete 
+  0.17      0.000     0.000     0.000     0.000      224   Nokogiri::XML::Node#name 
+  0.17      0.001     0.000     0.000     0.001       14   Time#httpdate 
+  0.17      0.006     0.000     0.000     0.005       28   Nokogiri::XML::Node#xpath 
+  0.16      0.096     0.000     0.000     0.096       14   HTTPClient::Session#get_body 
+  0.16      0.058     0.000     0.000     0.058       14   HTTPClient#do_get_header 
+  0.16      0.003     0.000     0.000     0.002       84   Enumerable#find_all 
+  0.16      0.001     0.000     0.000     0.000       95   Kernel#respond_to? 
+  0.16      0.001     0.000     0.000     0.000       56   Array#delete_if 
+  0.15      0.008     0.000     0.000     0.008       10   <Class::Nokogiri::XML::Document>#parse 
+  0.15      0.005     0.000     0.000     0.005       14   HTTP::Message::Headers#set_body_encoding 
+  0.15      0.002     0.000     0.000     0.002       14   OpenURI::Meta#meta_setup_encoding 
+  0.14      0.204     0.000     0.000     0.204       14   HTTPClient#request 
+  0.14      0.003     0.000     0.000     0.002       14   <Class::HTTP::Message>#new_request 
+  0.14      0.000     0.000     0.000     0.000       18   <Class::UWDC::Display>#cmodels 
+  0.14      0.001     0.000     0.000     0.001       14   Kernel#!~ 
+  0.14      0.001     0.000     0.000     0.000       27   Array#hash 
+  0.14      0.001     0.000     0.000     0.000       14   URI::Parser#split 
+  0.14      0.206     0.000     0.000     0.206       28  *UWDC::XML#http_xml 
+  0.13      0.001     0.000     0.000     0.000       28   <Class::HTTP::Message>#keep_alive_enabled? 
+  0.13      0.000     0.000     0.000     0.000       14   Regexp#=== 
+  0.13      0.002     0.000     0.000     0.002       14   <Class::HTTP::Message>#new_response 
+  0.12      0.000     0.000     0.000     0.000       42   String#to_i 
+  0.12      0.000     0.000     0.000     0.000       68   Fixnum#== 
+  0.12      0.000     0.000     0.000     0.000       10   Nokogiri::XML::Document#remove_namespaces! 
+  0.12      0.004     0.000     0.000     0.003       14   URI::Parser#parse 
+  0.12      0.000     0.000     0.000     0.000       66   Array#include? 
+  0.12      0.000     0.000     0.000     0.000       42   Comparable#>= 
+  0.12      0.000     0.000     0.000     0.000       28   URI::Generic#hostname 
+  0.12      0.003     0.000     0.000     0.003       10   Nokogiri::XML::NodeSet#xpath 
+  0.12      0.001     0.000     0.000     0.000       14   Queue#initialize 
+  0.11      0.000     0.000     0.000     0.000       57   Array#shift 
+  0.11      0.000     0.000     0.000     0.000       14   String#scan 
+  0.11      0.000     0.000     0.000     0.000      112   String#include? 
+  0.11      0.000     0.000     0.000     0.000      126   Symbol#== 
+  0.11      0.004     0.000     0.000     0.003       14   HTTP::Message::Headers#dump 
+  0.11      0.001     0.000     0.000     0.001       56   Enumerable#find 
+  0.10      0.001     0.000     0.000     0.000       27   Time#plus_with_duration 
+  0.10      0.003     0.000     0.000     0.002       14   OpenURI::Meta#meta_add_field 
+  0.10      0.000     0.000     0.000     0.000       39   HTTPClient#set_encoding 
+  0.10      0.001     0.000     0.000     0.000       14   <Module::OpenURI::Meta>#init 
+  0.10      0.003     0.000     0.000     0.003       28   HTTP::Message::Headers#[] 
+  0.10      0.000     0.000     0.000     0.000      140   Nokogiri::XML::NodeSet#length 
+  0.10      0.002     0.000     0.000     0.002       14   OpenURI::Meta#charset 
+  0.10      0.001     0.000     0.000     0.000       43   <Class::Time>#now 
+  0.10      0.000     0.000     0.000     0.000       28   Nokogiri::XML::Node#namespaces 
+  0.09      0.004     0.000     0.000     0.004       14   HTTPClient::Util#urify 
+  0.09      0.000     0.000     0.000     0.000       14   HTTP::Message::Headers#create_query_uri 
+  0.09      0.000     0.000     0.000     0.000       14   Kernel#sprintf 
+  0.09      0.000     0.000     0.000     0.000       28   HTTP::Message::Headers#status_code= 
+  0.09      0.000     0.000     0.000     0.000       28   HTTP::Message#http_body= 
+  0.09      0.000     0.000     0.000     0.000       28   HTTP::Message::Body#initialize 
+  0.09      0.048     0.000     0.000     0.048       14   HTTPClient::Session#get_header 
+  0.09      0.001     0.000     0.000     0.001       14   HTTP::Message::Body#set_content 
+  0.09      0.000     0.000     0.000     0.000       14   HTTP::Message::Headers#init_response 
+  0.09      0.005     0.000     0.000     0.004       14   HTTPClient::SessionManager#open 
+  0.09      0.001     0.000     0.000     0.001       27   Time#compare_with_coercion 
+  0.09      0.000     0.000     0.000     0.000       42   <Class::HTTP::Message>#file? 
+  0.09      0.002     0.000     0.000     0.002       14   HTTP::Message::Body#dump 
+  0.09      0.000     0.000     0.000     0.000      104   Array#empty? 
+  0.08      0.207     0.000     0.000     0.206       14   UWDC::Mets#initialize 
+  0.08      0.032     0.000     0.000     0.032       14   HTTPClient::SessionManager#query 
+  0.08      0.000     0.000     0.000     0.000       56   HTTPClient::NegotiateAuth#set? 
+  0.08      0.000     0.000     0.000     0.000       28   URI::Generic#default_port 
+  0.08      0.006     0.000     0.000     0.006       14   HTTP::Message#dump 
+  0.08      0.000     0.000     0.000     0.000       15   HTTPClient::Site#initialize 
+  0.08      0.000     0.000     0.000     0.000       98   Array#last 
+  0.08      0.000     0.000     0.000     0.000       14   HTTPClient::Session#no_message_body? 
+  0.08      0.000     0.000     0.000     0.000       43   Time#initialize 
+  0.08      0.000     0.000     0.000     0.000       14   HTTPClient::Site#== 
+  0.08      0.001     0.000     0.000     0.001       14   HTTPClient::Connection#pop 
+  0.08      0.001     0.000     0.000     0.001       28   HTTP::Message#initialize 
+  0.08      0.000     0.000     0.000     0.000       14   URI::Generic#set_port 
+  0.08      0.000     0.000     0.000     0.000       14   HTTPClient::Session#eof? 
+  0.08      0.000     0.000     0.000     0.000       56   HTTP::Message::Headers#body_size= 
+  0.07      0.000     0.000     0.000     0.000       82   Fixnum#<=> 
+  0.07      0.001     0.000     0.000     0.000       14   HTTP::Message::Headers#request_line 
+  0.07      0.000     0.000     0.000     0.000       28   <Module::Nokogiri>#uses_libxml? 
+  0.07      0.000     0.000     0.000     0.000       14   HTTPClient::ProxyAuth#filter_response 
+  0.07      0.000     0.000     0.000     0.000       39   HTTP::Message#body_encoding 
+  0.07      0.000     0.000     0.000     0.000       59   Mutex#lock 
+  0.07      0.001     0.000     0.000     0.001       27   HTTPClient::Site#hash 
+  0.07      0.000     0.000     0.000     0.000       82   BasicObject#== 
+  0.07      0.000     0.000     0.000     0.000       56   Nokogiri::XML::Document#root 
+  0.07      0.000     0.000     0.000     0.000       14   URI::Generic#set_userinfo 
+  0.07      0.000     0.000     0.000     0.000      106   String#bytesize 
+  0.07      0.000     0.000     0.000     0.000       27   <Class::ActiveSupport::Duration>#=== 
+  0.07      0.001     0.000     0.000     0.001       14   HTTPClient::Connection#initialize 
+  0.07      0.008     0.000     0.000     0.008       14   HTTP::Message::Headers#set_headers 
+  0.07      0.000     0.000     0.000     0.000       42   HTTP::Message#status 
+  0.07      0.002     0.000     0.000     0.002       14   HTTP::Message::Headers#set_date_header 
+  0.07      0.000     0.000     0.000     0.000       80   Kernel#class 
+  0.07      0.000     0.000     0.000     0.000       53   String#force_encoding 
+  0.07      0.000     0.000     0.000     0.000       42   String#<=> 
+  0.06      0.001     0.000     0.000     0.001       46   Hash#each 
+  0.06      0.000     0.000     0.000     0.000       68   Fixnum#zero? 
+  0.06      0.000     0.000     0.000     0.000       14   BasicObject#instance_eval 
+  0.06      0.000     0.000     0.000     0.000       59   Mutex#unlock 
+  0.06      0.001     0.000     0.000     0.001       13   HTTPClient::SessionManager#valid_session? 
+  0.06      0.009     0.000     0.000     0.009       10   UWDC::XML#nokogiri_parse 
+  0.06      0.000     0.000     0.000     0.000       57   <Class::Time>#allocate 
+  0.06      0.000     0.000     0.000     0.000       14   Time#utc 
+  0.06      0.204     0.000     0.000     0.204       14   HTTPClient#get 
+  0.06      0.000     0.000     0.000     0.000       70   Fixnum#+ 
+  0.06      0.000     0.000     0.000     0.000       68   <Class::Thread>#current 
+  0.06      0.001     0.000     0.000     0.001       14   HTTP::Message::Body#init_request 
+  0.06      0.000     0.000     0.000     0.000       28   Nokogiri::XML::XPathContext#register_namespaces 
+  0.06      0.000     0.000     0.000     0.000       15   Kernel#extend 
+  0.06      0.000     0.000     0.000     0.000       10   Nokogiri::XML::NodeSet#initialize 
+  0.06      0.000     0.000     0.000     0.000       14   <Class::HTTP::Message>#create_query_part_str 
+  0.06      0.000     0.000     0.000     0.000       14   HTTP::Message::Headers#init_request 
+  0.06      0.000     0.000     0.000     0.000       14   HTTPClient::OAuth#get 
+  0.06      0.000     0.000     0.000     0.000       67   Kernel#respond_to_missing? 
+  0.06      0.000     0.000     0.000     0.000       14   HTTP::Message::Body#init_response 
+  0.06      0.047     0.000     0.000     0.046       14   HTTPClient::Session#parse_header 
+  0.06      0.000     0.000     0.000     0.000       15   HTTPClient::Util#keyword_argument 
+  0.06      0.000     0.000     0.000     0.000       54   Fixnum#* 
+  0.06      0.023     0.000     0.000     0.022      140  *Nokogiri::XML::NodeSet#each 
+  0.05      0.194     0.000     0.000     0.193       14   HTTPClient#protect_keep_alive_disconnected 
+  0.05      0.000     0.000     0.000     0.000       15   Module#extend_object 
+  0.05      0.000     0.000     0.000     0.000       14   HTTPClient::WWWAuth#filter_response 
+  0.05      0.000     0.000     0.000     0.000       28   Nokogiri::VersionInfo#libxml2? 
+  0.05      0.000     0.000     0.000     0.000       14   HTTP::Message::Headers#create_query_part 
+  0.05      0.000     0.000     0.000     0.000       27   Time#plus_without_duration 
+  0.05      0.000     0.000     0.000     0.000       25   Hash#[]= 
+  0.05      0.000     0.000     0.000     0.000       28   <Class::Hash>#[] 
+  0.05      0.206     0.000     0.000     0.206       14   UWDC::XML#initialize 
+  0.05      0.000     0.000     0.000     0.000       14   HTTP::Message#status= 
+  0.05      0.000     0.000     0.000     0.000       28   BasicObject#!= 
+  0.05      0.000     0.000     0.000     0.000       28   Nokogiri::XML::Node#attribute 
+  0.05      0.000     0.000     0.000     0.000       52   Module#=== 
+  0.05      0.001     0.000     0.000     0.001       27   Time#to_time 
+  0.05      0.000     0.000     0.000     0.000       54   String#hash 
+  0.05      0.000     0.000     0.000     0.000       14   MatchData#[] 
+  0.05      0.002     0.000     0.000     0.002       14   IO#<< 
+  0.05      0.000     0.000     0.000     0.000       14   HTTP::Message#http_version= 
+  0.05      0.000     0.000     0.000     0.000       28   <Module::URI>#scheme_list 
+  0.04      0.001     0.000     0.000     0.001       14   HTTPClient::Connection#push 
+  0.04      0.000     0.000     0.000     0.000       28   HTTPClient::SSPINegotiateAuth#set? 
+  0.04      0.002     0.000     0.000     0.002       14   HTTP::Message::Headers#content_type 
+  0.04      0.000     0.000     0.000     0.000       28   <Class::URI::Generic>#default_port 
+  0.04      0.000     0.000     0.000     0.000       28   HTTPClient::DigestAuth#set? 
+  0.04      0.000     0.000     0.000     0.000       28   <Class::Nokogiri::VersionInfo>#instance 
+  0.04      0.004     0.000     0.000     0.004       14   <Module::URI>#parse 
+  0.04      0.000     0.000     0.000     0.000       14   <Class::HTTP::Message>#multiparam_query? 
+  0.04      0.002     0.000     0.000     0.002       14   URI::HTTP#initialize 
+  0.04      0.000     0.000     0.000     0.000       14   Kernel#dup 
+  0.04      0.001     0.000     0.001     0.000        1   TCPSocket#initialize 
+  0.04      0.002     0.000     0.000     0.002       14   HTTP::Message::Headers#set_header 
+  0.04      0.000     0.000     0.000     0.000       28   HTTPClient::BasicAuth#set? 
+  0.04      0.030     0.000     0.000     0.030        8   UWDC::FileSec#files 
+  0.04      0.000     0.000     0.000     0.000       27   Time#compare_without_coercion 
+  0.04      0.000     0.000     0.000     0.000       30   Nokogiri::XML::Document#document 
+  0.04      0.000     0.000     0.000     0.000       54   Nokogiri::XML::Node#document 
+  0.04      0.000     0.000     0.000     0.000       41   Fixnum#divmod 
+  0.04      0.000     0.000     0.000     0.000       14   HTTP::Message#reason= 
+  0.04      0.000     0.000     0.000     0.000       10   Nokogiri::XML::NodeSet#+ 
+  0.04      0.001     0.000     0.000     0.000       14   Queue#push 
+  0.04      0.000     0.000     0.000     0.000       14   HTTPClient::Session#closed? 
+  0.04      0.000     0.000     0.000     0.000       14   HTTP::Message#content 
+  0.04      0.001     0.000     0.000     0.001       14   HTTPClient::SessionManager#keep 
+  0.04      0.000     0.000     0.000     0.000       14   WebAgent::CookieManager#find 
+  0.04      0.000     0.000     0.000     0.000       14   <Class::Encoding>#find 
+  0.03      0.001     0.000     0.000     0.001       14   HTTPClient::SessionManager#add_cached_session 
+  0.03      0.000     0.000     0.000     0.000       14   HTTPClient#no_proxy? 
+  0.03      0.001     0.000     0.000     0.000       14   Queue#pop 
+  0.03      0.135     0.000     0.000     0.135        8   UWDC::Display#files 
+  0.03      0.004     0.000     0.000     0.004       14   HTTPClient::SessionManager#get_cached_session 
+  0.03      0.000     0.000     0.000     0.000       14   Array#assoc 
+  0.03      0.001     0.000     0.000     0.001       14   UWDC::XML#http_client 
+  0.03      0.009     0.000     0.000     0.009        8   UWDC::FileSec#nodes 
+  0.03      0.000     0.000     0.000     0.000       13   HTTPClient::Site#eql? 
+  0.03      0.001     0.000     0.000     0.001       14   Comparable#> 
+  0.03      0.000     0.000     0.000     0.000       10   Nokogiri::XML::Document#initialize 
+  0.03      0.001     0.000     0.000     0.001       14   HTTPClient::ProxyAuth#filter_request 
+  0.03      0.001     0.000     0.000     0.001       14   HTTPClient::WWWAuth#filter_request 
+  0.03      0.000     0.000     0.000     0.000       34   Array#first 
+  0.03      0.000     0.000     0.000     0.000       14   HTTPClient::Util#argument_to_hash 
+  0.03      0.000     0.000     0.000     0.000       13   Regexp#to_s 
+  0.03      0.244     0.000     0.000     0.244        1   Global#[No method] 
+  0.03      0.000     0.000     0.000     0.000       16   <Class::Mutex>#allocate 
+  0.03      0.000     0.000     0.000     0.000       14   Array#join 
+  0.03      0.000     0.000     0.000     0.000       42   Kernel#taint 
+  0.03      0.000     0.000     0.000     0.000       10   Nokogiri::XML::ParseOptions#xinclude? 
+  0.03      0.000     0.000     0.000     0.000       38   Module#== 
+  0.03      0.008     0.000     0.000     0.008       10   <Module::Nokogiri::XML>#parse 
+  0.03      0.105     0.000     0.000     0.105        8   UWDC::Mets#file_sec 
+  0.03      0.000     0.000     0.000     0.000       28   Nokogiri::XML::Node#namespace_scopes 
+  0.03      0.000     0.000     0.000     0.000       16   NilClass#nil? 
+  0.02      0.000     0.000     0.000     0.000       14   Kernel#initialize_dup 
+  0.02      0.000     0.000     0.000     0.000       14   URI::Generic#set_path 
+  0.02      0.000     0.000     0.000     0.000       14   URI::Generic#split_userinfo 
+  0.02      0.000     0.000     0.000     0.000       14   HTTP::Message::Body#content 
+  0.02      0.009     0.000     0.000     0.009       10   UWDC::XML#nodes 
+  0.02      0.000     0.000     0.000     0.000       28   Array#reverse 
+  0.02      0.001     0.000     0.000     0.001        8   UWDC::Mets#pick_attribute 
+  0.02      0.001     0.000     0.000     0.001        1   HTTPClient#initialize 
+  0.02      0.000     0.000     0.000     0.000       27   Bignum#<=> 
+  0.02      0.001     0.000     0.000     0.001       13   Enumerable#each_with_index 
+  0.02      0.000     0.000     0.000     0.000       14   URI::Generic#set_scheme 
+  0.02      0.000     0.000     0.000     0.000        1   HTTPClient::SessionManager#initialize 
+  0.02      0.000     0.000     0.000     0.000       27   Kernel#hash 
+  0.02      0.000     0.000     0.000     0.000       14   URI::Generic#set_opaque 
+  0.02      0.000     0.000     0.000     0.000        1   HTTPClient::SSLConfig#initialize 
+  0.02      0.000     0.000     0.000     0.000       14   URI::Generic#set_host 
+  0.02      0.000     0.000     0.000     0.000       14   URI::Generic#set_registry 
+  0.02      0.000     0.000     0.000     0.000       20   Nokogiri::XML::Attr#value 
+  0.02      0.001     0.000     0.000     0.001       13   Comparable#<= 
+  0.02      0.136     0.000     0.000     0.136        8   UWDC::Display#select_files 
+  0.02      0.000     0.000     0.000     0.000       14   Symbol#to_s 
+  0.02      0.000     0.000     0.000     0.000       14   URI::Generic#set_fragment 
+  0.02      0.000     0.000     0.000     0.000       14   URI::Generic#set_query 
+  0.02      0.000     0.000     0.000     0.000       28   Time#year 
+  0.02      0.000     0.000     0.000     0.000       14   HTTPClient::OAuth#set? 
+  0.02      0.000     0.000     0.000     0.000       13   HTTPClient::Session#invalidated? 
+  0.02      0.001     0.000     0.000     0.000        8   UWDC::Display#viewable_model? 
+  0.02      0.000     0.000     0.000     0.000        1   HTTPClient::Session#initialize 
+  0.02      0.000     0.000     0.000     0.000       14   Fixnum#to_s 
+  0.02      0.000     0.000     0.000     0.000       14   Hash#include? 
+  0.02      0.000     0.000     0.000     0.000        4   HTTPClient::NegotiateAuth#initialize 
+  0.02      0.001     0.000     0.000     0.000        8   Enumerable#map 
+  0.02      0.000     0.000     0.000     0.000       20   Kernel#block_given? 
+  0.02      0.000     0.000     0.000     0.000       16   Mutex#initialize 
+  0.02      0.000     0.000     0.000     0.000       10   Nokogiri::XML::ParseOptions#initialize 
+  0.02      0.000     0.000     0.000     0.000       13   Array#slice! 
+  0.02      0.000     0.000     0.000     0.000        8   Array#reject 
+  0.02      0.000     0.000     0.000     0.000        6   UWDC::Display#clean_id 
+  0.02      0.000     0.000     0.000     0.000       14   Array#unshift 
+  0.02      0.001     0.000     0.000     0.001        1   HTTPClient::Session#create_socket 
+  0.02      0.000     0.000     0.000     0.000       14   String#== 
+  0.02      0.000     0.000     0.000     0.000       10   <Class::Nokogiri::XML::NodeSet>#allocate 
+  0.02      0.000     0.000     0.000     0.000       15   Module#extended 
+  0.02      0.000     0.000     0.000     0.000       14   Time#wday 
+  0.02      0.000     0.000     0.000     0.000       14   String#encoding 
+  0.02      0.000     0.000     0.000     0.000       14   Time#initialize_copy 
+  0.02      0.000     0.000     0.000     0.000       14   Kernel#kind_of? 
+  0.01      0.000     0.000     0.000     0.000       14   Kernel#freeze 
+  0.01      0.000     0.000     0.000     0.000       14   Hash#to_a 
+  0.01      0.000     0.000     0.000     0.000       14   String#=== 
+  0.01      0.000     0.000     0.000     0.000       14   Time#sec 
+  0.01      0.000     0.000     0.000     0.000       14   Time#mon 
+  0.01      0.139     0.000     0.000     0.139       14  *Enumerable#inject 
+  0.01      0.000     0.000     0.000     0.000       14   Time#hour 
+  0.01      0.000     0.000     0.000     0.000        8   Nokogiri::XML::Attr#to_s 
+  0.01      0.000     0.000     0.000     0.000       14   Time#day 
+  0.01      0.005     0.000     0.000     0.005        2   UWDC::RelsExt#models 
+  0.01      0.000     0.000     0.000     0.000        1   HTTPClient::WWWAuth#initialize 
+  0.01      0.000     0.000     0.000     0.000       10   Array#compact 
+  0.01      0.000     0.000     0.000     0.000       14   Integer#to_i 
+  0.01      0.002     0.000     0.000     0.002        2   UWDC::RelsExt#nodes 
+  0.01      0.000     0.000     0.000     0.000        3   HTTPClient#getenv 
+  0.01      0.000     0.000     0.000     0.000       10   Fixnum#& 
+  0.01      0.000     0.000     0.000     0.000        1   Kernel#proc 
+  0.01      0.000     0.000     0.000     0.000       14   Time#min 
+  0.01      0.000     0.000     0.000     0.000        1   WebAgent::CookieManager#initialize 
+  0.01      0.050     0.000     0.000     0.050        2   UWDC::Mets#rels_ext 
+  0.01      0.000     0.000     0.000     0.000        2   HTTPClient::BasicAuth#initialize 
+  0.01      0.000     0.000     0.000     0.000        1   HTTPClient::ProxyAuth#initialize 
+  0.01      0.001     0.000     0.000     0.001        1   <Class::IO>#new 
+  0.01      0.055     0.000     0.000     0.055        2   UWDC::Display#content_models 
+  0.01      0.000     0.000     0.000     0.000        2   HTTPClient::DigestAuth#initialize 
+  0.01      0.012     0.000     0.000     0.012        2   UWDC::Mets#display 
+  0.01      0.000     0.000     0.000     0.000        1   HTTPClient::OAuth#initialize 
+  0.01      0.012     0.000     0.000     0.012        2   UWDC::Display#initialize 
+  0.01      0.001     0.000     0.000     0.001        1   HTTPClient::Session#connect 
+  0.01      0.056     0.000     0.000     0.056        2   UWDC::Display#viewable_models 
+  0.01      0.000     0.000     0.000     0.000        1   HTTPClient#proxy= 
+  0.01      0.000     0.000     0.000     0.000        8   Symbol#to_proc 
+  0.01      0.000     0.000     0.000     0.000        1   HTTPClient#load_environment 
+  0.01      0.000     0.000     0.000     0.000        1   HTTPClient::Util#https? 
+  0.01      0.000     0.000     0.000     0.000        2   HTTPClient::SessionManager#close_all 
+  0.01      0.000     0.000     0.000     0.000        2   HTTPClient::SessionManager#reset_all 
+  0.01      0.000     0.000     0.000     0.000        6   Hash#clear 
+  0.00      0.000     0.000     0.000     0.000        1   HTTPClient#no_proxy= 
+  0.00      0.000     0.000     0.000     0.000        2   HTTPClient::SSPINegotiateAuth#initialize 
+  0.00      0.087     0.000     0.000     0.087        1   UWDC::Display#audio 
+  0.00      0.000     0.000     0.000     0.000        2   HTTPClient::NegotiateAuth#reset_challenge 
+  0.00      0.000     0.000     0.000     0.000        6   <Object::Object>#[] 
+  0.00      0.105     0.000     0.000     0.105        1   UWDC::Display#images 
+  0.00      0.000     0.000     0.000     0.000        1   <Module::MonitorMixin>#extend_object 
+  0.00      0.000     0.000     0.000     0.000        2   HTTPClient#reset_all 
+  0.00      0.000     0.000     0.000     0.000        1   OpenSSL::X509::Store#initialize 
+  0.00      0.019     0.000     0.000     0.019        1   UWDC::Mets#mods 
+  0.00      0.000     0.000     0.000     0.000        1   <Class::OpenSSL::X509::Store>#allocate 
+  0.00      0.000     0.000     0.000     0.000        1   MonitorMixin#mon_initialize 
+  0.00      0.000     0.000     0.000     0.000        2   Kernel#method 
+  0.00      0.000     0.000     0.000     0.000        1   <Class::IO>#allocate 
+  0.00      0.000     0.000     0.000     0.000        1   HTTPClient::SessionManager#proxy= 
+  0.00      0.000     0.000     0.000     0.000        3   Array#initialize 
+  0.00      0.000     0.000     0.000     0.000        3   <Class::Array>#allocate 
+  0.00      0.000     0.000     0.000     0.000        1   HTTPClient::ProxyAuth#reset_challenge 
+  0.00      0.000     0.000     0.000     0.000        1   HTTPClient::ProxyDigestAuth#reset_challenge 
+  0.00      0.000     0.000     0.000     0.000        1   HTTPClient#keep_webmock_compat 
+  0.00      0.000     0.000     0.000     0.000        1   IO#sync= 
+  0.00      0.000     0.000     0.000     0.000        1   HTTPClient::BasicAuth#reset_challenge 
+  0.00      0.000     0.000     0.000     0.000        1   HTTPClient::SSPINegotiateAuth#reset_challenge 
+  0.00      0.000     0.000     0.000     0.000        1   Array#clear 
+  0.00      0.000     0.000     0.000     0.000        1   HTTPClient#debug_dev 
+  0.00      0.000     0.000     0.000     0.000        2   Fixnum#| 
+  0.00      0.000     0.000     0.000     0.000        1   HTTPClient#proxy 
 
 * indicates recursively called methods
-Thread ID: 2160644980
-Fiber ID: 2160644880
-Total: 0.023183
+Thread ID: 2156160100
+Fiber ID: 2156159980
+Total: 0.241635
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
-  2.67      0.001     0.001     0.000     0.000        1   Kernel#sleep 
-  0.23      0.023     0.000     0.022     0.001        1   Timeout#timeout 
+  0.25      0.001     0.001     0.000     0.000        1   Kernel#sleep 
+  0.02      0.242     0.000     0.241     0.001        1   Timeout#timeout 
 
 * indicates recursively called methods
-Thread ID: 2160644640
-Fiber ID: 2160658640
-Total: 0.021486
+Thread ID: 2156159780
+Fiber ID: 2156173880
+Total: 0.239949
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
-  0.34      0.021     0.000     0.021     0.000        1   Timeout#timeout 
-  0.11      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.03      0.240     0.000     0.240     0.000        1   Timeout#timeout 
+  0.01      0.000     0.000     0.000     0.000        1   Kernel#sleep 
 
 * indicates recursively called methods
-Thread ID: 2160658520
-Fiber ID: 2160658440
-Total: 0.021116
+Thread ID: 2156173720
+Fiber ID: 2156173640
+Total: 0.239586
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
-  0.37      0.001     0.000     0.001     0.000        1   Kernel#sleep 
-  0.17      0.021     0.000     0.020     0.001        1   Timeout#timeout 
+  0.06      0.002     0.000     0.002     0.000        1   Kernel#sleep 
+  0.02      0.240     0.000     0.238     0.002        1   Timeout#timeout 
 
 * indicates recursively called methods
-Thread ID: 2160664740
-Fiber ID: 2160664640
-Total: 0.018556
+Thread ID: 2156179860
+Fiber ID: 2156179800
+Total: 0.236076
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
-  0.18      0.019     0.000     0.019     0.000        1   Timeout#timeout 
+  0.01      0.236     0.000     0.236     0.000        1   Timeout#timeout 
+  0.00      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2156179640
+Fiber ID: 2156179540
+Total: 0.235843
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.03      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.03      0.236     0.000     0.236     0.000        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2156179460
+Fiber ID: 2156179200
+Total: 0.235483
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.03      0.235     0.000     0.235     0.000        1   Timeout#timeout 
+  0.00      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2156179120
+Fiber ID: 2153610360
+Total: 0.223276
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.06      0.223     0.000     0.223     0.000        1   Timeout#timeout 
+  0.04      0.000     0.000     0.000     0.000        3   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2152648540
+Fiber ID: 2151812100
+Total: 0.220469
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.04      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.03      0.220     0.000     0.220     0.000        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2151811540
+Fiber ID: 2151810240
+Total: 0.220126
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.03      0.001     0.000     0.001     0.000        1   Kernel#sleep 
+  0.02      0.220     0.000     0.219     0.001        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2151880020
+Fiber ID: 2151879700
+Total: 0.217559
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.01      0.218     0.000     0.218     0.000        1   Timeout#timeout 
+  0.00      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2151879400
+Fiber ID: 2151879300
+Total: 0.217298
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.02      0.217     0.000     0.217     0.000        1   Timeout#timeout 
+  0.00      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2151878780
+Fiber ID: 2151878640
+Total: 0.217022
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.02      0.217     0.000     0.217     0.000        1   Timeout#timeout 
+  0.00      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2151878440
+Fiber ID: 2151878280
+Total: 0.216766
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.03      0.217     0.000     0.217     0.000        1   Timeout#timeout 
+  0.02      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2151809680
+Fiber ID: 2151845440
+Total: 0.201829
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.04      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.03      0.202     0.000     0.202     0.000        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2151842180
+Fiber ID: 2151855340
+Total: 0.201476
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.04      0.002     0.000     0.002     0.000        1   Kernel#sleep 
+  0.02      0.201     0.000     0.200     0.002        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2151895700
+Fiber ID: 2151895440
+Total: 0.198271
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.03      0.198     0.000     0.198     0.000        1   Timeout#timeout 
+  0.00      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2151895140
+Fiber ID: 2151895000
+Total: 0.198015
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.02      0.198     0.000     0.198     0.000        1   Timeout#timeout 
+  0.00      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2151911060
+Fiber ID: 2151924280
+Total: 0.194971
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.04      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.03      0.195     0.000     0.195     0.000        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2151939880
+Fiber ID: 2151939260
+Total: 0.194513
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.03      0.002     0.000     0.001     0.000        1   Kernel#sleep 
+  0.02      0.195     0.000     0.193     0.002        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2151939720
+Fiber ID: 2151924060
+Total: 0.180228
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.04      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.02      0.180     0.000     0.180     0.000        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2152047780
+Fiber ID: 2152084800
+Total: 0.174582
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.04      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.04      0.175     0.000     0.174     0.000        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2152083480
+Fiber ID: 2152099540
+Total: 0.174238
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.04      0.001     0.000     0.001     0.000        1   Kernel#sleep 
+  0.02      0.174     0.000     0.173     0.001        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2152173520
+Fiber ID: 2152173240
+Total: 0.171758
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.02      0.172     0.000     0.172     0.000        1   Timeout#timeout 
+  0.00      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2152217480
+Fiber ID: 2152217100
+Total: 0.171551
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.05      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.02      0.172     0.000     0.171     0.000        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2152286180
+Fiber ID: 2152236420
+Total: 0.152584
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.05      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.05      0.153     0.000     0.152     0.000        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2152237720
+Fiber ID: 2152210140
+Total: 0.152196
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.04      0.001     0.000     0.001     0.000        1   Kernel#sleep 
+  0.02      0.152     0.000     0.151     0.001        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2151868760
+Fiber ID: 2151868520
+Total: 0.149779
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.02      0.150     0.000     0.150     0.000        1   Timeout#timeout 
+  0.00      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2151868280
+Fiber ID: 2151868100
+Total: 0.149535
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.04      0.150     0.000     0.149     0.000        1   Timeout#timeout 
+  0.03      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2152106760
+Fiber ID: 2152100080
+Total: 0.142535
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.05      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.04      0.143     0.000     0.142     0.000        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2152099680
+Fiber ID: 2152115720
+Total: 0.142167
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.05      0.001     0.000     0.001     0.000        1   Kernel#sleep 
+  0.02      0.142     0.000     0.141     0.001        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2152252560
+Fiber ID: 2152252480
+Total: 0.139800
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.02      0.140     0.000     0.140     0.000        1   Timeout#timeout 
+  0.01      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2152252340
+Fiber ID: 2152286180
+Total: 0.127792
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.04      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.03      0.128     0.000     0.128     0.000        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2152049560
+Fiber ID: 2152088020
+Total: 0.121919
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.05      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.04      0.122     0.000     0.122     0.000        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2152087220
+Fiber ID: 2152086500
+Total: 0.121618
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.05      0.122     0.000     0.120     0.002        1   Timeout#timeout 
+  0.05      0.002     0.000     0.001     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2152213000
+Fiber ID: 2152211960
+Total: 0.119120
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.03      0.119     0.000     0.119     0.000        1   Timeout#timeout 
+  0.01      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2152211460
+Fiber ID: 2152211360
+Total: 0.118881
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.05      0.119     0.000     0.119     0.000        1   Timeout#timeout 
   0.04      0.000     0.000     0.000     0.000        1   Kernel#sleep 
 
 * indicates recursively called methods
-Thread ID: 2160664480
-Fiber ID: 2160664420
-Total: 0.018319
+Thread ID: 2152314280
+Fiber ID: 2152382900
+Total: 0.111644
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
-  0.31      0.000     0.000     0.000     0.000        1   Kernel#sleep 
-  0.27      0.018     0.000     0.018     0.000        1   Timeout#timeout 
+  0.06      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.04      0.112     0.000     0.111     0.000        1   Timeout#timeout 
 
 * indicates recursively called methods
-Thread ID: 2160664240
-Fiber ID: 2160664060
-Total: 0.017921
+Thread ID: 2152380600
+Fiber ID: 2152130860
+Total: 0.111296
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
-  0.31      0.018     0.000     0.018     0.000        1   Timeout#timeout 
-  0.19      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.09      0.111     0.000     0.110     0.002        1   Timeout#timeout 
+  0.08      0.002     0.000     0.001     0.000        2   Kernel#sleep 
 
 * indicates recursively called methods
-Thread ID: 2160663960
-Fiber ID: 2162164020
-Total: 0.006000
+Thread ID: 2152381700
+Fiber ID: 2152360600
+Total: 0.095923
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
-  1.55      0.000     0.000     0.000     0.000        1   Kernel#sleep 
-  0.65      0.006     0.000     0.006     0.000        1   Timeout#timeout 
+  0.04      0.096     0.000     0.096     0.000        1   Timeout#timeout 
+  0.04      0.000     0.000     0.000     0.000        1   Kernel#sleep 
 
 * indicates recursively called methods
-Thread ID: 2160237060
-Fiber ID: 2151815300
-Total: 0.003250
+Thread ID: 2151893180
+Fiber ID: 2151909860
+Total: 0.090260
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
-  1.54      0.000     0.000     0.000     0.000        1   Kernel#sleep 
-  1.51      0.003     0.000     0.003     0.000        1   Timeout#timeout 
+  0.09      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.07      0.090     0.000     0.090     0.000        1   Timeout#timeout 
 
 * indicates recursively called methods
-Thread ID: 2151814260
-Fiber ID: 2151812560
-Total: 0.002940
+Thread ID: 2151909400
+Fiber ID: 2151907680
+Total: 0.089928
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
-  2.18      0.003     0.000     0.002     0.001        1   Timeout#timeout 
-  1.97      0.001     0.000     0.001     0.000        1   Kernel#sleep 
+  0.07      0.001     0.000     0.001     0.000        1   Kernel#sleep 
+  0.05      0.090     0.000     0.089     0.001        1   Timeout#timeout 
 
 * indicates recursively called methods
-Thread ID: 2151882460
-Fiber ID: 2151881680
-Total: 0.001161
+Thread ID: 2152107280
+Fiber ID: 2152107100
+Total: 0.087499
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
-  2.24      0.001     0.000     0.001     0.000        1   Timeout#timeout 
-  0.60      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.04      0.087     0.000     0.087     0.000        1   Timeout#timeout 
+  0.01      0.000     0.000     0.000     0.000        1   Kernel#sleep 
 
 * indicates recursively called methods
-Thread ID: 2151881380
-Fiber ID: 2151881180
-Total: 0.000936
+Thread ID: 2152106540
+Fiber ID: 2152106080
+Total: 0.087262
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
-  4.49      0.001     0.000     0.001     0.000        1   Timeout#timeout 
-  0.64      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.07      0.087     0.000     0.087     0.000        1   Timeout#timeout 
+  0.05      0.000     0.000     0.000     0.000        1   Kernel#sleep 
 
 * indicates recursively called methods
-Thread ID: 2151880960
-Fiber ID: 2151880800
-Total: 0.000736
+Thread ID: 2152099780
+Fiber ID: 2152180020
+Total: 0.084194
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
-  6.66      0.001     0.000     0.001     0.000        1   Timeout#timeout 
-  4.76      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.08      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.06      0.084     0.000     0.084     0.000        1   Timeout#timeout 
 
 * indicates recursively called methods
-Thread ID: 2151880560
-Fiber ID: 2151880460
-Total: 0.000498
+Thread ID: 2152179300
+Fiber ID: 2152508340
+Total: 0.071458
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
-  8.23      0.000     0.000     0.000     0.000        1   Kernel#sleep 
-  8.03      0.000     0.000     0.000     0.000        1   Timeout#timeout 
+  0.21      0.002     0.000     0.002     0.000        2   Kernel#sleep 
+  0.18      0.071     0.000     0.070     0.002        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2151845440
+Fiber ID: 2151844040
+Total: 0.068584
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.05      0.069     0.000     0.069     0.000        1   Timeout#timeout 
+  0.01      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2151866000
+Fiber ID: 2151865580
+Total: 0.068292
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.04      0.068     0.000     0.068     0.000        1   Timeout#timeout 
+  0.01      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2151864840
+Fiber ID: 2151864660
+Total: 0.068053
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.11      0.068     0.000     0.068     0.000        1   Timeout#timeout 
+  0.05      0.000     0.000     0.000     0.000        2   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2151863440
+Fiber ID: 2151862920
+Total: 0.067752
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.07      0.068     0.000     0.068     0.000        1   Timeout#timeout 
+  0.03      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2151862640
+Fiber ID: 2151862180
+Total: 0.067448
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.08      0.067     0.000     0.067     0.000        1   Timeout#timeout 
+  0.01      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2151861600
+Fiber ID: 2151860920
+Total: 0.067201
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.07      0.067     0.000     0.067     0.000        1   Timeout#timeout 
+  0.01      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2152051360
+Fiber ID: 2152089040
+Total: 0.049802
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.17      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.12      0.050     0.000     0.050     0.000        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2152088000
+Fiber ID: 2152087220
+Total: 0.049453
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.13      0.001     0.000     0.001     0.000        1   Kernel#sleep 
+  0.08      0.049     0.000     0.048     0.001        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2152173820
+Fiber ID: 2152173640
+Total: 0.046913
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.07      0.047     0.000     0.047     0.000        1   Timeout#timeout 
+  0.02      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2152173300
+Fiber ID: 2152173220
+Total: 0.046668
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.17      0.047     0.000     0.046     0.000        1   Timeout#timeout 
+  0.08      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2152286220
+Fiber ID: 2152280060
+Total: 0.039574
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.35      0.040     0.000     0.038     0.001        1   Timeout#timeout 
+  0.25      0.001     0.000     0.001     0.000        2   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2151848280
+Fiber ID: 2151844820
+Total: 0.025828
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.14      0.026     0.000     0.026     0.000        1   Timeout#timeout 
+  0.03      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2151842100
+Fiber ID: 2151866120
+Total: 0.025570
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.18      0.026     0.000     0.026     0.000        1   Timeout#timeout 
+  0.03      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2152099460
+Fiber ID: 2152105940
+Total: 0.018702
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.36      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.24      0.019     0.000     0.019     0.000        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2152105620
+Fiber ID: 2152105440
+Total: 0.018401
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.49      0.001     0.000     0.001     0.000        1   Kernel#sleep 
+  0.19      0.018     0.000     0.017     0.001        1   Timeout#timeout 
+
+* indicates recursively called methods
+Thread ID: 2152230280
+Fiber ID: 2152229940
+Total: 0.016170
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.20      0.016     0.000     0.016     0.000        1   Timeout#timeout 
+  0.05      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 2152245560
+Fiber ID: 2152279560
+Total: 0.004138
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  2.61      0.000     0.000     0.000     0.000        1   Kernel#sleep 
+  0.97      0.004     0.000     0.004     0.000        1   Timeout#timeout 
 
 * indicates recursively called methods
