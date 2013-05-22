@@ -80,7 +80,7 @@ module UWDC
     #
     # Returns a UWDC::Mods object
     def mods
-      @mods = Mods.new(@id)
+      @mods = Mods.new(@id, @xml.xml)
     end
     
     # Public: Access the Origin metadata XML nodes
@@ -92,7 +92,7 @@ module UWDC
     #
     # Returns a UWDC::Origin object
     def origin
-      @origin = Origin.new(@id)
+      @origin = Origin.new(@id, @xml.xml)
     end
     
     # Public: Access the StructMap structural map section XML nodes
@@ -103,8 +103,8 @@ module UWDC
     # # => UWDC::StructMap
     #
     # Returns a UWDC::StructMap object
-    def struct_map(id=@id)
-      @struct_map = StructMap.new(id)
+    def struct_map
+      @struct_map = StructMap.new(@id, @xml.xml)
     end
 
     # Public: Access the RelsExt RDF relation XML nodes
@@ -115,8 +115,8 @@ module UWDC
     # # => UWDC::RelsExt
     #
     # Returns a UWDC::RelsExt object
-    def rels_ext(id=@id)
-      @rels_ext = RelsExt.new(id)
+    def rels_ext
+      @rels_ext = RelsExt.new(@id, @xml.xml)
     end
 
     # Public: Access the FileSec file section XML nodes
@@ -127,8 +127,8 @@ module UWDC
     # # => UWDC::FileSec
     #
     # Returns a UWDC::FileSec object
-    def file_sec(id=@id)
-      @file_sec = FileSec.new(id)
+    def file_sec
+      @file_sec = FileSec.new(@id, @xml.xml)
     end
 
     # Public: Access the DublinCore descriptive metadata XML nodes
@@ -139,8 +139,8 @@ module UWDC
     # # => UWDC::DublinCore
     #
     # Returns a UWDC::DublinCore object
-    def dublin_core(id=@id)
-      @dublin_core = DublinCore.new(id)
+    def dublin_core
+      @dublin_core = DublinCore.new(@id, @xml.xml)
     end
     
     # Public: Access the Display class/methods for the METS file
@@ -151,8 +151,8 @@ module UWDC
     # # => UWDC::Display
     #
     # Returns a UWDC::Display object
-    def display(id=@id)
-      @display = Display.new(id)
+    def display
+      @display = Display.new(@id, @xml.xml)
     end
     
     private
