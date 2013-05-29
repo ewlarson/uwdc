@@ -32,11 +32,27 @@ mets.mods.metadata
 
 UWDC METS will contain:
 
+* Display
 * MODS
 * Origin (PREMIS)
 * RELS-EXT
 * FileSec
 * StructMap
+
+### Display
+Obtain display methods for the UWDC object.
+
+* Images
+* Audio
+* Video (todo)
+* Downloads (todo)
+
+```ruby
+mets.display.images
+# => {"x1711-dl_U4QQPS4KWQSUA8A"=>[#<UWDC::FileAsset", @mimetype="image/jpeg", @use="thumb", @href="http://url.edu">, ...]}
+```
+
+The display class will be extended considerably in future releases of this gem.
 
 ### MODS
 Obtain the MODS metadata for a UWDC object.
@@ -105,6 +121,29 @@ Transform via to_* calls. Supports JSON, Ruby and XML
 mods.to_json
 mods.to_ruby
 mods.to_xml
+```
+
+### UWDC Origin/PREMIS
+Obtain the preservation metadata for a UWDC object.
+
+```ruby
+mets.origin.submitters
+# => ["Louisiana State University Libraries, Special Collections, Louisiana and Lower Mississippi Valley Collections."]
+```
+
+### RELS-EXT
+Obtain the object-to-object relationship metadata for a UWDC object.
+
+```ruby
+mets.rels_ext.models
+# => {"x1711-dl_33QOBSVPJLWEM8S-RELS-EXT"=>["info:fedora/1711.dl:CModelUWDCObject", ... }
+```
+### Structural Map
+Obtain the hierarchical structural map of a UWDC object.
+
+```ruby
+mets.struct_map.structure
+# => [#<UWDC::Div @node=#<Nokogiri::XML::Element name="div" attributes=[...]
 ```
 
 ## Changelog
